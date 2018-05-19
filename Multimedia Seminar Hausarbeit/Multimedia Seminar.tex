@@ -1,0 +1,44 @@
+\documentclass[nochapterpage,bigchapter,linedtoc,longdoc,colorback,accentcolor=tud3b]{tudreport}
+
+\usepackage[stable]{footmisc}
+\usepackage[ngerman]{hyperref}
+
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\hypersetup{%
+  pdftitle={Making Matches - Recommending the right personality
+  },
+  pdfauthor={Paul Schweiger},
+  pdfsubject={Personality Recommendation},
+  pdfview=FitH,
+  pdfstartview=FitV
+}
+
+\newlength{\longtablewidth}
+\setlength{\longtablewidth}{0.7\linewidth}
+\addtolength{\longtablewidth}{-\marginparsep}
+\addtolength{\longtablewidth}{-\marginparwidth}
+
+
+\title{Making Matches - Recommending the right personality}
+\subtitle{Paul Schweiger}
+
+\begin{document}
+\maketitle
+
+\chapter{Topic Summary}
+As globalization and connectedness advance, online communities grow in importance and the offline world embraces online opportunities. A surplus of possible contacts emerges, making it challenging to have an optimal online experience by engaging with fitting personalities. This interaction between users is a cornerstone of many different activities, such as multiplayer gaming, social networks, crowdsourcing communities or online dating platforms, making matchmaking efforts important to further financial and social goals. Recommender Systems that account for an adequate operationalization of the relevant personality traits can be used to improve said goals all across different domains of usage.\\
+The ever-growing market of multiplayer gaming experiences have created online spaces where different personalities are forced to work together. While forming an effective team is the apparent goal of competitive online gaming, for the most part of the community \textit{having fun} is even more important. At the same time, the internet's anonymity makes it a great place for trolls and toxic players, resulting in intra-community problems and a “salty” experience. Not only toxic players, but a combination of different player goals and styles can lead to bad experiences: a single aggressive player in a defensive team will not have the needed support in battle, while players aiming for a story-driven experience won’t be able to cooperate with performance-oriented hardcore gamers.\\
+Considering the fact that a large amount of players is available at any given moment, it should be possible to incorporate such preferences in the matchmaking process - which is currently mainly driven by player experience and performance. \\
+A recent study by Wang et al. \cite{wang2015thinking} looked at the enjoyment of multiplayer sessions in League of Legends (LoL) based on player personality. They followed a subset of Sternberg's \cite{sternberg1999thinking} problem-solving styles in order to categorize the playstyle of different users. While others tried to gain player personality knowledge by simply asking them \cite{riegelsberger2007personality} or other players \cite{patrick2011system}, Wang et al. automated this process with gameplay statistics. They assigned specific in-game actions to each of their player categories and determined a player's style based on his action profile. Choosing the data used to calculate a "good" experience is highly domain specific and depends on available objective game statistics.\cite{delalleau2012beyond} Match enjoyment for LoL was modeled as a function of game length, with shorter games being less enjoyable due to one team dominating the other.  The results show a clear tendency of specific globally-active and risk-taking players to positively influence the overall game enjoyment. A neural network tasked with predicting match enjoyment achieved better scores when player style data was included, suggesting that this might benefit matchmaking algorithms. However, it is important to note that the used measures are highly subjective to LoL, as interviews with players of both LoL and other games confirm.\\
+Most Online Dating Services experience comparable problems: Learning who goes good with one another is a major success criterion for dating applications. Possible matchups need to be built according to their preferences rather based upon global performance. Studies predicting user tastes based on the tastes of similar users, a technique called "Collaborative Filtering", showed better results than global matchmaking. \cite{brozovsky2007recommender}\\
+Proper personality-based matchmaking in online environments has a positive influence on overall user satisfaction. Successful Recommender Systems need to incorporate personal and detailed data, rather than just performance measurements. On the other hand the limiting effect of Recommender Systems on content diversity needs to be considered, especially in  this social use case. \cite{nguyen2014exploring}\\
+
+\chapter{Platzhalter Section für Paper Zusammenfassung}
+
+\bibliographystyle{alpha}
+\bibliography{bib}
+
+\end{document}
