@@ -36,7 +36,86 @@ A recent study by Wang et al. \cite{wang2015thinking} looked at the enjoyment of
 Most Online Dating Services experience comparable problems: Learning who goes good with one another is a major success criterion for dating applications. Possible matchups need to be built according to their preferences rather based upon global performance. Studies predicting user tastes based on the tastes of similar users, a technique called "Collaborative Filtering", showed better results than global matchmaking. \cite{brozovsky2007recommender}\\
 Proper personality-based matchmaking in online environments has a positive influence on overall user satisfaction. Successful Recommender Systems need to incorporate personal and detailed data, rather than just performance measurements. On the other hand the limiting effect of Recommender Systems on content diversity needs to be considered, especially in  this social use case. \cite{nguyen2014exploring}\\
 
-\chapter{Platzhalter Section für Paper Zusammenfassung}
+\chapter{Introduction}
+Oben klauen, aber Learning-Bezug: In the globalized world, it is more and more important to stay connected: To stay connected with lots and lots of humans both virtually and phisically, and to stay in touch with recent technological advancements and to learn meaningful things. The world has a plethora of opportunities, topics, people, products, ... and people have a limited amount of attention and time to spend on those - this is why recommender Systems are important\\
+Focus on E-Learning and Reciprocal Recommendation, because...\\
+Introduction to Recommendation in E-Learning (How good is research? Overlap with other topics -> shorten this section)\\
+Introduction to Recommendation in Reciprocal environments (How good is this researched? How many things do we know?)\\
+This report will discuss possible solutions to improve learning via reciprocal peer recommendation in Learning-Environments. As one of the first (???) and the most recent implementation of such an endeavor, the report will provide a detailed overview of XXXXXXXXX by XXXXXXXX. Important findings leading up towards the work, possible extensions and research in other fields that might prove to be beneficial to this study will be discussed.\\
+
+\chapter{Research leading towards the paper}
+\section{Learning}
+TODO: Provide overview of modern learning:\\
+\begin{itemize}
+	\item learner types
+	\item E-Learning vs. offline learning
+	\item peer learning
+	\item recommender systems for e-learning so far
+\end{itemize}
+
+\section{Recommender Systems}
+TODO: Provide short overview of RS\\
+Where do they come from, what have they been used for?\\
+REMARK: This section might be removed due to overlap with other sections. Maybe RS for E-Learning and reciprocal RS will be enough\\
+
+\section{Reciprocal Recommendation}
+TODO: Provide Overview of Reciprocal Recommendation\\
+\begin{itemize}
+	\item Goal of recirpocal recommendation
+	\item different ways to do this: Just a score for other people, or actual reciprocal recommendations, where bothpartners see each other as a recom.
+	\item Other fields (Gaming, Dating)
+	\item Common methods (Collaborative Filtering)
+	\item Common problems encountered when doing this (operationalize personality / relevant aspects, acquire personal information about people, self-reported vs. implicit, ...)
+\end{itemize}
+
+\chapter{Reciprocal Recommendation for E-Learning (Paper Title!)}
+\section{Introduction}
+Introduction: Motivation for this specific study. What did they want to accomplish?\\
+Explain goals and problems of 
+XXX et al. implemented Ripple [capitalization!] to prove their theories. 
+\section{Ripple}
+Explain Ripples aspects and assumptions and how people get matched.\\
+Ripple will be evaluated in live conditions in the course of this year. To check whether the implementation could work under real conditions, XXXX conducted an evaluation using randomly generated data. This will be discussed in the upcoming section\\
+\section{Evaluation}
+Goals of evaluation\\
+\subsection{Data}
+To conduct the experimental evaluation, random data had to be generated; diverse enough to highlight edge cases but within reasonable bounds. For a set of 1000 users, 10 learning topics and 10 possible timeslots, each user received a random distribution of relevant values. Topic-specific competencies were expressed as a value from 0 to 100 derived from a truncated normal distribution around a random mean with fixed variance. Each user received competencies for every topic. These were then sorted from low to high, and a random number of these topics were chosen to be part of the user's request. The highest competencies of every user were classified as "providing support" roles, the lowest as "seeking support" and the median topic received a "co-study" role. Every user was available during random timeslots.\\
+LETZTER TEIL NOCH NICHT GANZ KLAR! WIE WIRD BESTIMMT WIE VIEL UNTERSCHIED IN KOMPETENZ GUT IST??
+How random data was designed\\
+\subsection{Quality Measures}
+As Evaluation Metrics for their experimental evaluation Potts et al. decided on four values that can further be used as general Quality Measures for reciprocal recommendation algorithms:\\
+[DAS HIER BESSER ALS EIGENE Subsubsections? ODER BEI DEN ERGEBNISSEN? ODER HIER NUR NAMEDROPPEN UND SPÄTER ERKLÄREN?]
+\begin{itemize}
+	\item \textbf{Scalability:} The potential suitability of the algorithm for large amounts of data. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment. Alternatively, Ripple could be executed once per week and provide suggestions on the user's next login.\\
+	\item \textbf{Reciprocality:} The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. To test reciprocality, a baseline non-reciprocal score [HIER NOCH MAL REINSEHEN! DAS IST MIR UNKLAR!] was compared to the precision of reciprocal recommendations: the precision for every user is calculated by dividing his reciprocal recommendations through the total amount of recommendations k that user received. The system's total precision is defined as the average precision across all users.\\ HIER UNBEDINGT NOCH QUELLE ANBRINGEN!
+	\item \textbf{Coverage:} Recommending potential learning partners to one another should be beneficial to as many students as possible. As such, coverage is a very important metric to consider. Since every user will receive recommendations no matter what, every user will be covered in one way or another. A good fit can only be ensured when the same user is recommended to others, ideally forming a reciprocal recommendation. Coverage is defined as the percentage of users that appear on other's recommendations at least once.\\
+	\item \textbf{Quality:} [NOCH MAL GENAUER VERSTEHEN! T UND ALPHA!] The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. The quality is thus defined as their average joint competencies across their matched topics. The goal is to generate matches, that are somewhat capable in their respective fields of study.\\
+\end{itemize}
+To fully satisfy as a tool to recommend students to one another, Ripple must score as high as possible in these measures. On the other hand, minor drawbacks in the defined metrics were considered to be tolerable due to the experimental and randomly generated data and some further adjustments that could be made to compensate bad values.\\
+
+\subsection{Results}
+Results in every measure\\
+Use images?\\\
+
+\section{Discussion}
+Recap of their discussion\\
+Current results are scientifically weak: Lots of assumptions about initial values (e.g. for T), no aims of bounds set to determine whether final values are actually good.\\
+Does not consider buy-in by users. This is okay for the tool, it will still recommend people, but the actual use of this whole measure will get undermined.\\
+self-evaluating data about students is prone to errors and was not checked or detailed: misleading competency values might spoil results.\\
+Abandoned users due to edge-cases: Someone with low competency prefering to teach, high competency preferring to get teached. Ripple does account for these cases by only recommending the best fits, so even low fits can still be recommended.\\
+Transparency: Will students know how good their matching value is?\\
+Possible error for highly compatible users who appear in many recommendations: They have few reciprocal recs, but will get lots of meeting requests.\\
+ARE THERE ANY DISCUSSIONS ABOUT THIS PAPER YET?\\
+
+
+\chapter{Extensions}
+TODO: Include possible follow-up research, directions for further research or innovative ideas from other fields to include in future recirpocal peer recommendation for elearning studies.\\
+\begin{itemize}
+	\item NEO-FFI etc.: operationalize personalities
+	\item Instead of student-driven requests: Use recommendations to build study courses
+	\item From Gaming: Instead of 2-people-matches, build learning groups with matching skillsets to further benefit on other topics and to enable social grouping\\
+\end{itemize}
+
 
 \bibliographystyle{alpha}
 \bibliography{bib}
