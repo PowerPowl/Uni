@@ -37,7 +37,13 @@ Most Online Dating Services experience comparable problems: Learning who goes go
 Proper personality-based matchmaking in online environments has a positive influence on overall user satisfaction. Successful Recommender Systems need to incorporate personal and detailed data, rather than just performance measurements. On the other hand the limiting effect of Recommender Systems on content diversity needs to be considered, especially in  this social use case. \cite{nguyen2014exploring}\\
 
 \chapter{Introduction}
-Oben klauen, aber Learning-Bezug: In the globalized world, it is more and more important to stay connected: To stay connected with lots and lots of humans both virtually and phisically, and to stay in touch with recent technological advancements and to learn meaningful things. The world has a plethora of opportunities, topics, people, products, ... and people have a limited amount of attention and time to spend on those - this is why recommender Systems are important\\
+The modern world has a plethora of opportunities, topics, people, products, and other things, while people have a limited amount of attention and time to spend. In order to help us guide our attention and resources, basically every digital product tries to recommend meaningful content to users. Recommender Systems play a critical role in modern society and have transcended in many different domains.\\
+Online communities grow in importance and the offline world embraces online opportunities. A surplus of possible social contacts emerges, making it challenging to engage with the right person at the right time. 
+Interaction between users is a cornerstone of many different activities, such as multiplayer gaming, social networks, crowdsourcing communities or online dating platforms. But besides entertainment, social contacts can also further educational goals.\\
+SOZIALES LERNEN IST BESSER als Alleine [Quellen]\\
+E-Learning and Online Courses -- Wo passt das sinnvoll hin? :S\\
+Social Recommendation is more complicated, since it needs to account for preferences of more than just a single person. Recommender Systems need account for an adequate operationalization of the relevant personality traits, domain-specific skills and surrounding circumstances.\\
+\\
 Focus on E-Learning and Reciprocal Recommendation, because...\\
 Introduction to Recommendation in E-Learning (How good is research? Overlap with other topics -> shorten this section)\\
 Introduction to Recommendation in Reciprocal environments (How good is this researched? How many things do we know?)\\
@@ -79,21 +85,28 @@ Ripple will be evaluated in live conditions in the course of this year. To check
 \section{Evaluation}
 Goals of evaluation\\
 \subsection{Data}
-To conduct the experimental evaluation, random data had to be generated; diverse enough to highlight edge cases but within reasonable bounds. For a set of 1000 users, 10 learning topics and 10 possible timeslots, each user received a random distribution of relevant values. Topic-specific competencies were expressed as a value from 0 to 100 derived from a truncated normal distribution around a random mean with fixed variance. Each user received competencies for every topic. These were then sorted from low to high, and a random number of these topics were chosen to be part of the user's request. The highest competencies of every user were classified as "providing support" roles, the lowest as "seeking support" and the median topic received a "co-study" role. Every user was available during random timeslots.\\
-LETZTER TEIL NOCH NICHT GANZ KLAR! WIE WIRD BESTIMMT WIE VIEL UNTERSCHIED IN KOMPETENZ GUT IST??
 How random data was designed\\
+To conduct the experimental evaluation, random data had to be generated; diverse enough to highlight edge cases but within reasonable bounds. For a set of 1000 users, 10 learning topics and 10 possible timeslots, each user received a random distribution of relevant values. Topic-specific competencies were expressed as a value from 0 to 100 derived from a truncated normal distribution around a random mean with fixed variance. Each user received competencies for every topic. These were then sorted from low to high, and a random number of these topics were chosen to be part of the user's request. The highest competencies of every user were classified as "providing support" roles, the lowest as "seeking support" and the median topic received a "co-study" role. Every user was available during random timeslots.\\
+LETZTER TEIL NOCH NICHT GANZ KLAR! WIE WIRD BESTIMMT WIE VIEL UNTERSCHIED IN KOMPETENZ GUT IST??\\
+
 \subsection{Quality Measures}
 As Evaluation Metrics for their experimental evaluation Potts et al. decided on four values that can further be used as general Quality Measures for reciprocal recommendation algorithms:\\
-[DAS HIER BESSER ALS EIGENE Subsubsections? ODER BEI DEN ERGEBNISSEN? ODER HIER NUR NAMEDROPPEN UND SPÄTER ERKLÄREN?]
-\begin{itemize}
-	\item \textbf{Scalability:} The potential suitability of the algorithm for large amounts of data. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment. Alternatively, Ripple could be executed once per week and provide suggestions on the user's next login.\\
-	\item \textbf{Reciprocality:} The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. To test reciprocality, a baseline non-reciprocal score [HIER NOCH MAL REINSEHEN! DAS IST MIR UNKLAR!] was compared to the precision of reciprocal recommendations: the precision for every user is calculated by dividing his reciprocal recommendations through the total amount of recommendations k that user received. The system's total precision is defined as the average precision across all users.\\ HIER UNBEDINGT NOCH QUELLE ANBRINGEN!
-	\item \textbf{Coverage:} Recommending potential learning partners to one another should be beneficial to as many students as possible. As such, coverage is a very important metric to consider. Since every user will receive recommendations no matter what, every user will be covered in one way or another. A good fit can only be ensured when the same user is recommended to others, ideally forming a reciprocal recommendation. Coverage is defined as the percentage of users that appear on other's recommendations at least once.\\
-	\item \textbf{Quality:} [NOCH MAL GENAUER VERSTEHEN! T UND ALPHA!] The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. The quality is thus defined as their average joint competencies across their matched topics. The goal is to generate matches, that are somewhat capable in their respective fields of study.\\
-\end{itemize}
+Mit Ergebnissen zusammenfassen oder lieber hier nur Namedroppen und unten genauer erklären?\\	
+\subsubsection{Scalability} The potential suitability of the algorithm for large amounts of data. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment. Alternatively, Ripple could be executed once per week and provide suggestions on the user's next login.\\
+\subsubsection{Reciprocality} The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. To test reciprocality, a baseline non-reciprocal score [HIER NOCH MAL REINSEHEN! DAS IST MIR UNKLAR!] was compared to the precision of reciprocal recommendations: the precision for every user is calculated by dividing his reciprocal recommendations through the total amount of recommendations k that user received. The system's total precision is defined as the average precision across all users.\\ HIER UNBEDINGT NOCH QUELLE ANBRINGEN!
+\subsubsection{Coverage} Recommending potential learning partners to one another should be beneficial to as many students as possible. As such, coverage is a very important metric to consider. Since every user will receive recommendations no matter what, every user will be covered in one way or another. A good fit can only be ensured when the same user is recommended to others, ideally forming a reciprocal recommendation. Coverage is defined as the percentage of users that appear on other's recommendations at least once.\\
+\subsubsection{Quality} [NOCH MAL GENAUER VERSTEHEN! T UND ALPHA!] The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. The quality is thus defined as their average joint competencies across their matched topics. The goal is to generate matches, that are somewhat capable in their respective fields of study.\\
 To fully satisfy as a tool to recommend students to one another, Ripple must score as high as possible in these measures. On the other hand, minor drawbacks in the defined metrics were considered to be tolerable due to the experimental and randomly generated data and some further adjustments that could be made to compensate bad values.\\
 
 \subsection{Results}
+The overall results were considered to be promising for usage with real data and provided some input on how variables are connected and in which cases issues could arise from real-world data.\\
+\subsubsection{Scalability}
+Results
+\subsubsection{Reciprocality}
+Results
+\subsubsection{Coverage}
+Results
+\subsubsection{Quality}
 Results in every measure\\
 Use images?\\\
 
