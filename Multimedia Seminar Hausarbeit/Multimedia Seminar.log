@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  24 MAY 2018 01:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  27 MAY 2018 01:29
 entering extended mode
 **"./Multimedia Seminar.tex"
 ("Multimedia Seminar.tex"
@@ -1009,7 +1009,7 @@ LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 (Font)              scaled to size 5.546pt on input line 30.
 \@TUD@titlelines=\count127
-<tud_logo.pdf, id=63, pagebox=cropbox, 157.58875pt x 63.23625pt>
+<tud_logo.pdf, id=59, pagebox=cropbox, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
 Package pdftex.def Info: tud_logo.pdf  used on input line 30. on input line 30.
@@ -1090,47 +1090,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--91
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 112--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 112--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--120
+Underfull \hbox (badness 10000) in paragraph at lines 112--129
 
  []
 
@@ -1140,12 +1135,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--120
 ]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
@@ -1153,33 +1148,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
  ("Multimedia Seminar.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
-Package rerunfilecheck Info: File `"Multimedia Seminar".out' has not changed.
-(rerunfilecheck)             Checksum: 3EB9F7389F1569447DD70B06AF209C66;920.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
+
+
+Package rerunfilecheck Warning: File `"Multimedia Seminar".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Multimedia Seminar".out':
+(rerunfilecheck)             Before: 233D06C42CC7A1795797836AEEBC6BF8;858
+(rerunfilecheck)             After:  985A4D3A40227E6BD1CD22FDE5085266;853.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 12009 strings out of 493312
- 194340 string characters out of 3138899
- 371533 words of memory out of 3000000
- 15270 multiletter control sequences out of 15000+200000
- 61608 words of font info for 62 fonts, out of 3000000 for 9000
+ 12007 strings out of 493312
+ 194275 string characters out of 3138899
+ 374533 words of memory out of 3000000
+ 15269 multiletter control sequences out of 15000+200000
+ 62878 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,100p,8834b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/tu
-ddesign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tuddesign/fon
-ts/type1/softmake/charter/5chri8a.pfb><C:/Program Files/tuddesign/fonts/type1/s
-oftmake/frontpage/5fpm8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/f
-rontpage/5fpr8a.pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type1/math
-design/mdbch/md-chr7t.pfb>
-Output written on "Multimedia Seminar.pdf" (15 pages, 110455 bytes).
+{C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/ly1/texnansi.enc}{
+C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/tudde
+sign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tuddesign/fonts/
+type1/softmake/charter/5chri8a.pfb><C:/Program Files/tuddesign/fonts/type1/soft
+make/frontpage/5fpm8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/fron
+tpage/5fpr8a.pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstre
+a/charter/bchr8a.pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type1/bit
+strea/charter/bchri8a.pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type
+1/mathdesign/mdbch/md-chr7t.pfb>
+Output written on "Multimedia Seminar.pdf" (15 pages, 121456 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
