@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  31 MAY 2018 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  31 MAY 2018 18:28
 entering extended mode
 **"./Multimedia Seminar.tex"
 ("Multimedia Seminar.tex"
@@ -1153,103 +1153,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
 [5] [6
 
 
 ]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--98
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+
+ []
+
+<g/SeekingPartnerCompatibility.PNG, id=128, 356.83313pt x 290.58563pt>
+File: g/SeekingPartnerCompatibility.PNG Graphic file (type png)
+<use g/SeekingPartnerCompatibility.PNG>
+Package pdftex.def Info: g/SeekingPartnerCompatibility.PNG  used on input line 
+97.
+(pdftex.def)             Requested size: 248.96162pt x 202.73901pt.
+<g/SeekingSupportCompatibility.PNG, id=130, 350.81062pt x 285.31593pt>
+File: g/SeekingSupportCompatibility.PNG Graphic file (type png)
+<use g/SeekingSupportCompatibility.PNG>
+Package pdftex.def Info: g/SeekingSupportCompatibility.PNG  used on input line 
+98.
+(pdftex.def)             Requested size: 248.96162pt x 202.48865pt.
+
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 97--99
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--106
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7]
-<g/Runtime.PNG, id=132, 557.83406pt x 424.58624pt>
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+
+ []
+
+[8 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>]
+<g/Runtime.PNG, id=147, 557.83406pt x 424.58624pt>
 File: g/Runtime.PNG Graphic file (type png)
 <use g/Runtime.PNG>
-Package pdftex.def Info: g/Runtime.PNG  used on input line 113.
+Package pdftex.def Info: g/Runtime.PNG  used on input line 120.
 (pdftex.def)             Requested size: 248.96162pt x 189.4942pt.
-<g/PrecisionByK.PNG, id=137, 399.74344pt x 394.47375pt>
+<g/PrecisionByK.PNG, id=151, 399.74344pt x 394.47375pt>
 File: g/PrecisionByK.PNG Graphic file (type png)
 <use g/PrecisionByK.PNG>
-Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 124.
+Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 131.
 (pdftex.def)             Requested size: 248.96162pt x 245.67871pt.
-<g/PrecisionByU.PNG, id=138, 377.15906pt x 387.69844pt>
+<g/PrecisionByU.PNG, id=152, 377.15906pt x 387.69844pt>
 File: g/PrecisionByU.PNG Graphic file (type png)
 <use g/PrecisionByU.PNG>
-Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 125.
+Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 132.
 (pdftex.def)             Requested size: 248.96162pt x 255.91724pt.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 124--126
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 131--133
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
-[8] [9 <./g/Runtime.PNG> <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
-<g/CoverageUk.PNG, id=158, 383.93437pt x 306.39468pt>
+<g/CoverageUk.PNG, id=156, 383.93437pt x 306.39468pt>
 File: g/CoverageUk.PNG Graphic file (type png)
 <use g/CoverageUk.PNG>
-Package pdftex.def Info: g/CoverageUk.PNG  used on input line 134.
+Package pdftex.def Info: g/CoverageUk.PNG  used on input line 141.
 (pdftex.def)             Requested size: 248.96162pt x 198.68666pt.
-<g/CoverageUT.PNG, id=159, 389.20406pt x 290.58563pt>
+<g/CoverageUT.PNG, id=157, 389.20406pt x 290.58563pt>
 File: g/CoverageUT.PNG Graphic file (type png)
 <use g/CoverageUT.PNG>
-Package pdftex.def Info: g/CoverageUT.PNG  used on input line 135.
+Package pdftex.def Info: g/CoverageUT.PNG  used on input line 142.
 (pdftex.def)             Requested size: 248.96162pt x 185.88548pt.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 134--136
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 141--143
 [][] [] 
  []
 
-<g/QualityByU.PNG, id=164, 420.06938pt x 322.20375pt>
+<g/QualityByU.PNG, id=162, 420.06938pt x 322.20375pt>
 File: g/QualityByU.PNG Graphic file (type png)
 <use g/QualityByU.PNG>
-Package pdftex.def Info: g/QualityByU.PNG  used on input line 144.
+Package pdftex.def Info: g/QualityByU.PNG  used on input line 151.
 (pdftex.def)             Requested size: 248.96162pt x 190.95894pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
+[9] [10 <./g/Runtime.PNG> <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
-[10] [11 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
-[12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
+
+ []
+
+[11] [12 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
@@ -1260,21 +1288,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  ("Multimedia Seminar.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `"Multimedia Seminar".out' has not changed.
 (rerunfilecheck)             Checksum: 161DCA40A07C16161CE44718C23BC765;982.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 11831 strings out of 492976
- 189190 string characters out of 3137754
- 384758 words of memory out of 3000000
- 15394 multiletter control sequences out of 15000+200000
+ 11843 strings out of 492976
+ 189575 string characters out of 3137754
+ 384312 words of memory out of 3000000
+ 15403 multiletter control sequences out of 15000+200000
  78210 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,100p,8834b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1286,9 +1314,9 @@ pfb><C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><D:/P
 rogramme/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programme/MiKTe
 X 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/USER/AppData/Roaming/M
 iKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb>
-Output written on "Multimedia Seminar.pdf" (17 pages, 790679 bytes).
+Output written on "Multimedia Seminar.pdf" (17 pages, 1082231 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
