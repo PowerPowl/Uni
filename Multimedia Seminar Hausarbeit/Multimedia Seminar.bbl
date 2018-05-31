@@ -21,6 +21,13 @@ Tien~T Nguyen, Pik-Mai Hui, F~Maxwell Harper, Loren Terveen, and Joseph~A
 \newblock In {\em Proceedings of the 23rd international conference on World
   wide web}, pages 677--686. ACM, 2014.
 
+\bibitem[PKR{\etalchar{+}}18]{potts2018reciprocal}
+Boyd Potts, Hassan Khosravi, Carl Reidsema, Aneesha Bakharia, Mark Belonogoff,
+  and Melanie Fleming.
+\newblock Reciprocal peer recommendation for learning purposes.
+\newblock In {\em Proceedings of the 8th International Conference on Learning
+  Analytics and Knowledge}, 2018.
+
 \bibitem[PLBH11]{patrick2011system}
 WO'Kelley~II Patrick, Steven~D Lamb, Michal Bortnik, and Johan~Peter Hansen.
 \newblock System and method for providing feedback on game players and

@@ -21,6 +21,8 @@
 \addtolength{\longtablewidth}{-\marginparsep}
 \addtolength{\longtablewidth}{-\marginparwidth}
 
+\graphicspath{{g/}}
+
 
 \title{Making Matches - Recommending the right personality}
 \subtitle{Paul Schweiger}
@@ -78,10 +80,10 @@ TODO: Provide Overview of Reciprocal Recommendation\\
 \section{Introduction}
 Introduction: Motivation for this specific study. What did they want to accomplish?\\
 Explain goals and problems of 
-XXX et al. implemented Ripple [capitalization!] to prove their theories. 
+XXX et al. implemented RiPPLE to prove their theories. 
 \section{RiPPLE}
-"Recommendation in Personalised Peer Learning Environments" [RiPPLE] was designed and developed as a web-based prototype for reciprocal peer recommendation for Learning Purposes. RiPPLE is an adaptive, student-facing, open-source platform with the aim to enable students to engage with others in meaningful learning experiences. Besides RiPPLEs capabilites in providing peer recommendations, it works as a learning platform itself, helping students to co-create and find meaningful learning-content. However, this analysis will focus on RiPPLE as a peer recommendation platform.\\
-Based on user input, RiPPLE will calculate potential matchups for its users. Depending on the competency derived by a user's performance on learning content, his or her available timeslots and a user's preference on the topics and partner's competency he would like to provide or seek peer support or find a learning partner in, RiPPLE calculates a score for a matchup and will recommend a predefined amount of persons to each user.\\
+RiPPLE ["Recommendation in Personalised Peer Learning Environments"] was designed and developed as a web-based prototype online learning recommendation. RiPPLE is an adaptive, student-facing, open-source platform with the aim to enable students to engage with others in meaningful learning experiences. To enhance the learning experience, RiPPLE functions as a learning platform, helping students to co-create and find meaningful learning-content and to find peers to learn with. This analysis will focus on RiPPLE as a peer recommendation platform.\\
+Based on user input, RiPPLE will calculate potential matchups for its users. Depending on the competency derived by a user's performance on learning content, his or her available timeslots and a user's preference on the topics and partner's competency he would like to provide or seek peer support or find a learning partner in, RiPPLE calculates a score for a matchup and will recommend a predefined amount of persons to each user. As RiPPLE currently recommends learning opportunities for the upcoming week, updates to user preferences or competencies are represented once per week.\\
 An important aspect of the recommendation algorithm is it's compatibility function, calculating a one-directional score for each combination of potential study partners, u1 and u2. In the first step, the algorithm will check whether a potential matchup is viable following two hard constraints:
 \begin{itemize}
 	\item a shared timeslot has to be available for both u1 and u2
@@ -89,40 +91,69 @@ An important aspect of the recommendation algorithm is it's compatibility functi
 \end{itemize}
 For every pair of users satisfying these constraints, RiPPLE will calculate the user's respective one-directional scores. These represent how fitting u2 is as a study partner for u1 and vice-versa. (Since the users could have defined different preferences for their competency differences, scores don't need to be symmetric.) The scores take into account how good a matchup will be in terms of overall competency level, and how the other user matches the current users preferences. These calculations will be calculated across all topics relevant for u1 and u2.\\
 These two one-directional scores (the score of u2 as a partner for u1 and the score of u1 as a partner of u2,) could now be used to find the the best partner for a specific user. To further recommend a matchup that is beneficial for both u1 and u2, the harmonic mean of both scores is considered as the "reciprocal score" of u1 and u2, a value that is now symmetric. [QUELLE PRABKAHAR 45] The harmonic mean, contrary to the arithmetic mean, pays respect to differences between it's values, making a larger gap between values less desirable. Peer-combinations with approximately similar scores in each direction will receive better final values, pushing matchups that are beneficial to both participants more relevant.\\
+TODO: BILD VON SCORES; SCORES ALS VERTEILUNGEN\\
 In the last step, RiPPLE returns a predefined amount of matchups with the best reciprocal values for each user. Although these reciprocal values are now symmetrical, the recommendations don't have to be: While from u1s standpoint the matchup with u2 and an (arbitrary) reciprocal score of 30 could be the very best opportunity, u2 could still have a matchup with u3 and a value of 50.\\
+For more information on RiPPLE, the algorithm and further clarification of different variables, please reference [QUELLE].\\	
 RiPPLE will be evaluated in live conditions in the course of this year. To check whether the implementation could work under real conditions, XXXX conducted an evaluation using randomly generated data. This will be discussed in the upcoming section\\
 
 \section{Evaluation}
 In order to test RiPPLE's applicability for actual use, Potts et al. designed an experimental setup in which RiPPLE would try to propose recommendations for randomly generated test data. Specific quality measures were designed to assess different fields in which RiPPLE would have to show its capabilities. With satisfying results, RiPPLE would be able to be used under live conditionsin the course of 2018.\\
 
 \subsection{Data}
-To conduct the experimental evaluation, random data had to be generated; diverse enough to highlight edge cases but within reasonable bounds. For a set of 1000 users, 10 learning topics and 10 possible timeslots, each user received a random distribution of relevant values. Topic-specific competencies were expressed as a value from 0 to 100 derived from a truncated normal distribution around a random mean with fixed variance. Each user received competencies for every topic. These were then sorted from low to high, and a random number of these topics were chosen to be part of the user's request. The highest competencies of every user were classified as "providing support" roles, the lowest as "seeking support" and the median topic received a "co-study" role. Every "user" was made available during random timeslots.\\
-LETZTER TEIL NOCH NICHT GANZ KLAR! WIE WIRD BESTIMMT WIE VIEL UNTERSCHIED IN KOMPETENZ GUT IST??\\
+To conduct the experimental evaluation, random data had to be generated; diverse enough to highlight edge cases but within reasonable bounds. For a set of 1000 users, 10 learning topics and 10 possible timeslots, each user received a random distribution of relevant values. Topic-specific competencies were expressed as a value from 0 to 100 derived from a truncated normal distribution around a random mean with fixed variance. Each user received competencies for every topic. These were then sorted from low to high, and a random number of these topics were chosen to be part of the user's request. The highest competencies of every user were classified as "providing support" roles, the lowest as "seeking support" and the median topic received a "co-study" role. In absence of empirical data, competency difference preferences were modeled as a fixed value per chosen role, as opposed to a explicitly stated preference for each user. Every "user" was made available during random timeslots.\\
 
 \subsection{Quality Measures}
+To fully satisfy as a tool to recommend students to one another, Ripple must be able to form meaningful and successful matches for as many users as possible in reasonable time. On the other hand, minor drawbacks in the defined metrics were considered to be tolerable due to the experimental and randomly generated data and some further adjustments that could be made to compensate bad values.\\
 As Evaluation Metrics for their experimental evaluation Potts et al. decided on four values that can further be used as general Quality Measures for reciprocal recommendation algorithms:\\
-The overall results were considered to be promising for usage with real data and provided some input on how variables are connected and in which cases issues could arise from real-world data.\\
-Mit Ergebnissen zusammenfassen oder lieber hier nur Namedroppen und unten genauer erklären?\\	
-\subsubsection{Scalability} The potential suitability of the algorithm for large amounts of data. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment. Alternatively, Ripple could be executed once per week and provide suggestions on the user's next login.\\
-The runtime of the algorithm increased in a quadratic fashion, as U, the total amount of users, increased: \(O(n^2)\). The number of recommendations per user, however, does not significantly impact the runtime. [DAS IST MEINE EINSCHÄTZUNG AUFGRUND DER DATEN!].\\
+
+\subsubsection{Scalability} With increasing enrollment numbers in higher education, RiPPLE will have to be suitable for large sets of learners. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment.\\
+The runtime of the algorithm increased in a quadratic fashion, as U, the total amount of users, increased: \(O(n^2)\). The number of recommendations per user, however, does not significantly impact the runtime. (Although the paper states that it \textit{did} in fact affect runtime, looking at the plotted data suggests that this might be a formatting error.)\\
 Currently, RiPPLE calculates recommendations at the end of each week for the upcoming week, making the algorithm's runtime rather unimportant. However, further improvements are planned.\\
 In a 1000 user experiment, RiPPLE was able to provide recommendations for a single user in 0.045 seconds - which is a pretty good time.\\
-TODO: BILDER
-\subsubsection{Reciprocality} The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. To test reciprocality, a baseline non-reciprocal score [HIER NOCH MAL REINSEHEN! DAS IST MIR UNKLAR!] was compared to the precision of reciprocal recommendations: the precision for every user is calculated by dividing his reciprocal recommendations through the total amount of recommendations k that user received. The system's total precision is defined as the average precision across all users.\\ HIER UNBEDINGT NOCH QUELLE ANBRINGEN!
-In all tested cases, the reciprocal score had a higher precision than the baseline score. Increasing \(k\) also increases the precision, since more recommendations per user lead to a higher chance of reciprocal recommendations. On the other hand, increasing \(U\) with a fixed \(k\) reduces reciprocal precision, since there are more possible users to recommend.\\
-TODO: BILDER
-\subsubsection{Coverage} Recommending potential learning partners to one another should be beneficial to as many students as possible. As such, coverage is a very important metric to consider. Since every user will receive recommendations no matter what, every user will be covered in one way or another. A good fit can only be ensured when the same user is recommended to others, ideally forming a reciprocal recommendation. Coverage is defined as the percentage of users that appear on other's recommendations at least once.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{g/Runtime.PNG}
+	\caption{Scalability: The algorithm's runtime depending on the number of users \(U\) and the amount of recommendations per user \(k\). Note how k has almost no influence on the runtime, while it grows exponentially with increasing U. Source: \cite{potts2018reciprocal}}
+\end{figure}
+
+
+\subsubsection{Reciprocality} The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. Reciprocality was tested for both, the baseline non-reciprocal and the joint reciprocal average scores. Whenever a user appears in the recommendations of a user on their own recommendation list that was built according to the respective score, the recommendation was considered to be reciprocal.\\
+The precision for every user under the used score is calculated by dividing his reciprocal recommendations through \(k\), the total amount of recommendations that user received. The system's total precision is defined as the average precision across all users.\\ 
+QUELLE\\
+In all tested cases, the reciprocal score had a higher precision than the baseline score. This is not surprising, since using the harmonic mean of both one-directional scores chooses reciprocal scores with medium values compared to non-reciprocal scores with a single high value. [REFERENZ AUF ERKLÄRUNGSABSCHNITT] Increasing \(k\) also increases the precision, since more recommendations per user lead to a higher chance of reciprocal recommendations. On the other hand, increasing \(U\) with a fixed \(k\) reduces reciprocal precision, since there are more possible users to recommend.\\
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{g/PrecisionByK.PNG}
+	\includegraphics[width=0.5\textwidth]{g/PrecisionByU.PNG}
+	\caption{Reciprocality: The precision (= the fraction of reciprocal recommendations out of the total recommendations averaged over all users) of the baseline non-reciprocal recommendations (orange) vs. of the reciprocal, averaged scores. Note how the reciprocal scores are always better. Source: \cite{potts2018reciprocal}}
+\end{figure}
+
+\subsubsection{Coverage} Recommending potential learning partners to one another should be made for as many users as possible, not abandoning anyone. As such, coverage is a very important metric to consider. Since (almost) every user will receive recommendations, most users will be covered in one way or another. (The exception to this are users with completely incompatible timeslots, role preferences (i.e. being the only person looking for an equally skilled study partner) or users who can't meet the minimum competency when coupled with their available potential partners.) A good fit can only be ensured when the same user is recommended to others, ideally forming a reciprocal recommendation, which is represented in another quality measure. Coverage however is defined as the percentage of users that appear in other's recommendations at least once.\\
 For a low amount of users and lots of recommendations per user, coverage is close to 0.9, meaning most users are recommended to others. As U increases or k decreases, the coverage sinks. However, more than 40\% of users appear in other's recommendations under all tested circumstances.\\
-\subsubsection{Quality} [NOCH MAL GENAUER VERSTEHEN! T UND ALPHA!] The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. The quality is thus defined as their average joint competencies across their matched topics. The goal is to generate matches, that are somewhat capable in their respective fields of study.\\
-To fully satisfy as a tool to recommend students to one another, Ripple must score as high as possible in these measures. On the other hand, minor drawbacks in the defined metrics were considered to be tolerable due to the experimental and randomly generated data and some further adjustments that could be made to compensate bad values.\\
-RESULTS SIND MIR HIER MEGA UNKLAR - NACHARBEITEN!
+
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{g/CoverageUk.PNG}
+	\includegraphics[width=0.5\textwidth]{g/CoverageUT.PNG}
+	\caption{Coverage: The percentage of users who appear in other's recommendations. With more users, coverage sinks (likelihood of hard to match users increases). Increasing received recommendations or lowering the minimum joint competency of matches increases coverage. Mind the y-axis cutoff. Source: \cite{potts2018reciprocal}}
+	\label{f:coverage}
+\end{figure}
+
+\subsubsection{Quality} The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. According to BLUMENFELD QUELLE, learners should meet a minimum competency level in order to be an effective group, as specified by the employed minimum matchup threshold T and leniency factor alpha. [IST ES GUT DIE HIER ZU ERWÄHNEN? HÄNGT DAVON AB WIE ICH DIE BILDER EINBINDE] Quality is thus defined as the user's average joint competencies across their matched topics. The goal is to generate matches, that are as capable as possible in their respective fields of study.\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{g/QualityByU.PNG}
+	\caption{Quality: The quality of matchups over different values for U and T. Note how changing U won't affect matchup quality. Choosing a higher minimum joint competency threshold T for successful matchups increases overall quality. Comparing this finding to \ref{f:coverage} however, suggests that higher quality comes at the cost of less coverage. Source: \cite{potts2018reciprocal}}
+	\label{f:quality}
+\end{figure}
 
 \section{Discussion}
+"Reciprocal peer recommendation for Learning Purposes" and the implemented platform RiPPLE present an approach to build a scalable, interactive and user-facing, multi-purposes learning platform to enhance learning both in on- and offline circumstances. While the experimental results look promising, further research on actual data has to be conducted, which is planned over the course of the year.\\
 Recap of their discussion\\
-Current results are scientifically weak: Lots of assumptions about initial values (e.g. for T), no aims of bounds set to determine whether final values are actually good.\\
-While the values reported from evaluation with artificial data present good metrics to measure the algorithm's performance and suitability for live data, they don't actually evaluate the algorithm, since no targets have been set. The question whether a coverage of little above 0.4 will be enough in practice, remains unanswered. Same goes for all the other values: With little to no theory behind these metrics, their final values are hard to analyze in a larger context.\\
+The experimental evaluation of the platform's performance using artificial data sheds light on variable relationships, potential initial values for scientifically sparse concepts and the interplay of lots of factors. While the values reported from evaluation with artificial data present good metrics to measure the algorithm's performance and suitability for live data, they don't actually evaluate the algorithm, since no targets have been set. Although the data is quantifiable, these findings should not be mistaken as quantitative results: instead of comparing the data to theory-driven goals and evaluating them for actual use, they are more or less providing an overview of how the algorithm works. In fact, there is currently no way to know of these results are "good". The question whether a coverage of little above 0.4 will be enough in practice, remains unanswered. Actual results from live usage are thus highly interesting and could provide insights in lots of different areas.\\
 \\
 Perfect Matchup for one topic and "meh" matchup for other topic will get mediocre vote, instead of recommending topic-wise. (Matchups bei denen die ROLLEN gar nicht passen werden aber ausgeklammert, immerhin)\\
+Abandoned users due to edge-cases: Someone with low competency prefering to teach, high competency preferring to get teached. Ripple does account for these cases by only recommending the best fits, so even low fits can still be recommended.\\
+Transparency: Will students know how good their matching value is?\\
+Possible error for highly compatible users who appear in many recommendations: They have few reciprocal recs, but will get lots of meeting requests.\\
 \\
 Is the quality a good measurement, actually? We want low level learners to have the opportunity to learn something... Should the score of a match not be always close to a medium value? OR does this metric rely too much on the actual values of their skills? Should me measure quality as "How does this matchup go in terms of preferred skill level?\\
 \\
@@ -133,9 +164,7 @@ As humans are unreliable, self-reported metrics always underly lots of variance 
 \\
 Does not consider buy-in by users. This is okay for the tool, it will still recommend people, but the actual use of this whole measure will get undermined.\\
 self-evaluating data about students is prone to errors and was not checked or detailed: misleading competency values might spoil results.\\
-Abandoned users due to edge-cases: Someone with low competency prefering to teach, high competency preferring to get teached. Ripple does account for these cases by only recommending the best fits, so even low fits can still be recommended.\\
-Transparency: Will students know how good their matching value is?\\
-Possible error for highly compatible users who appear in many recommendations: They have few reciprocal recs, but will get lots of meeting requests.\\
+
 ARE THERE ANY DISCUSSIONS ABOUT THIS PAPER YET?\\
 
 
