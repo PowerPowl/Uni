@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  31 MAY 2018 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  2 JUN 2018 20:31
 entering extended mode
 **"./Multimedia Seminar.tex"
 ("Multimedia Seminar.tex"
@@ -1086,7 +1086,7 @@ LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 (Font)              scaled to size 5.546pt on input line 32.
 \@TUD@titlelines=\count128
-<tud_logo.pdf, id=67, 157.58875pt x 63.23625pt>
+<tud_logo.pdf, id=87, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
 Package pdftex.def Info: tud_logo.pdf  used on input line 32.
@@ -1168,13 +1168,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--85
 
  []
 
-<g/SeekingPartnerCompatibility.PNG, id=128, 356.83313pt x 290.58563pt>
+<g/SeekingPartnerCompatibility.PNG, id=148, 356.83313pt x 290.58563pt>
 File: g/SeekingPartnerCompatibility.PNG Graphic file (type png)
 <use g/SeekingPartnerCompatibility.PNG>
 Package pdftex.def Info: g/SeekingPartnerCompatibility.PNG  used on input line 
 97.
 (pdftex.def)             Requested size: 248.96162pt x 202.73901pt.
-<g/SeekingSupportCompatibility.PNG, id=130, 350.81062pt x 285.31593pt>
+<g/SeekingSupportCompatibility.PNG, id=150, 350.81062pt x 285.31593pt>
 File: g/SeekingSupportCompatibility.PNG Graphic file (type png)
 <use g/SeekingSupportCompatibility.PNG>
 Package pdftex.def Info: g/SeekingSupportCompatibility.PNG  used on input line 
@@ -1209,17 +1209,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--113
  []
 
 [8 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>]
-<g/Runtime.PNG, id=147, 557.83406pt x 424.58624pt>
+<g/Runtime.PNG, id=167, 557.83406pt x 424.58624pt>
 File: g/Runtime.PNG Graphic file (type png)
 <use g/Runtime.PNG>
 Package pdftex.def Info: g/Runtime.PNG  used on input line 120.
 (pdftex.def)             Requested size: 248.96162pt x 189.4942pt.
-<g/PrecisionByK.PNG, id=151, 399.74344pt x 394.47375pt>
+<g/PrecisionByK.PNG, id=171, 399.74344pt x 394.47375pt>
 File: g/PrecisionByK.PNG Graphic file (type png)
 <use g/PrecisionByK.PNG>
 Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 131.
 (pdftex.def)             Requested size: 248.96162pt x 245.67871pt.
-<g/PrecisionByU.PNG, id=152, 377.15906pt x 387.69844pt>
+<g/PrecisionByU.PNG, id=172, 377.15906pt x 387.69844pt>
 File: g/PrecisionByU.PNG Graphic file (type png)
 <use g/PrecisionByU.PNG>
 Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 132.
@@ -1234,12 +1234,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
-<g/CoverageUk.PNG, id=156, 383.93437pt x 306.39468pt>
+<g/CoverageUk.PNG, id=176, 383.93437pt x 306.39468pt>
 File: g/CoverageUk.PNG Graphic file (type png)
 <use g/CoverageUk.PNG>
 Package pdftex.def Info: g/CoverageUk.PNG  used on input line 141.
 (pdftex.def)             Requested size: 248.96162pt x 198.68666pt.
-<g/CoverageUT.PNG, id=157, 389.20406pt x 290.58563pt>
+<g/CoverageUT.PNG, id=177, 389.20406pt x 290.58563pt>
 File: g/CoverageUT.PNG Graphic file (type png)
 <use g/CoverageUT.PNG>
 Package pdftex.def Info: g/CoverageUT.PNG  used on input line 142.
@@ -1249,7 +1249,7 @@ Overfull \hbox (2.0045pt too wide) in paragraph at lines 141--143
 [][] [] 
  []
 
-<g/QualityByU.PNG, id=162, 420.06938pt x 322.20375pt>
+<g/QualityByU.PNG, id=182, 420.06938pt x 322.20375pt>
 File: g/QualityByU.PNG Graphic file (type png)
 <use g/QualityByU.PNG>
 Package pdftex.def Info: g/QualityByU.PNG  used on input line 151.
@@ -1277,35 +1277,138 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-("Multimedia Seminar.bbl" [13
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.87204pt on input line 179.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 179.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 4.70403pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 7.70801pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 5.45201pt on input line 179.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 4.606pt on input line 179.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--186
+
+ []
+
+[13
 
 
 ] [14
 
 
+]
+chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+("Multimedia Seminar.bbl" [16] [17
+
+
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
  ("Multimedia Seminar.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `"Multimedia Seminar".out' has not changed.
-(rerunfilecheck)             Checksum: 161DCA40A07C16161CE44718C23BC765;982.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+(rerunfilecheck)             Checksum: 74B6449E359BD4C07A5A5DE1750DB131;1347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 11843 strings out of 492976
- 189575 string characters out of 3137754
- 384312 words of memory out of 3000000
- 15403 multiletter control sequences out of 15000+200000
- 78210 words of font info for 70 fonts, out of 3000000 for 9000
+ 11914 strings out of 492976
+ 190776 string characters out of 3137754
+ 384933 words of memory out of 3000000
+ 15449 multiletter control sequences out of 15000+200000
+ 99843 words of font info for 100 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,100p,8834b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,13n,100p,8834b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}{D:/Programme/MiKTe
 X 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/tuddesign/fonts/type1/softm
 ake/charter/5chr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter
@@ -1314,9 +1417,9 @@ pfb><C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><D:/P
 rogramme/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programme/MiKTe
 X 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/USER/AppData/Roaming/M
 iKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb>
-Output written on "Multimedia Seminar.pdf" (17 pages, 1082231 bytes).
+Output written on "Multimedia Seminar.pdf" (20 pages, 1106707 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

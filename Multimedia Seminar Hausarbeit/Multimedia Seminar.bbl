@@ -1,10 +1,22 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{DCTL{\etalchar{+}}12}
 
+\bibitem[BMSK96]{blumenfeld1996learning}
+Phyllis~C Blumenfeld, Ronald~W Marx, Elliot Soloway, and Joseph Krajcik.
+\newblock Learning with peers: From small group cooperation to collaborative
+  communities.
+\newblock {\em Educational researcher}, 25(8):37--39, 1996.
+
 \bibitem[BP07]{brozovsky2007recommender}
 Lukas Brozovsky and Vaclav Petricek.
 \newblock Recommender system for online dating service.
 \newblock {\em arXiv preprint cs/0703042}, 2007.
+
+\bibitem[Cha94]{chang1994psychometric}
+Lei Chang.
+\newblock A psychometric evaluation of 4-point and 6-point likert-type scales
+  in relation to reliability and validity.
+\newblock {\em Applied psychological measurement}, 18(3):205--215, 1994.
 
 \bibitem[DCTL{\etalchar{+}}12]{delalleau2012beyond}
 Olivier Delalleau, Emile Contal, Eric Thibodeau-Laufer, Raul~Chandias Ferrari,
@@ -13,6 +25,53 @@ Olivier Delalleau, Emile Contal, Eric Thibodeau-Laufer, Raul~Chandias Ferrari,
 \newblock {\em IEEE Transactions on Computational Intelligence and AI in
   Games}, 4(3):167--177, 2012.
 
+\bibitem[GHG04]{griffin2004applicants}
+Barbara Griffin, Beryl Hesketh, and David Grayson.
+\newblock Applicants faking good: evidence of item bias in the neo pi-r.
+\newblock {\em Personality and Individual Differences}, 36(7):1545--1558, 2004.
+
+\bibitem[Gol90]{goldberg1990alternative}
+Lewis~R Goldberg.
+\newblock An alternative" description of personality": the big-five factor
+  structure.
+\newblock {\em Journal of personality and social psychology}, 59(6):1216, 1990.
+
+\bibitem[Gon05]{gonyea2005self}
+Robert~M Gonyea.
+\newblock Self-reported data in institutional research: Review and
+  recommendations.
+\newblock {\em New directions for institutional research}, 2005(127):73--89,
+  2005.
+
+\bibitem[Lik32]{likert1932technique}
+Rensis Likert.
+\newblock A technique for the measurement of attitudes.
+\newblock {\em Archives of psychology}, 1932.
+
+\bibitem[LJMZ02]{lee2002cultural}
+Jerry~W Lee, Patricia~S Jones, Yoshimitsu Mineyama, and Xinwei~Esther Zhang.
+\newblock Cultural differences in responses to a likert scale.
+\newblock {\em Research in nursing \& health}, 25(4):295--306, 2002.
+
+\bibitem[MC87]{mccrae1987validation}
+Robert~R McCrae and Paul~T Costa.
+\newblock Validation of the five-factor model of personality across instruments
+  and observers.
+\newblock {\em Journal of personality and social psychology}, 52(1):81, 1987.
+
+\bibitem[MHH{\etalchar{+}}15]{manske2015using}
+Sven Manske, Tobias Hecking, Ulrich Hoppe, Irene-Angelica Chounta, and
+  S{\"o}ren Werneburg.
+\newblock Using differences to make a difference: A study in heterogeneity of
+  learning groups.
+\newblock In {\em 11th International Conference on Computer Supported
+  Collaborative Learning (CSCL 2015)}, 2015.
+
+\bibitem[ML94]{maxwell1994lake}
+Nan~L Maxwell and Jane~S Lopus.
+\newblock The lake wobegon effect in student self-reported data.
+\newblock {\em The American Economic Review}, 84(2):201--205, 1994.
+
 \bibitem[NHH{\etalchar{+}}14]{nguyen2014exploring}
 Tien~T Nguyen, Pik-Mai Hui, F~Maxwell Harper, Loren Terveen, and Joseph~A
   Konstan.
@@ -20,6 +79,18 @@ Tien~T Nguyen, Pik-Mai Hui, F~Maxwell Harper, Loren Terveen, and Joseph~A
   on content diversity.
 \newblock In {\em Proceedings of the 23rd international conference on World
   wide web}, pages 677--686. ACM, 2014.
+
+\bibitem[OA04]{ostendorf2004neo}
+Fritz Ostendorf and Alois Angleitner.
+\newblock {\em NEO-Pers{\"o}nlichkeitsinventar nach Costa und McCrae,
+  Revidierte Fassung (NEO-PI-R)}.
+\newblock Hogrefe G{\"o}ttingen, 2004.
+
+\bibitem[OV17]{olakanmi2017group}
+Oluwabunmi~Adewoyin Olakanmi and Julita Vassileva.
+\newblock Group matching for peer mentorship in small groups.
+\newblock In {\em CYTED-RITOS International Workshop on Groupware}, pages
+  65--80. Springer, 2017.
 
 \bibitem[PKR{\etalchar{+}}18]{potts2018reciprocal}
 Boyd Potts, Hassan Khosravi, Carl Reidsema, Aneesha Bakharia, Mark Belonogoff,
@@ -40,6 +111,12 @@ Jens Riegelsberger, Scott Counts, Shelly~D Farnham, and Bruce~C Philips.
   preferences into the matchmaking process.
 \newblock In {\em System Sciences, 2007. HICSS 2007. 40th Annual Hawaii
   International Conference on}, pages 87--87. IEEE, 2007.
+
+\bibitem[Sor08]{sorensen2008measuring}
+Jeanne Sorensen.
+\newblock Measuring emotions in a consumer decision-making contextapproaching
+  or avoiding.
+\newblock {\em Aalborg University, Denmark}, 2008.
 
 \bibitem[Ste99]{sternberg1999thinking}
 Robert~J Sternberg.

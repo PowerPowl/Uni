@@ -153,7 +153,7 @@ Referencing figure \ref{f:quality}, it is apparent that the total amount of user
 	\label{f:quality}
 \end{figure}
 
-\section{Discussion}
+\section{Discussion} \label{sec:disc}
 "Reciprocal peer recommendation for Learning Purposes" and the implemented platform RiPPLE present an approach to build a scalable, interactive and user-facing, multi-purposes learning platform to enhance learning both in on- and offline circumstances. RiPPLE's flexiblity in some threshold values allows the tool to be customised to address some of the shortcomings of peer recommender systems identified by OLAKANMI AND VASSILEVA QUELLE. While the experimental results look promising, further research on actual data has to be conducted, which is planned over the course of the year.\\
 Recap of their discussion\\
 The experimental evaluation of the platform's performance using artificial data sheds light on variable relationships, potential initial values for scientifically sparse concepts and the interplay of lots of factors. While the values reported from evaluation with artificial data present good metrics to measure the algorithm's performance and suitability for live data, they don't actually evaluate the algorithm, since no targets have been set. Although the data is quantifiable, these findings should not be mistaken as quantitative results: instead of comparing the data to theory-driven goals and evaluating them for actual use, they are more or less providing an overview of how the algorithm works. In fact, there is currently no way to know of these results are "good". \textit{Many of the used measurements lack consistent data and research, and are not theoretically funded.} The question whether a coverage of little above 0.4 will be enough in practice, remains unanswered. Actual results from live usage are thus highly interesting and could provide insights in lots of different areas.\\
@@ -163,21 +163,42 @@ The algorithm itself does have some minor drawbacks. For one, RiPPLE calculates 
 Another drawback is the neglected human factor. Both user buy-in and competence in handling the tool and its demands might influence its use in practice. While this study's goal was explicitly to test the theory and future praxis tests are planned, this topic should be discussed, a major shortcoming of the paper at hand.\\
 A lack in user buy-in is something that always should be considered, especially in a student context. If a student didn't want to engage with strangers, was not motivated to study with partners or to adjust his or her schedule, all recommendations to and of that student would not accomplish anything. Meeting requests would be ignored, and opportunities for matchups would expire. Even negative user manipulation needs to be considered as an possibility, but is something that has to be dealt with in the live test.\\
 While missed opportunities are a problem of the students themselves, rather than of the platform providing recommendations, the other human factor needs to be addressed directly by the tool:\\
-As humans are unreliable, self-reported metrics always underly lots of variance and errors. A user's competency in a specific topic, his or her preferences, or the willingness to commit a specific timeslot to learning might change daily, dependant on mood, time of day and lots of other factors. [QUELLE?] Other variables, like a user's preferred skill difference towards a learning partner, are especially hard to specify. How is a user supposed to know what his or her learning preferences are? How would he know which number refers to the desired difference in skill rating? From a psychological standpoint, this operationalization is bound to fail. [Compare criticism to Likert scaled items QUELLE]\\
+As humans are unreliable, self-reported metrics always underly lots of variance and errors. A user's competency in a specific topic, his or her preferences, or the willingness to commit a specific timeslot to learning might change daily, dependant on mood, time of day, culture and lots of other factors. \cite{lee2002cultural} \cite{sorensen2008measuring} Other variables, like a user's preferred skill difference towards a learning partner, are especially hard to specify. How is a user supposed to know what his or her learning preferences are? How would he know which number refers to the desired difference in skill rating? From a psychological standpoint, this operationalization is bound to fail, if not controlled in an appropriate manner. \cite{gonyea2005self}\\
 All of this taken into consideration, the proposed peer learner recommendation algorithm does have its flaws but will not necessarily fail. The benefits of recommending meaningful social learning opportunities are manifold and even if RiPPLE will only be used by a fraction of the potential users, it will surely help these learners to navigate a digital world full of learning opportunities. The live test will show, whether this hypothesis holds in praxis.\\
 
 
 \chapter{Extensions}
 TODO: Include possible follow-up research, directions for further research or innovative ideas from other fields to include in future recirpocal peer recommendation for elearning studies.\\
 \begin{itemize}
-	\item NEO-FFI etc.: operationalize personalities
 	\item Instead of student-driven requests: Use recommendations to build study courses
 	\item From Gaming: Instead of 2-people-matches, build learning groups with matching skillsets to further benefit on other topics and to enable social grouping\\
 \end{itemize}
+Choosing a user preference model that fits both the domain and the goal of an algorithm poses a major problem in peer recommendation. \cite{potts2018reciprocal, olakanmi2017group} MEHR QUELLEN, MEHR DETAILS! VGL POTTS EINLEITUNG!\\
+An important factor is to consider both, the information needed to create meaningful matches according to a specific success criterion, and how to access this information. Generally-speaking, automatically collected data is preferred to relieve the users as much as possible. But not all data can automatically be collected. Internal information, like preferences, date availability, motivations and many other things need to be reported by the user - there is currently no way to easily access internal information of the user's mind.\\
+Psychological research was founded to enable the measurement and quanitification of these details. From psychophysical measurements to intricate operationalizations of complicated internal states, one easily accessible method stays predominant in social science: self-reported statements on different scales, from qualitative interviews to acceptance scales.\\
+One such scale is the NEO-PI-R \cite{ostendorf2004neo}, arguably one of the most famous personality-measurement tools. A questionnaire with Likert-scaled \footnote{The commonly known items prompting users to reply to a statement on a scale from (usually) 1 to 5 (often combined with sentences like "I agree" or "I disagree") are called "Likert scales" after Rensis Likert. \cite{likert1932technique}} items on five axis representing the five dimensions of personality that has been replicated in many different studies. \cite{mccrae1987validation, goldberg1990alternative}\\
+While the NEO-PI-R is widely used and considered as reliable and validated, it still relies on self- or peer-reported data and can, as such, not be considered a flawless tool. Besides all the critique stated so far, one factor needs to be considered in a little more detail due to it's relevance: "Faking Good", the tendency to answer items in a way that is considered to be socially acceptable. When faking good, people manipulate their answers to cohere to social norms out of fear to commit unwanted behavior or to be seen as a bad person. It is known to influence the outcomes of some of the personality traits, measured by the NEO-PI-R.\cite{griffin2004applicants}\\
+In learning environments, a phenomenon known as the "Lake Wobegon Effect" influences student reports of their learning success: students tend to overstate their good performances, while failures will not be reported. This leads to an overestimation of student successes in surveys. \cite{maxwell1994lake}\\
+Not only is a proper specification of the domain and goals of a recommender system relevant, in reciprocal recommendation, the user must be modeled as both, a recommended item and a user receiving recommendations at the same time. Modeling users however is complicated due to unreliable methods or participants (knowingly or subconsciously) manipulating their answers.\\
+While Potts et al. obviously tried to choose a user-model that is limited to the necessary basics and tries to rely on as few ambigous and self-reported information as possible, they still rely on a users skill in reporting information about him- or herself. (Please see section \ref{sec:disc} for a more thorough discussion of Potts et al.'s user model)\\
+Self-reported data still remains a largely controversal topic in psychological research: it is easy to acquire and enables researches to access internal information,  while these measurements can fluctuate following lots of different influences and are hard to validate. \cite{gonyea2005self, lee2002cultural, sorensen2008measuring}\\
+To name an example, the infamous "Likert Scale" as introduced by Rensis Likert in 1932 as an "attitude scale" \cite{likert1932technique} can safely be assumed to be one of the most used metrics in social research, while it's optimal use still remains controversial. \cite{chang1994psychometric, lee2002cultural} HIER VIELLEICHT NOCH EINE WEITERE QUELLE.\\
+
 
 \chapter{Notizen zu Papers}
+
+\section{Vorteile des Gruppenlernens}
+Bossert 1988 - 1989, Forschung über Vorteile von Gruppenarbeit\\
+
+\section{RecSys Literatur}
+
+\section{Theorien zu Gruppenbildung und Gruppenbildungsalgos}
 Learning with Peers, Blumenfeld: \cite{blumenfeld1996learning}\\
 Zusammensetzung der Gruppen ist wichtig: Abwechslung fördert soziale Skills, und in Gruppen sollten nicht high, middle und low Leute sein, weil die Middle Leute dann wenig profitieren. "Creating Succesful group work is not simply a matter of putting students together." Kein genauer Fund zu "Man braucht minimum-Kompetenz", aber man soll mindestens mittel und niedrig miteinander mischen. Die Threshold soll also nicht zu niedrig sein.\\
+
+Using Differences to Make a Difference: A Study in Heterogeneity of Learning Groups \cite{manske2015using}\\
+Basierend auf konzeptuellem Wissen (ggf noch Mal genau gucken), Schreibfähigkeiten und einem Motivationsfragebogen wurden Lernende in homogene oder inhomogene Gruppen eingeteilt. E-Learning Umfeld. Quanititative Analyse der E-Learning Logs und Performance, und Expertenanalyse (Lehrer) von Konzeptmaps und geschriebenen Reports. Heterogene Gruppen erzielten bessere Ergebnisse als die meisten homogenen Gruppen, und waren dabei weniger gestreut, also fairer. Allerdings sehr kleine Studie und kein Signifikanztest?\\
+\\
 
 Group Matching for Peer Mentorship in Small Groups, Olakanmi, Vassileva \cite{olakanmi2017group}\\
 Wird von meinem Paper als Kritik-Paper an Learning Peer Recommendation genannt. Haben aber eigenen Algo entwickelt. Vergleichen?\\
@@ -194,15 +215,28 @@ Stellt sehr viele verschiedene Algorithmen, die bisher so entwickelt wurden vor,
 - Viele Algos sollen das Lernen verbessern, aber nicht die eigentliche Ziele des Lernens fördern\\
 Heterogene Gruppen werden empfohlen, weil die laut anderen Fünden besseres Lernen bewirken sollen. Deren Algo zielt aber primär auf was Anderes: Peer Review Gruppen basteln, sodass jeder davon profitieren kann.
 
+\section{Self-reported Data critic}
 Measuring emotions in a consumer decision-making contextapproaching or avoiding \cite{sorensen2008measuring}\\
 Beispiel dafür, dass self-reports scheiße sind, gezeigt am Messen von Emotionen.\\
 
-Using Differences to Make a Difference: A Study in Heterogeneity of Learning Groups \cite{manske2015using}\\
-Basierend auf konzeptuellem Wissen (ggf noch Mal genau gucken), Schreibfähigkeiten und einem Motivationsfragebogen wurden Lernende in homogene oder inhomogene Gruppen eingeteilt. E-Learning Umfeld. Quanititative Analyse der E-Learning Logs und Performance, und Expertenanalyse (Lehrer) von Konzeptmaps und geschriebenen Reports. Heterogene Gruppen erzielten bessere Ergebnisse als die meisten homogenen Gruppen, und waren dabei weniger gestreut, also fairer. Allerdings sehr kleine Studie und kein Signifikanztest?\\
-\\
-https://dl.acm.org/citation.cfm?id=500293 angucken.
-\\
-Bossert 1988 - 1989, Forschung über Vorteile von Gruppenarbeit
+Cultural Differences in responses to a likert scale \cite{lee2002cultural}\\
+Zwischen Japanern, Chinesen und Amerikanern gab es zwar die gleichen Antworttendenzen, aber Abweichungen in Bezug auf das Antwortverhalten.\\
+
+Psychometric Evaluation of 4-point or 6-point likert scales \cite{chang1994psychometric}\\
+Es ist nicht Mal klar, welche Likert Scala die beste ist - und das ist die am meisten verwendete Art von Skalen.\\
+
+Self Reported Data in institutional research \cite{gonyea2005self}\\
+Überblick über Probleme und Empfehlungen bei der Arbeit mit Self-Reported Data. Buchkapitel, gute Referenz? Auf jeden Fall guter Überblick, besser als einzelne Literatur zu nennen.\\
+
+Lake Wobegon Effect: Overstatement von guten Schülerleistungen, weil negative nicht reported, und positive überreported werden. \cite{maxwell1994lake}\\
+
+Faking Good im NEO-PIR \cite{griffin2004applicants}
+Übersicht dazu, dass man bei Persönlichkeitstest auch "Good" faken kann und das mitunter getan wird. Referenz zum NEO-PI-R: \cite{ostendorf2004neo}\\
+Validierung des 5 Faktoren-Modells: \cite{mccrae1987validation} in Statistik und Messungen und \cite{goldberg1990alternative} aus Wortgruppen.
+
+
+
+
 
 \bibliographystyle{alpha}
 \bibliography{bib}
