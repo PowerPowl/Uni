@@ -1,6 +1,11 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{DCTL{\etalchar{+}}12}
 
+\bibitem[AAM17]{asabere2017improving}
+Nana~Yaw Asabere, Amevi Acakpovi, and Mathias Michael.
+\newblock Improving socially-aware recommendation accuracy through personality.
+\newblock {\em IEEE Transactions on Affective Computing}, 2017.
+
 \bibitem[BMSK96]{blumenfeld1996learning}
 Phyllis~C Blumenfeld, Ronald~W Marx, Elliot Soloway, and Joseph Krajcik.
 \newblock Learning with peers: From small group cooperation to collaborative
@@ -43,6 +48,12 @@ Robert~M Gonyea.
 \newblock {\em New directions for institutional research}, 2005(127):73--89,
   2005.
 
+\bibitem[LEF10]{leising2010letter}
+Daniel Leising, Julia Erbs, and Ulrike Fritz.
+\newblock The letter of recommendation effect in informant ratings of
+  personality.
+\newblock {\em Journal of Personality and Social Psychology}, 98(4):668, 2010.
+
 \bibitem[Lik32]{likert1932technique}
 Rensis Likert.
 \newblock A technique for the measurement of attitudes.
@@ -71,6 +82,12 @@ Sven Manske, Tobias Hecking, Ulrich Hoppe, Irene-Angelica Chounta, and
 Nan~L Maxwell and Jane~S Lopus.
 \newblock The lake wobegon effect in student self-reported data.
 \newblock {\em The American Economic Review}, 84(2):201--205, 1994.
+
+\bibitem[NH12]{nunes2012personality}
+Maria Augusta~SN Nunes and Rong Hu.
+\newblock Personality-based recommender systems: an overview.
+\newblock In {\em Proceedings of the sixth ACM conference on Recommender
+  systems}, pages 5--6. ACM, 2012.
 
 \bibitem[NHH{\etalchar{+}}14]{nguyen2014exploring}
 Tien~T Nguyen, Pik-Mai Hui, F~Maxwell Harper, Loren Terveen, and Joseph~A
