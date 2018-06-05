@@ -1,4 +1,4 @@
-\documentclass[nochapterpage,bigchapter,linedtoc,longdoc,colorback,accentcolor=tud3b]{tudreport}
+\documentclass[nochapterpage,bigchapter,linedtoc,longdoc,colorback,accentcolor=tud3b,oneside]{tudreport}
 
 \usepackage[stable]{footmisc}
 \usepackage[ngerman]{hyperref}
@@ -23,12 +23,15 @@
 
 \graphicspath{{g/}}
 
-
 \title{Making Matches - Recommending the right personality}
 \subtitle{Paul Schweiger}
 
 \begin{document}
 \maketitle
+
+%remove whitespace after chapter start
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
 
 \chapter{Topic Summary}
 As globalization and connectedness advance, online communities grow in importance and the offline world embraces online opportunities. A surplus of possible contacts emerges, making it challenging to have an optimal online experience by engaging with fitting personalities. This interaction between users is a cornerstone of many different activities, such as multiplayer gaming, social networks, crowdsourcing communities or online dating platforms, making matchmaking efforts important to further financial and social goals. Recommender Systems that account for an adequate operationalization of the relevant personality traits can be used to improve said goals all across different domains of usage.\\

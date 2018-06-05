@@ -1,3 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Multimedia Seminar.aux
 The style file: alpha.bst
 Database file #1: bib.bib
+Repeated entry---line 379 of file bib.bib
+ : @article{wang2015thinking
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 395 of file bib.bib
+ : @article{delalleau2012beyond
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "hsu2018general"
+(There were 2 error messages)

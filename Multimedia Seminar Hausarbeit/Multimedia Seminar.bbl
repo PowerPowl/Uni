@@ -6,6 +6,11 @@ Nana~Yaw Asabere, Amevi Acakpovi, and Mathias Michael.
 \newblock Improving socially-aware recommendation accuracy through personality.
 \newblock {\em IEEE Transactions on Affective Computing}, 2017.
 
+\bibitem[BDRL82]{bossert1982instructional}
+Steven~T Bossert, David~C Dwyer, Brian Rowan, and Ginny~V Lee.
+\newblock The instructional management role of the principal.
+\newblock {\em Educational administration quarterly}, 18(3):34--64, 1982.
+
 \bibitem[BMSK96]{blumenfeld1996learning}
 Phyllis~C Blumenfeld, Ronald~W Marx, Elliot Soloway, and Joseph Krajcik.
 \newblock Learning with peers: From small group cooperation to collaborative
@@ -54,6 +59,13 @@ Mojisola Erdt, Alejandro Fernandez, and Christoph Rensing.
   quantitative survey.
 \newblock {\em IEEE Transactions on Learning Technologies}, 8(4):326--344,
   2015.
+
+\bibitem[FPT{\etalchar{+}}09]{farnham2009method}
+Shelly~D Farnham, Bruce~Christopher Phillips, Scott~Lee Tiernan, Keith Steury,
+  William~B Fulton, and Jens Riegelsberger.
+\newblock Method for online game matchmaking using play style information,
+  November~10 2009.
+\newblock US Patent 7,614,955.
 
 \bibitem[FQ13]{feng2013recommendation}
 He~Feng and Xueming Qian.
@@ -207,6 +219,13 @@ Carl~A Reidsema, Lydia Kavanagh, Emmi Ollila, Stephanie Otte, and Julie~E
 Francesco Ricci, Lior Rokach, and Bracha Shapira.
 \newblock Introduction to recommender systems handbook.
 \newblock In {\em Recommender systems handbook}, pages 1--35. Springer, 2011.
+
+\bibitem[SMK15]{suznjevic2015application}
+Mirko Suznjevic, Maja Matijasevic, and Jelena Konfic.
+\newblock Application context based algorithm for player skill evaluation in
+  moba games.
+\newblock In {\em Network and Systems Support for Games (NetGames), 2015
+  International Workshop on}, pages 1--6. IEEE, 2015.
 
 \bibitem[Sor08]{sorensen2008measuring}
 Jeanne Sorensen.
