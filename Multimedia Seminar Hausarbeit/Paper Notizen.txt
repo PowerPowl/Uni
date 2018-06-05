@@ -1,0 +1,129 @@
+\chapter{Notizen zu Papers}
+
+\section{Vorteile des Gruppenlernens}
+\textit{Bossert 1988 - 1989, Forschung über Vorteile von Gruppenarbeit \textit{bossert1982instructional}}\\
+
+\textit{Adding Value: Teilnahme an Gruppenaktivitäten führt zu besseren Lernergebnissen, mehr Engagement und Zufriedenheit mit der Lehre. \textit{zhao2004adding}}\\
+
+Online Tools führen zu größerem Community-Gefühl bei Lernenden: Kommunikation mit Gruppen etc. \textit{dawson2006study}\\
+
+\textit{Übersicht über Vorteile des und Theorien zu gemeinsamem Lernen als Buch: \textit{maxwell2008learning} Entwicklung von sozialen Skills, Kommunikation, kognitive und intellektuelle Skills.}
+
+\section{RecSys Literatur}
+Personality-based recommender systems: an overview \textit{nunes2012personality}\\
+Tutorial(Plan?) zu Persönlichkeit in RecSys.\\
+
+\textit{Panorama of RS to support learning \textit{drachsler2015panorama}: Large review of Recommender Systems for E-Learning Item Recommendation.}\\
+
+\textit{Evaluating RS for technology enhanced learning \textit{erdt2015evaluating}: Großes Review zur Evaluierung von Recommendation Systems für Learning.}\\
+
+Recommender System Handbook: \textit{ricci2011introduction} Oft zitiert, Überblick über RS Grundlagen.\\
+
+\textit{Intelligent helpdesk: Auf Nutzeranfragen wird ein Peer empfohlen, der weiterhelfen kann. Es geht aber nur um sehr kurzfristige Hilfe in einem Chat / Forum, um gemeinsam ein Problem zu lösen. \textit{greer1998intelligent}}\\
+
+\textit{Exploring the quality of MOOCChat: Es konnte gezeigt werden, dass solche Chat-Angebote schon helfen können. Leider keine Erklärung wie Matches entstehen. \textit{reidsema2016exploring}}\\
+
+heterogene Kleingruppenbildung fürs Lernen: genetischer Algorithmus kann beliebig viele Infos über Studis nehmen und daraus gut passende Gruppen bilden. Allerdings keine Auseinandersetzung mit guten Messungen - eher Fokus auf den Algorithmus. \textit{moreno2012genetic}\\
+
+\section{Reciprocal Recommendation?}
+
+\textbf{WICHTIGER PAPER WEIL REZIPROK UND GUT GEMACHT!}\\
+Im Dating-Kontext: Reziproker Score über: 1. Angaben des Nutzers über sich selbst, 2. Erkenntnisse aus einem Netzwerk aus bisherigen Kontakten und Ähnlichkeit zu diesen Kontakten. Ähnlichkeits-basierter Ansatz für reziproke Scores. Die entwickelten Algorithmen nutzen unterschiedliche Funktionen um Ähnlichkeit zu ermitteln, und performen für die Geschlechter unterschiedlich gut. Die hier entwickelten Algos sind aber immer besser als die zum Vergleich genommenen Algos, die sonst als sehr erfolgreich beschrieben werden. Reziproke Empfehlungen sind hier besonders wichtig, und erfolgreiche Empfehlungen daran zu erkennen, ob die Nutzer sich gegenseitig schreiben, oder nur einseitige Kommunikation stattfindet. \textit{xia2015reciprocal} \\
+In früherem Paper haben sie gezeigt, dass der Nachrichten Trace zuverlässiger ist als Nutzerangaben, um echte Präferenzen im Dating anzugeben. Damit haben sie geschickt aus dem Verhalten entspringende Daten operationalisiert! \textit{xia2014characterization}\\
+GGF noch Mal genauer rein gucken, wie Ähnlichkeit nun genau ermittelt wird?\\
+
+\section{Theorien zu Gruppenbildung und Gruppenbildungsalgos}
+Learning with Peers, Blumenfeld: \textit{blumenfeld1996learning}\\
+Zusammensetzung der Gruppen ist wichtig: Abwechslung fördert soziale Skills, und in Gruppen sollten nicht high, middle und low Leute sein, weil die Middle Leute dann wenig profitieren. "Creating Succesful group work is not simply a matter of putting students together." Kein genauer Fund zu "Man braucht minimum-Kompetenz", aber man soll mindestens mittel und niedrig miteinander mischen. Die Threshold soll also nicht zu niedrig sein.\\
+
+Using Differences to Make a Difference: A Study in Heterogeneity of Learning Groups \textit{manske2015using}\\
+Basierend auf konzeptuellem Wissen (ggf noch Mal genau gucken), Schreibfähigkeiten und einem Motivationsfragebogen wurden Lernende in homogene oder inhomogene Gruppen eingeteilt. E-Learning Umfeld. Quanititative Analyse der E-Learning Logs und Performance, und Expertenanalyse (Lehrer) von Konzeptmaps und geschriebenen Reports. Heterogene Gruppen erzielten bessere Ergebnisse als die meisten homogenen Gruppen, und waren dabei weniger gestreut, also fairer. Allerdings sehr kleine Studie und kein Signifikanztest?\\
+\\
+
+Group Matching for Peer Mentorship in Small Groups, Olakanmi, Vassileva \textit{olakanmi2017group}\\
+Wird von meinem Paper als Kritik-Paper an Learning Peer Recommendation genannt. Haben aber eigenen Algo entwickelt. Vergleichen?\\
+Stellt sehr viele verschiedene Algorithmen, die bisher so entwickelt wurden vor, und umreißt die Schwachstellen:\\
+- Infos werden von Nutzern self-reported\\
+- zu genaues psychologisches Bild der Nutzer führt zu wieder random Ergebnissen\\
+- (erste) Zuteilung passiert Random\\
+- Paper erklärt nicht, wie Erkenntnisse über Nutzer gesammelt werden, sondern beschäftigt sich nur damit, diese dann zu verteilen\\
+- schlecht evaluierte algorithmen\\
+- keine Infos über Skalierbarkeit für die Praxis - zu detaillierte Algos könnten abstinken\\
+- limited and fixed constraints -> inflexibility towards other values or not fully known users\\
+- orphaned learners who would need to be grouped by hand (Das geht dieses Paper GAR NICHT an)\\
+- relying on self-reported data (wird hier teilweise noch gemacht)\\
+- Viele Algos sollen das Lernen verbessern, aber nicht die eigentliche Ziele des Lernens fördern\\
+Heterogene Gruppen werden empfohlen, weil die laut anderen Fünden besseres Lernen bewirken sollen. Deren Algo zielt aber primär auf was Anderes: Peer Review Gruppen basteln, sodass jeder davon profitieren kann.
+
+\section{Self-reported Data critic}
+\textit{Measuring emotions in a consumer decision-making contextapproaching or avoiding \textit{sorensen2008measuring}
+Beispiel dafür, dass self-reports scheiße sind, gezeigt am Messen von Emotionen.}\\
+
+\textit{Cultural Differences in responses to a likert scale \textit{lee2002cultural}
+Zwischen Japanern, Chinesen und Amerikanern gab es zwar die gleichen Antworttendenzen, aber Abweichungen in Bezug auf das Antwortverhalten.}\\
+
+\textit{Psychometric Evaluation of 4-point or 6-point likert scales \textit{chang1994psychometric}
+Es ist nicht Mal klar, welche Likert Scala die beste ist - und das ist die am meisten verwendete Art von Skalen.}\\
+
+\textit{Self Reported Data in institutional research \textit{gonyea2005self}
+Überblick über Probleme und Empfehlungen bei der Arbeit mit Self-Reported Data. Buchkapitel, gute Referenz? Auf jeden Fall guter Überblick, besser als einzelne Literatur zu nennen.}\\
+
+\textit{Lake Wobegon Effect: Overstatement von guten Schülerleistungen, weil negative nicht reported, und positive überreported werden. \textit{maxwell1994lake}}\\
+
+\textit{Faking Good im NEO-PIR \textit{griffin2004applicants}
+Übersicht dazu, dass man bei Persönlichkeitstest auch "Good" faken kann und das mitunter getan wird. Referenz zum NEO-PI-R: \textit{ostendorf2004neo}}\\
+\textit{Validierung des 5 Faktoren-Modells: \textit{mccrae1987validation} in Statistik und Messungen und \textit{goldberg1990alternative} aus Wortgruppen.}\\
+
+\section{Recommendation in Dating}
+https://arxiv.org/abs/cs/0703042\\
+
+https://ieeexplore.ieee.org/document/6629994/ [Empfehlungen auch weniger Aufgrund des Profils, und mehr aufgrund wer gewählt wird, und wer den Nutzer wählt]\\
+
+https://ieeexplore.ieee.org/document/5992633/ [Hohe Ähnlichkeit zu den Methoden anderer Social Networks - angeblich]\\
+
+\section{Gaming Recommendation}
+https://patents.google.com/patent/US7614955B2/en [System, das Nutzer aufgrund ihrer technischen (welches Spiel, will man hosten) und einer Selbstauskunft entnommenen Infos zum Spielstil (aggressiv, defensiv) matchen will]\\
+
+https://patents.google.com/patent/US8066568B2/en [Accumulating Reviews / Reports by other players to generate a profile]\\
+
+https://link.springer.com/chapter/10.1007%2F978-3-319-15168-7_25 [Current Matchmaking Systems might be ill-fitting for empirical data, making them less reliable. A learning model could help]\\
+
+https://ieeexplore.ieee.org/document/7182769/ [Genau das was ich brauche: Ansätze gemeinsame Playstyles zu finden, und das Enjoyment eines Matches zu operationalisieren, um das Einbeziehen von Stilen zu testen.] \textit{wang2015thinking}\\
+
+https://ieeexplore.ieee.org/document/6465556/ [Vielleicht brauchbar: Wie sich implizite Faktoren wie Engagement und Outcome bei Facebook Games auf den Social Graph auswirken.]\\
+
+https://ieeexplore.ieee.org/document/6156756/ [Einbeziehen von Daten aus dem Spielerprofil in Ghost Recon Matchmaking. Merkwürdige Operationalisierung von Balance und Fun, aber gute Ergebnisse damit.] \textit{delalleau2012beyond}\\
+
+https://ieeexplore.ieee.org/document/4076548/ [3 Präferenzen in Mitspielern: Skill, Freundlichkeit, Aggressivität. Konnten auf User Profile gematcht werden. Paper ist aber allgemein auf Internet Begegnungen gehalten.] \textit{riegelsberger2007personality}\\
+
+https://ieeexplore.ieee.org/document/7382993/ [Nutzen von impliziten Daten (Accomplishments, Beitrag zum Team, Achievements, …) um den Matchmaking Prozess zu verbessern für MOBAs.] \textit{suznjevic2015application}\\
+
+Player Types können auch sinnvoll erwähnt werden :)
+
+Steam Kuratoren Vorschläge! 
+
+\section{Social Recommendation}
+
+\textit{CHECK: http://psycnet.apa.org/buy/2010-05457-011 [verschwommene Fremdeinschätzung durch Sympathie - macht es schwer die Persönlichkeiten von Leuten durch die Peer Group zu messen] \textit{leising2010letter}}\\
+
+Manche Recommendations sollen nicht User vorschlagen, sondern andere Objekte, benutzen dafür aber auch ein User-Modell das Persönlichkeit, Vorlieben und oftmals Beziehungen zu anderen Nutzern umfasst. Ähnliche Methoden sind auch für Peer Recommendation vorstellbar: Man empfiehlt einander ähnliche User: \\
+
+Soziale Beziehungen:\\
+
+https://dl.acm.org/citation.cfm?id=2507834 [Recommendations von Objekten aufgrund von Freundschaft und gemeinsamen Interessen. Vielleicht kann man solche Similarities auch für peer rec. nutzen? ] \textit{feng2013recommendation}\\
+
+Caesar: A context-aware, social recommender system for low-end mobile devices: Ein Algo, mit dem auf schlechten Handies mit weniger Daten Empfehlungen gemacht werden können, indem über Locationsverlauf und Adressbuch Ähnlichkeiten zu anderen Usern gefunden werden. So kommt man über Ecken an Infos und Einschätzungen, ohne sie abfragen zu müssen, hat aber andere Fehlerquellen. \textit{ramaswamy2009caesar}\\
+
+https://ieeexplore.ieee.org/document/8328917/ [Mittel gut: eigentlich geht es auch um Item-Vorschläge, aber es gibt ein Modell um aus anderen Vorlieben implizite Verbindungen zu anderen Nutzern zu schließen, und die Vorhersagekraft zu erhöhen.] \textit{hsu2018general}\\
+
+https://ieeexplore.ieee.org/document/7904698/  [Empfehlungen, welche Leute zu Konferenzen fahren und welche Leute kennen lernen sollten nicht nur aufgrund ihrer Inhalte, sondern auch unter Berücksichtigung der Persönlichkeit.] \textit{asabere2017improving}\\
+
+https://ieeexplore.ieee.org/document/7427266/ [Studenten wird über Empfehlungen geholfen, den richtigen Supervisor zu finden. Dabei werden objektive Faktoren (thematische Relevanz, Qualität der Veröffentlichungen des Supervisors, gemeinsame Online-Kanäle) und Persönlichkeitsfaktoren (beide machen einen kurzen Persönlichkeits-Test) berücksichtigt. Nutzer Präferenzen wurden dabei über einen kurzen Fragebogen erfragt. Ist NICHT Reciprocal.]\textit{zhang2016personality}\\
+
+https://ieeexplore.ieee.org/document/7403545/  [Recommendation im Dating-Kontext: Erfolgreiches System, das auf Ähnlichkeits-Systemen basiert: Wer schreibt Nachrichten mit den gleichen Leuten (Interest-similarity), wer bekommt Nachrichten von den gleichen Leuten (Attractiveness-similarity) \textit{xia2015reciprocal}\\
+
+Persönlichkeit:\\
+
+\textit{Persons, Places and Personality: NEO-PI-R wird benutzt um Leute Jobs zuzuordnen \textit{costa1995persons}}\\
+
+\textit{Personality-Aware Recommendations to groups: Hier werden Empfehlungen für homo- und heterogene Gruppen aufgrund der insgesamter Persönlichkeit gemacht. \textit{recio2009personality}}\\
