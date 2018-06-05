@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  5 JUN 2018 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  5 JUN 2018 15:16
 entering extended mode
 **"./Multimedia Seminar.tex"
 ("Multimedia Seminar.tex"
@@ -1068,239 +1068,219 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--65
 LaTeX Warning: Citation `hsu2018general' on page 3 undefined on input line 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 76--81
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+5ch on input line 79.
+LaTeX Font Info:    Try loading font information for TS1+5ch on input line 82.
 ("C:\Program Files\tuddesign\tex\latex\tex-tudfonts\softmake\charter\ts15ch.fd"
 File: ts15ch.fd 2008/06/23 Fontinst v1.927 font definitions for TS1/5ch.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 chapter 4.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
-<g/SeekingPartnerCompatibility.PNG, id=203, 356.83313pt x 290.58563pt>
+<g/SeekingPartnerCompatibility.PNG, id=206, 356.83313pt x 290.58563pt>
 File: g/SeekingPartnerCompatibility.PNG Graphic file (type png)
 <use g/SeekingPartnerCompatibility.PNG>
 Package pdftex.def Info: g/SeekingPartnerCompatibility.PNG  used on input line 
-104. on input line 104.
+107. on input line 107.
 Package pdftex.def Info: Requested size: 248.96162pt x 202.73901pt on input lin
-e 104.
-<g/SeekingSupportCompatibility.PNG, id=205, 350.81062pt x 285.31593pt>
+e 107.
+<g/SeekingSupportCompatibility.PNG, id=208, 350.81062pt x 285.31593pt>
 File: g/SeekingSupportCompatibility.PNG Graphic file (type png)
 <use g/SeekingSupportCompatibility.PNG>
 Package pdftex.def Info: g/SeekingSupportCompatibility.PNG  used on input line 
-105. on input line 105.
+108. on input line 108.
 Package pdftex.def Info: Requested size: 248.96162pt x 202.48865pt on input lin
-e 105.
+e 108.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 104--106
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 107--109
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--112
+Underfull \hbox (badness 10000) in paragraph at lines 104--115
 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
-<g/Runtime.PNG, id=215, 557.83406pt x 424.58624pt>
+[5 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>]
+<g/Runtime.PNG, id=224, 557.83406pt x 424.58624pt>
 File: g/Runtime.PNG Graphic file (type png)
 <use g/Runtime.PNG>
-Package pdftex.def Info: g/Runtime.PNG  used on input line 127. on input line 1
-27.
+Package pdftex.def Info: g/Runtime.PNG  used on input line 130. on input line 1
+30.
 Package pdftex.def Info: Requested size: 248.96162pt x 189.4942pt on input line
- 127.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>
-]
-<g/PrecisionByK.PNG, id=225, 399.74344pt x 394.47375pt>
+ 130.
+<g/PrecisionByK.PNG, id=228, 399.74344pt x 394.47375pt>
 File: g/PrecisionByK.PNG Graphic file (type png)
 <use g/PrecisionByK.PNG>
-Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 138. on input l
-ine 138.
+Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 142. on input l
+ine 142.
 Package pdftex.def Info: Requested size: 248.96162pt x 245.67871pt on input lin
-e 138.
-<g/PrecisionByU.PNG, id=226, 377.15906pt x 387.69844pt>
+e 142.
+<g/PrecisionByU.PNG, id=229, 377.15906pt x 387.69844pt>
 File: g/PrecisionByU.PNG Graphic file (type png)
 <use g/PrecisionByU.PNG>
-Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 139. on input l
-ine 139.
+Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 143. on input l
+ine 143.
 Package pdftex.def Info: Requested size: 248.96162pt x 255.91724pt on input lin
-e 139.
+e 143.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 138--140
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 142--144
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
-<g/CoverageUk.PNG, id=230, 383.93437pt x 306.39468pt>
+<g/CoverageUk.PNG, id=233, 383.93437pt x 306.39468pt>
 File: g/CoverageUk.PNG Graphic file (type png)
 <use g/CoverageUk.PNG>
-Package pdftex.def Info: g/CoverageUk.PNG  used on input line 148. on input lin
-e 148.
+Package pdftex.def Info: g/CoverageUk.PNG  used on input line 152. on input lin
+e 152.
 Package pdftex.def Info: Requested size: 248.96162pt x 198.68666pt on input lin
-e 148.
-<g/CoverageUT.PNG, id=231, 389.20406pt x 290.58563pt>
+e 152.
+<g/CoverageUT.PNG, id=234, 389.20406pt x 290.58563pt>
 File: g/CoverageUT.PNG Graphic file (type png)
 <use g/CoverageUT.PNG>
-Package pdftex.def Info: g/CoverageUT.PNG  used on input line 149. on input lin
-e 149.
+Package pdftex.def Info: g/CoverageUT.PNG  used on input line 153. on input lin
+e 153.
 Package pdftex.def Info: Requested size: 248.96162pt x 185.88548pt on input lin
-e 149.
+e 153.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 148--150
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 152--154
 [][] [] 
  []
 
-<g/QualityByU.PNG, id=236, 420.06938pt x 322.20375pt>
+<g/QualityByU.PNG, id=239, 420.06938pt x 322.20375pt>
 File: g/QualityByU.PNG Graphic file (type png)
 <use g/QualityByU.PNG>
-Package pdftex.def Info: g/QualityByU.PNG  used on input line 158. on input lin
-e 158.
+Package pdftex.def Info: g/QualityByU.PNG  used on input line 162. on input lin
+e 162.
 Package pdftex.def Info: Requested size: 248.96162pt x 190.95894pt on input lin
-e 158.
+e 162.
 [6] [7 <./g/Runtime.PNG> <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--169
+Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--169
+Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--175
+Underfull \hbox (badness 10000) in paragraph at lines 174--179
 
  []
 
+[8] [9 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-[9 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 188.
+(Font)              scaled to size 7.87204pt on input line 192.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 188.
+(Font)              scaled to size 5.56804pt on input line 192.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 188.
+(Font)              scaled to size 4.70403pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.70801pt on input line 188.
+(Font)              scaled to size 7.70801pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.45201pt on input line 188.
+(Font)              scaled to size 5.45201pt on input line 192.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.606pt on input line 188.
+(Font)              scaled to size 4.606pt on input line 192.
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--195
+Underfull \hbox (badness 10000) in paragraph at lines 189--199
 
  []
 
 chapter 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
@@ -1325,87 +1305,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--230
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--234
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
@@ -1425,12 +1405,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
@@ -1450,10 +1430,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--312
  []
 
 
-LaTeX Warning: Citation `hsu2018general' on page 13 undefined on input line 313
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
@@ -1464,6 +1440,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--316
  []
 
 [13]
+
+LaTeX Warning: Citation `hsu2018general' on page 14 undefined on input line 317
+.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
@@ -1488,25 +1469,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
 ("Multimedia Seminar.bbl" [14] [15])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
  ("Multimedia Seminar.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `"Multimedia Seminar".out' has not changed.
 (rerunfilecheck)             Checksum: 1619559042D042D795BCEC3D0347D2E1;1637.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 12191 strings out of 493312
- 197758 string characters out of 3138899
- 379221 words of memory out of 3000000
- 15386 multiletter control sequences out of 15000+200000
+ 12192 strings out of 493312
+ 197777 string characters out of 3138899
+ 380268 words of memory out of 3000000
+ 15387 multiletter control sequences out of 15000+200000
  103451 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,13n,100p,8834b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1515,6 +1506,9 @@ pdfTeX warning (dest): name{cite.xia2014characterization} has been referenced
 
 pdfTeX warning (dest): name{cite.sorensen2008measuring} has been referenced but
  does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.potts2018reciprocal} has been referenced but d
+oes not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.zhang2016personality} has been referenced but 
 does not exist, replaced by a fixed one
@@ -1540,6 +1534,12 @@ pdfTeX warning (dest): name{cite.reidsema2016exploring} has been referenced but
 pdfTeX warning (dest): name{cite.zhao2004adding} has been referenced but does n
 ot exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{cite.patrick2011system} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.riegelsberger2007personality} has been referen
+ced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{cite.sternberg1999thinking} has been referenced but
  does not exist, replaced by a fixed one
 
@@ -1556,9 +1556,9 @@ pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bch
 r8a.pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter
 /bchri8a.pfb><C:/Users/pauls/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/
 mdbch/md-chr7t.pfb>
-Output written on "Multimedia Seminar.pdf" (16 pages, 1150790 bytes).
+Output written on "Multimedia Seminar.pdf" (16 pages, 1151421 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
+ 419 PDF objects out of 1000 (max. 8388607)
  93 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

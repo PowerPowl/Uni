@@ -67,6 +67,7 @@ As stated, different approaches fit different problems, although there is natura
 Since users live in a social world, recommendations can be influenced by social factors or further pervade social spaces. Users might become elements to recommend to others themselves, or connections and networks between users could be used to improve the predicition capabilities of RS.\\
 Information about people connected to the current user can be helpful in many different ways. Based on user friendships and shared interests, specific items could that one person liked could be recommended to friends \cite{feng2013recommendation} or just other users with comparable interests to form implicite connections and improve recommendation quality. \cite{hsu2018general} Another approach that was used to enable recommendations with scarce data and mobile computing power was to access a user's contacts and geographic history to find users with matching profiles and more information that can be accessed to improve recommendations. \cite{ramaswamy2009caesar} Or one could use implicite behaviour metrics of many users, like chat engagements on dating platforms, to implicitly derive objective information about a user. \cite{xia2015reciprocal} (This study will be further discussed in section XXX)\\
 RS can also be used to recommend social items: other people like in gaming and dating contexts. Research in the educational sector focused on building meaningful professional engagements. A system could, for example, find a supervisor who fits a student's needs in competence, personality and topic expertise. \cite{zhang2016personality} Or one could try to help researchers find meaningful partners on academic conferences based on shared study-interests and personality. \cite{asabere2017improving}\\
+For videogaming, social recommendation is important too: in the form of matchmaking algorithms. In competitive multiplayer gaming, which is currently gaining in importance due to the increased interest in e-sports, the main goal is to create fair matches for two opposing teams. The matchmaking algorithms thus need to combine different players in a team and then find an opposing team of similar skill-rating. Usually, matchmaking in videogaming is concerned with bare player skills, but including the preferred style of playing, personality or character classes could lead to more balanced, fun games, making meaningful user models - again - highly important.\\
 \textbf{Passt dieser Abschnitt hier hin?}\\
 On a lower level of competency, studying with peers is considered an especially effective way to improve lots of different skills and build knowledge. \cite{maxwell2008learning} When engaging in higher education, many students move to a different town and thus lack a social environment, especially inside their most complicated courses. This makes finding a group a huge initial challenge. Considering the many theories concerning how effective learning groups should be structured (heterogenous with different skill-levels and a minimum joint skill, diverse in terms of gender and ethnicity, ...) \cite{manske2015using, blumenfeld1996learning}, finding an actually helpful group seems to be impossible. This opens another field of study: Peer recommendation in learning. \cite{potts2018reciprocal, olakanmi2017group} [NOCH EINE QUELLE?]\\
 Contrary to the aforementioned topics, where often times a specific match for one user had to be found, group learning has to be beneficial for everybody involved. This adds another layer of complexity to this kind of recommendation: Reciprocality.\\
@@ -74,14 +75,17 @@ Contrary to the aforementioned topics, where often times a specific match for on
 
 \section{Reciprocal Recommendation}
 In an extreme case, Recommender Systems will have to recommend users to each other, forming reciprocal recommendations: A user becomes a recommended item and will receive other users as recommendations with the aim to find perfect matches of users who appear in each other's recommendations.\\
-TODO: Provide Overview of Reciprocal Recommendation\\
+Reciprocal recommendations exist in different forms. In a system which aims to recommend people to each other, without specifically desiring reciprocal recommendations, a baseline scoring mechanismus could be used. Each user receives scores describing their fit with other people. A certain amount of the highest scoring recommendations for each user will be returned. Reciprocal recommendations might actually happen as a byproduct of this process: if u1 is within the top recommendations for u2 and vice-versa, we have found a reciprocal recommendations. In a case where u2 has lots of potential fits, which all score higher than u1, but u2 is u1's best recommendation, the recommendations will not be reciprocal. Please reference \cite{potts2018reciprocal} or section \ref{sec:reciprocality} for further information.\\
+When the goals exceed simply providing support to the user and include explicitly providing advantages for all participating users, reciprocal recommendations become a necessity. Special modeling techniques have to be employed, to boost the recommendation strength of reciprocal recommendations and make these more likely.\\
+For example, Xia et al. designed a Reciprocal recommendation system for online dating \cite{xia2015reciprocal} accessing self-reported user data and statistics of user's communication habits as a part of the network. To determine recommendation scores, they used a similarity-based approach between users. The used information about users revealed information about:
 \begin{itemize}
-	\item Goal of recirpocal recommendation
-	\item different ways to do this: Just a score for other people, or actual reciprocal recommendations, where bothpartners see each other as a recom.
-	\item Other fields (Gaming, Dating)
-	\item Common methods (Collaborative Filtering)
-	\item Common problems encountered when doing this (operationalize personality / relevant aspects, acquire personal information about people, self-reported vs. implicit, ...)
+	\item the users themselves, and whether two users match in overall facts such as age and education
+	\item the user's willingness to communicate with others
+	\item the user's attractiveness to others, derived from how many other people wrote him or her
 \end{itemize}
+As an earlier paper revealed, these implicit, behavioral details proved to be much more relevant to actually predict user interactions than self-reported preferences in dating partners. \cite{xia2014characterization} \textbf{Das hier später in der Diskussion noch Mal benutzen!}\\
+Using different reciprocal recommendation algorithms, Xia et al. were able to show that their own proposed algorithm performed better than the current state of the art. \cite{xia2015reciprocal}\\
+
 Now that the benefits of recommendation in learning, reciprocal peer recommendation and social learning have been established, we can take a look at very recent research combining all of these factors.\\
 
 \chapter{Reciprocal Peer Recommendation for Learning Purposes}
@@ -130,7 +134,8 @@ In a 1000 user experiment, RiPPLE was able to provide recommendations for a sing
 \end{figure}
 
 
-\subsection{Reciprocality} The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. Reciprocality was tested for both, the baseline non-reciprocal and the joint reciprocal average scores. Whenever a user appears in the recommendations of a user on their own recommendation list that was built according to the respective score, the recommendation was considered to be reciprocal.\\
+\subsection{Reciprocality} \label{sec:reciprocality}
+The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. Reciprocality was tested for both, the baseline non-reciprocal and the joint reciprocal average scores. Whenever a user appears in the recommendations of a user on their own recommendation list that was built according to the respective score, the recommendation was considered to be reciprocal.\\
 The precision for every user given the used score is calculated by dividing his reciprocal recommendations through \(k\), the total amount of recommendations that user received. The system's total precision is defined as the average precision across all users.\\ 
 QUELLE\\
 In all tested cases shown in figure \ref{f:reciprocality}, the reciprocal score had a higher precision than the baseline score. This is not surprising, since using the harmonic mean of both one-directional scores chooses reciprocal scores with medium values compared to non-reciprocal scores with a single high value. [REFERENZ AUF ERKLÄRUNGSABSCHNITT] Increasing \(k\) also increases the precision, since more recommendations per user lead to a higher chance of reciprocal recommendations. On the other hand, increasing \(U\) with a fixed \(k\) reduces reciprocal precision, since there are more possible users to recommend.\\
@@ -326,7 +331,7 @@ Persönlichkeit:\\
 
 
 
-\bibliographystyle{alpha}
+\bibliographystyle{apa}
 \bibliography{bib}
 
 \end{document}
