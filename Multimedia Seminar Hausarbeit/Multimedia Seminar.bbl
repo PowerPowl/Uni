@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{DCTL{\etalchar{+}}12}
+\begin{thebibliography}{RGJDSRDA09}
 
 \bibitem[AAM17]{asabere2017improving}
 Nana~Yaw Asabere, Amevi Acakpovi, and Mathias Michael.
@@ -23,6 +23,18 @@ Lei Chang.
   in relation to reliability and validity.
 \newblock {\em Applied psychological measurement}, 18(3):205--215, 1994.
 
+\bibitem[CJMK95]{costa1995persons}
+Paul~T Costa~Jr, Robert~R McCrae, and Gary~G Kay.
+\newblock Persons, places, and personality: Career assessment using the revised
+  neo personality inventory.
+\newblock {\em Journal of Career Assessment}, 3(2):123--139, 1995.
+
+\bibitem[Daw06]{dawson2006study}
+Shane Dawson.
+\newblock A study of the relationship between student communication interaction
+  and sense of community.
+\newblock {\em The Internet and Higher Education}, 9(3):153--162, 2006.
+
 \bibitem[DCTL{\etalchar{+}}12]{delalleau2012beyond}
 Olivier Delalleau, Emile Contal, Eric Thibodeau-Laufer, Raul~Chandias Ferrari,
   Yoshua Bengio, and Frank Zhang.
@@ -30,10 +42,38 @@ Olivier Delalleau, Emile Contal, Eric Thibodeau-Laufer, Raul~Chandias Ferrari,
 \newblock {\em IEEE Transactions on Computational Intelligence and AI in
   Games}, 4(3):167--177, 2012.
 
+\bibitem[DVSM15]{drachsler2015panorama}
+Hendrik Drachsler, Katrien Verbert, Olga~C Santos, and Nikos Manouselis.
+\newblock Panorama of recommender systems to support learning.
+\newblock In {\em Recommender systems handbook}, pages 421--451. Springer,
+  2015.
+
+\bibitem[EFR15]{erdt2015evaluating}
+Mojisola Erdt, Alejandro Fernandez, and Christoph Rensing.
+\newblock Evaluating recommender systems for technology enhanced learning: a
+  quantitative survey.
+\newblock {\em IEEE Transactions on Learning Technologies}, 8(4):326--344,
+  2015.
+
+\bibitem[FQ13]{feng2013recommendation}
+He~Feng and Xueming Qian.
+\newblock Recommendation via user's personality and social contextual.
+\newblock In {\em Proceedings of the 22nd ACM international conference on
+  Conference on information \& knowledge management}, pages 1521--1524. ACM,
+  2013.
+
 \bibitem[GHG04]{griffin2004applicants}
 Barbara Griffin, Beryl Hesketh, and David Grayson.
 \newblock Applicants faking good: evidence of item bias in the neo pi-r.
 \newblock {\em Personality and Individual Differences}, 36(7):1545--1558, 2004.
+
+\bibitem[GMC{\etalchar{+}}98]{greer1998intelligent}
+Jim Greer, Gordon McCalla, John Cooke, Jason Collins, Vive Kumar, Andrew
+  Bishop, and Julita Vassileva.
+\newblock The intelligent helpdesk: Supporting peer-help in a university
+  course.
+\newblock In {\em International Conference on Intelligent Tutoring Systems},
+  pages 494--503. Springer, 1998.
 
 \bibitem[Gol90]{goldberg1990alternative}
 Lewis~R Goldberg.
@@ -64,6 +104,11 @@ Jerry~W Lee, Patricia~S Jones, Yoshimitsu Mineyama, and Xinwei~Esther Zhang.
 \newblock Cultural differences in responses to a likert scale.
 \newblock {\em Research in nursing \& health}, 25(4):295--306, 2002.
 
+\bibitem[Max08]{maxwell2008learning}
+Jessica Maxwell.
+\newblock Learning together: Peer tutoring in higher education.
+\newblock {\em Journal of Physical Therapy Education}, 22(3):97, 2008.
+
 \bibitem[MC87]{mccrae1987validation}
 Robert~R McCrae and Paul~T Costa.
 \newblock Validation of the five-factor model of personality across instruments
@@ -82,6 +127,12 @@ Sven Manske, Tobias Hecking, Ulrich Hoppe, Irene-Angelica Chounta, and
 Nan~L Maxwell and Jane~S Lopus.
 \newblock The lake wobegon effect in student self-reported data.
 \newblock {\em The American Economic Review}, 84(2):201--205, 1994.
+
+\bibitem[MOV12]{moreno2012genetic}
+Juli{\'a}n Moreno, Demetrio~A Ovalle, and Rosa~M Vicari.
+\newblock A genetic algorithm approach for group formation in collaborative
+  learning considering multiple student characteristics.
+\newblock {\em Computers \& Education}, 58(1):560--569, 2012.
 
 \bibitem[NH12]{nunes2012personality}
 Maria Augusta~SN Nunes and Rong Hu.
@@ -129,6 +180,34 @@ Jens Riegelsberger, Scott Counts, Shelly~D Farnham, and Bruce~C Philips.
 \newblock In {\em System Sciences, 2007. HICSS 2007. 40th Annual Hawaii
   International Conference on}, pages 87--87. IEEE, 2007.
 
+\bibitem[RDP{\etalchar{+}}09]{ramaswamy2009caesar}
+Lakshmish Ramaswamy, P~Deepak, Ramana Polavarapu, Kutila Gunasekera, Dinesh
+  Garg, Karthik Visweswariah, and Shivkumar Kalyanaraman.
+\newblock Caesar: A context-aware, social recommender system for low-end mobile
+  devices.
+\newblock In {\em Mobile Data Management: Systems, Services and Middleware,
+  2009. MDM'09. Tenth International Conference on}, pages 338--347. IEEE, 2009.
+
+\bibitem[RGJDSRDA09]{recio2009personality}
+Juan~A Recio-Garcia, Guillermo Jimenez-Diaz, Antonio~A Sanchez-Ruiz, and Belen
+  Diaz-Agudo.
+\newblock Personality aware recommendations to groups.
+\newblock In {\em Proceedings of the third ACM conference on Recommender
+  systems}, pages 325--328. ACM, 2009.
+
+\bibitem[RKO{\etalchar{+}}16]{reidsema2016exploring}
+Carl~A Reidsema, Lydia Kavanagh, Emmi Ollila, Stephanie Otte, and Julie~E
+  McCredden.
+\newblock Exploring the quality and effectiveness of online, focused peer
+  discussions using the moocchat tool.
+\newblock In {\em 27th Australasian Association for Engineering Education
+  Conference}. AAEE, 2016.
+
+\bibitem[RRS11]{ricci2011introduction}
+Francesco Ricci, Lior Rokach, and Bracha Shapira.
+\newblock Introduction to recommender systems handbook.
+\newblock In {\em Recommender systems handbook}, pages 1--35. Springer, 2011.
+
 \bibitem[Sor08]{sorensen2008measuring}
 Jeanne Sorensen.
 \newblock Measuring emotions in a consumer decision-making contextapproaching
@@ -145,5 +224,32 @@ Hao Wang, Hao-Tsung Yang, and Chuen-Tsai Sun.
 \newblock Thinking style and team competition game performance and enjoyment.
 \newblock {\em IEEE Transactions on Computational Intelligence and AI in
   Games}, 7(3):243--254, 2015.
+
+\bibitem[XLSC15]{xia2015reciprocal}
+Peng Xia, Benyuan Liu, Yizhou Sun, and Cindy Chen.
+\newblock Reciprocal recommendation system for online dating.
+\newblock In {\em Proceedings of the 2015 IEEE/ACM International Conference on
+  Advances in Social Networks Analysis and Mining 2015}, pages 234--241. ACM,
+  2015.
+
+\bibitem[XTR{\etalchar{+}}14]{xia2014characterization}
+Peng Xia, Kun Tu, Bruno Ribeiro, Hua Jiang, Xiaodong Wang, Cindy Chen, Benyuan
+  Liu, and Don Towsley.
+\newblock Characterization of user online dating behavior and preference on a
+  large online dating site.
+\newblock In {\em Social Network Analysis-Community Detection and Evolution},
+  pages 193--217. Springer, 2014.
+
+\bibitem[ZK04]{zhao2004adding}
+Chun-Mei Zhao and George~D Kuh.
+\newblock Adding value: Learning communities and student engagement.
+\newblock {\em Research in higher education}, 45(2):115--138, 2004.
+
+\bibitem[ZSM{\etalchar{+}}16]{zhang2016personality}
+Mingyu Zhang, Jianshan Sun, Jian Ma, Tailai Wu, and Zhiying Liu.
+\newblock A personality matching-aided approach for supervisor recommendation
+  (research-in-progress).
+\newblock In {\em System Sciences (HICSS), 2016 49th Hawaii International
+  Conference on}, pages 678--687. IEEE, 2016.
 
 \end{thebibliography}

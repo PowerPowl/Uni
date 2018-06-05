@@ -40,33 +40,37 @@ Proper personality-based matchmaking in online environments has a positive influ
 
 \chapter{Introduction}
 The modern world has a plethora of opportunities, topics, people, products, and other things, while people have a limited amount of attention and time to spend. In order to help us guide our attention and resources, basically every digital product tries to recommend meaningful content to users. Recommender Systems play a critical role in modern society and have transcended in many different domains.\\
-Online communities grow in importance and the offline world embraces online opportunities. A surplus of possible social contacts emerges, making it challenging to engage with the right person at the right time. 
+Online communities grow in importance and the offline world embraces online opportunities. A surplus of possible social contacts emerges, making it challenging to engage with the right person at the right time. QUELLE\\
 Interaction between users is a cornerstone of many different activities, such as multiplayer gaming, social networks, crowdsourcing communities or online dating platforms. But besides entertainment, social contacts can also further educational goals.\\
-SOZIALES LERNEN IST BESSER als Alleine [Quellen]\\
-E-Learning and Online Courses -- Wo passt das sinnvoll hin? :S\\
+In education research, social and cooperative learning are generally seen as positively affecting learning outcomes. \cite{bossert1982instructional, blumenfeld1996learning} On top of improved cognitive and intellectual performance, successfull group learning efforts can enhance student's skills in other areas, such as the development of social and communication skills and influence the overall satisfaction of students. \cite{zhao2004adding, maxwell2008learning}\\
+\textbf{ÜBERGANG IST NICHT SCHÖN. ABSCHNITT KOMPLETT UMSTRUKTURIEREN?}\\
+The focal point of technology-enhanced educational research has to improve the individual learning experiences of students by enabling them to engage with richer media or by choosing the right exercises and training sets at the right time, depending on the student's skills, preferences, needs and personality. \cite{drachsler2015panorama, erdt2015evaluating} \textbf{NOCH MEHR HERAUSARBEITEN DASS ES HIER SCHON UM RECOMMENDER SYSTEMS GEHT! GENERELLE RECHERCHEN ZU E LEARNING HABE ICH KAUM!} Furthermore, opportunities for students to receive immediate peer support via online requests have been explored since the earlier days of the internet. \cite{greer1998intelligent} For example, forcing students to discuss their answers to questions in an E-learning environment with their peers led to improvements in both short- and long-term performance. \cite{reidsema2016exploring}\\
+The goal of this report is to emphasize how Recommender Systems can be used not to help a single learner to solve problems or improve learning results, but to connect people, to build a community of learners and to enable students to engage in meaningful social learning opportunities. We will take a look at the basics of social recommendations and the importance of reciprocality, will highlight the intricacies of learning group formation and evaluate a recent prototype for reciprocal peer recommendation for learning purposes.\\
 Social Recommendation is more complicated, since it needs to account for preferences of more than just a single person. Recommender Systems need account for an adequate operationalization of the relevant personality traits, domain-specific skills and surrounding circumstances.\\
-\\
-Focus on E-Learning and Reciprocal Recommendation, because...\\
-Introduction to Recommendation in E-Learning (How good is research? Overlap with other topics -> shorten this section)\\
-Introduction to Recommendation in Reciprocal environments (How good is this researched? How many things do we know?)\\
-This report will discuss possible solutions to improve learning via reciprocal peer recommendation in Learning-Environments. As one of the first (???) and the most recent implementation of such an endeavor, the report will provide a detailed overview of XXXXXXXXX by XXXXXXXX. Important findings leading up towards the work, possible extensions and research in other fields that might prove to be beneficial to this study will be discussed.\\
+\textit{ALT: This report will discuss possible solutions to improve learning via reciprocal peer recommendation in Learning-Environments. As one of the first (???) and the most recent implementation of such an endeavor, the report will provide a detailed overview of XXXXXXXXX by XXXXXXXX. Important findings leading up towards the work, possible extensions and research in other fields that might prove to be beneficial to this study will be discussed.}\\
 
-\chapter{Research leading towards the paper}
-\section{Learning}
-TODO: Provide overview of modern learning:\\
-\begin{itemize}
-	\item learner types
-	\item E-Learning vs. offline learning
-	\item peer learning
-	\item recommender systems for e-learning so far
-\end{itemize}
+\chapter{Related Work: Recommender Systems}
+\textbf{SPrachlich scheiße, unübersichtlich, vielleicht nicht nötig?}
 
-\section{Recommender Systems}
-TODO: Provide short overview of RS\\
-Where do they come from, what have they been used for?\\
-REMARK: This section might be removed due to overlap with other sections. Maybe RS for E-Learning and reciprocal RS will be enough\\
+\section{User Modeling}
+Recommender Systems [RS] are tools that have pervaded our lifes in a lot of different matters. They find use in advertising, e-learning, online-dating, video game matchmaking, social networks, E-commerce, data analysis, and many other topics. The goal of an RS is to emphasize relevant pieces of information in a convoluted stream of data, and to recommend a specific result to a specific user based on his or her history, preferences and situation. \cite{ricci2011introduction}\\
+In order to successfully recommend an element, an RS needs to understand its user. The goals, circumstances and domain-specific aspects need to be considered. Thus, RS need to model their users to try and understand what element might be important.\\
+Different domains and even different approaches within the same recommendation domain require different user models. For example, multiplayer videogame matchmaking could focus on self-reported preferences \cite{riegelsberger2007personality}, ratings by other players \cite{patrick2011system}, implicit gameplay-derived data \cite{suznjevic2015application, delalleau2012beyond} or a combination of technical and self-reported information. \cite{farnham2009method}\\
+A recent study by Wang et al. \cite{wang2015thinking} looked at the enjoyment of multiplayer gaming sessions in League of Legends (LoL) based on player personality. They followed a subset of Sternberg's \cite{sternberg1999thinking} problem-solving styles in order to categorize the playstyle of different users. While others tried to gain player personality knowledge by simply asking them \cite{riegelsberger2007personality} or other players \cite{patrick2011system}, Wang et al. automated this process with gameplay statistics. They assigned specific in-game actions to each of their player categories and determined a player's style based on his action profile. Choosing the data used to calculate a "good" experience is highly domain specific and depends on available objective game statistics.\cite{delalleau2012beyond} Match enjoyment for LoL was modeled as a function of game length, with shorter games being less enjoyable due to one team dominating the other. The results show a clear tendency of specific globally-active and risk-taking players to positively influence the overall game enjoyment. A neural network tasked with predicting match enjoyment achieved better scores when player style data was included, suggesting that this might benefit matchmaking algorithms. However, it is important to note that the used measures are highly subjective to LoL, as interviews with players of both LoL and other games confirm. \textbf{Den Abschnitt hier noch kürzen und geschickt kombinieren mit kleinem Ausblick auf self-reported information. Unten dann bei "besser als self-reported" hier drauf zurück verweisen.}\\
+For instance, self-reported information like a user's basic information, preferences or even personality could be considered to improve the user model. \cite{nunes2012personality} This personality data could then be used to find a fitting job for the user \cite{costa1995persons}, or to model a whole group of heterogenous users and to make recommendations based on their shared personality. \cite{recio2009personality}\\
+As stated, different approaches fit different problems, although there is naturally some criticism conerning different types of data acquisition. Please reference section \ref{extensions} for a deeper look into this.\\
+
+\section{Social Recommendation}
+Since users live in a social world, recommendations can be influenced by social factors or further pervade social spaces. Users might become elements to recommend to others themselves, or connections and networks between users could be used to improve the predicition capabilities of RS.\\
+Information about people connected to the current user can be helpful in many different ways. Based on user friendships and shared interests, specific items could that one person liked could be recommended to friends \cite{feng2013recommendation} or just other users with comparable interests to form implicite connections and improve recommendation quality. \cite{hsu2018general} Another approach that was used to enable recommendations with scarce data and mobile computing power was to access a user's contacts and geographic history to find users with matching profiles and more information that can be accessed to improve recommendations. \cite{ramaswamy2009caesar} Or one could use implicite behaviour metrics of many users, like chat engagements on dating platforms, to implicitly derive objective information about a user. \cite{xia2015reciprocal} (This study will be further discussed in section XXX)\\
+RS can also be used to recommend social items: other people like in gaming and dating contexts. Research in the educational sector focused on building meaningful professional engagements. A system could, for example, find a supervisor who fits a student's needs in competence, personality and topic expertise. \cite{zhang2016personality} Or one could try to help researchers find meaningful partners on academic conferences based on shared study-interests and personality. \cite{asabere2017improving}\\
+\textbf{Passt dieser Abschnitt hier hin?}\\
+On a lower level of competency, studying with peers is considered an especially effective way to improve lots of different skills and build knowledge. \cite{maxwell2008learning} When engaging in higher education, many students move to a different town and thus lack a social environment, especially inside their most complicated courses. This makes finding a group a huge initial challenge. Considering the many theories concerning how effective learning groups should be structured (heterogenous with different skill-levels and a minimum joint skill, diverse in terms of gender and ethnicity, ...) \cite{manske2015using, blumenfeld1996learning}, finding an actually helpful group seems to be impossible. This opens another field of study: Peer recommendation in learning. \cite{potts2018reciprocal, olakanmi2017group} [NOCH EINE QUELLE?]\\
+Contrary to the aforementioned topics, where often times a specific match for one user had to be found, group learning has to be beneficial for everybody involved. This adds another layer of complexity to this kind of recommendation: Reciprocality.\\
+\textbf{Ist die Hälfte hiervon nicht schon Reciprocality?}
 
 \section{Reciprocal Recommendation}
+In an extreme case, Recommender Systems will have to recommend users to each other, forming reciprocal recommendations: A user becomes a recommended item and will receive other users as recommendations with the aim to find perfect matches of users who appear in each other's recommendations.\\
 TODO: Provide Overview of Reciprocal Recommendation\\
 \begin{itemize}
 	\item Goal of recirpocal recommendation
@@ -167,11 +171,13 @@ As humans are unreliable, self-reported metrics always underly lots of variance 
 All of this taken into consideration, the proposed peer learner recommendation algorithm does have its flaws but will not necessarily fail. The benefits of recommending meaningful social learning opportunities are manifold and even if RiPPLE will only be used by a fraction of the potential users, it will surely help these learners to navigate a digital world full of learning opportunities. The live test will show, whether this hypothesis holds in praxis.\\
 
 
-\chapter{Extensions}
+\chapter{Extensions} \label{extensions}
 TODO: Include possible follow-up research, directions for further research or innovative ideas from other fields to include in future recirpocal peer recommendation for elearning studies.\\
 \begin{itemize}
 	\item Instead of student-driven requests: Use recommendations to build study courses
 	\item From Gaming: Instead of 2-people-matches, build learning groups with matching skillsets to further benefit on other topics and to enable social grouping\\
+	\item include some more ideas on how to access implicit data
+	\item move some things from introduction back here, so this looks better.
 \end{itemize}
 Choosing a user preference model that fits both the domain and the goal of an algorithm poses a major problem in peer recommendation. \cite{potts2018reciprocal, olakanmi2017group} MEHR QUELLEN, MEHR DETAILS! VGL POTTS EINLEITUNG!\\
 An important factor is to consider both, the information needed to create meaningful matches according to a specific success criterion, and how to access this information. Generally-speaking, automatically collected data is preferred to relieve the users as much as possible. But not all data can automatically be collected. Internal information, like preferences, date availability, motivations and many other things need to be reported by the user - there is currently no way to easily access internal information of the user's mind.\\
@@ -188,11 +194,29 @@ To name an example, the infamous "Likert Scale" as introduced by Rensis Likert i
 \chapter{Notizen zu Papers}
 
 \section{Vorteile des Gruppenlernens}
-Bossert 1988 - 1989, Forschung über Vorteile von Gruppenarbeit\\
+\textit{Bossert 1988 - 1989, Forschung über Vorteile von Gruppenarbeit \cite{bossert1982instructional}}\\
+
+\textit{Adding Value: Teilnahme an Gruppenaktivitäten führt zu besseren Lernergebnissen, mehr Engagement und Zufriedenheit mit der Lehre. \cite{zhao2004adding}}\\
+
+Online Tools führen zu größerem Community-Gefühl bei Lernenden: Kommunikation mit Gruppen etc. \cite{dawson2006study}\\
+
+\textit{Übersicht über Vorteile des und Theorien zu gemeinsamem Lernen als Buch: \cite{maxwell2008learning} Entwicklung von sozialen Skills, Kommunikation, kognitive und intellektuelle Skills.}
 
 \section{RecSys Literatur}
 Personality-based recommender systems: an overview \cite{nunes2012personality}\\
 Tutorial(Plan?) zu Persönlichkeit in RecSys.\\
+
+\textit{Panorama of RS to support learning \cite{drachsler2015panorama}: Large review of Recommender Systems for E-Learning Item Recommendation.}\\
+
+\textit{Evaluating RS for technology enhanced learning \cite{erdt2015evaluating}: Großes Review zur Evaluierung von Recommendation Systems für Learning.}\\
+
+Recommender System Handbook: \cite{ricci2011introduction} Oft zitiert, Überblick über RS Grundlagen.\\
+
+\textit{Intelligent helpdesk: Auf Nutzeranfragen wird ein Peer empfohlen, der weiterhelfen kann. Es geht aber nur um sehr kurzfristige Hilfe in einem Chat / Forum, um gemeinsam ein Problem zu lösen. \cite{greer1998intelligent}}\\
+
+\textit{Exploring the quality of MOOCChat: Es konnte gezeigt werden, dass solche Chat-Angebote schon helfen können. Leider keine Erklärung wie Matches entstehen. \cite{reidsema2016exploring}}\\
+
+heterogene Kleingruppenbildung fürs Lernen: genetischer Algorithmus kann beliebig viele Infos über Studis nehmen und daraus gut passende Gruppen bilden. Allerdings keine Auseinandersetzung mit guten Messungen - eher Fokus auf den Algorithmus. \cite{moreno2012genetic}\\
 
 \section{Reciprocal Recommendation?}
 
@@ -246,8 +270,6 @@ Es ist nicht Mal klar, welche Likert Scala die beste ist - und das ist die am me
 \section{Recommendation in Dating}
 https://arxiv.org/abs/cs/0703042\\
 
-
-
 https://ieeexplore.ieee.org/document/6629994/ [Empfehlungen auch weniger Aufgrund des Profils, und mehr aufgrund wer gewählt wird, und wer den Nutzer wählt]\\
 
 https://ieeexplore.ieee.org/document/5992633/ [Hohe Ähnlichkeit zu den Methoden anderer Social Networks - angeblich]\\
@@ -259,17 +281,15 @@ https://patents.google.com/patent/US8066568B2/en [Accumulating Reviews / Reports
 
 https://link.springer.com/chapter/10.1007%2F978-3-319-15168-7_25 [Current Matchmaking Systems might be ill-fitting for empirical data, making them less reliable. A learning model could help]\\
 
-https://ieeexplore.ieee.org/document/7182769/ [Genau das was ich brauche: Ansätze gemeinsame Playstyles zu finden, und das Enjoyment eines Matches zu operationalisieren, um das Einbeziehen von Stilen zu testen.]\\
+https://ieeexplore.ieee.org/document/7182769/ [Genau das was ich brauche: Ansätze gemeinsame Playstyles zu finden, und das Enjoyment eines Matches zu operationalisieren, um das Einbeziehen von Stilen zu testen.] \cite{wang2015thinking}\\
 
 https://ieeexplore.ieee.org/document/6465556/ [Vielleicht brauchbar: Wie sich implizite Faktoren wie Engagement und Outcome bei Facebook Games auf den Social Graph auswirken.]\\
 
-https://ieeexplore.ieee.org/document/6156756/ [Einbeziehen von Daten aus dem Spielerprofil in Ghost Recon Matchmaking. Merkwürdige Operationalisierung von Balance und Fun, aber gute Ergebnisse damit.]\\
+https://ieeexplore.ieee.org/document/6156756/ [Einbeziehen von Daten aus dem Spielerprofil in Ghost Recon Matchmaking. Merkwürdige Operationalisierung von Balance und Fun, aber gute Ergebnisse damit.] \cite{delalleau2012beyond}\\
 
 https://ieeexplore.ieee.org/document/4076548/ [3 Präferenzen in Mitspielern: Skill, Freundlichkeit, Aggressivität. Konnten auf User Profile gematcht werden. Paper ist aber allgemein auf Internet Begegnungen gehalten.]\\
 
-https://ieeexplore.ieee.org/document/782522/ [Bin mir hierbei nicht ganz sicher. Mit Glück zeigt es aber, wie sich verschiedene Persönlichkeiten im Matchmaking durch die Community ausbreiten, und dass Internet Interaktionen im Prinzip nur Prisoner Dilemmas sind, anhand einer Gridworld.]\\
-
-https://ieeexplore.ieee.org/document/7382993/ [Nutzen von impliziten Daten (Accomplishments, Beitrag zum Team, Achievements, …) um den Matchmaking Prozess zu verbessern für MOBAs.]\\
+https://ieeexplore.ieee.org/document/7382993/ [Nutzen von impliziten Daten (Accomplishments, Beitrag zum Team, Achievements, …) um den Matchmaking Prozess zu verbessern für MOBAs.] \cite{suznjevic2015application}\\
 
 Player Types können auch sinnvoll erwähnt werden :)
 
@@ -287,7 +307,7 @@ https://dl.acm.org/citation.cfm?id=2507834 [Recommendations von Objekten aufgrun
 
 Caesar: A context-aware, social recommender system for low-end mobile devices: Ein Algo, mit dem auf schlechten Handies mit weniger Daten Empfehlungen gemacht werden können, indem über Locationsverlauf und Adressbuch Ähnlichkeiten zu anderen Usern gefunden werden. So kommt man über Ecken an Infos und Einschätzungen, ohne sie abfragen zu müssen, hat aber andere Fehlerquellen. \cite{ramaswamy2009caesar}\\
 
-https://ieeexplore.ieee.org/document/8328917/ [Mittel gut: eigentlich geht es auch um Item-Vorschläge, aber es gibt ein Modell um aus anderen Vorlieben implizite Verbindungen zu anderen Nutzern zu schließen, und die Vorhersagekraft zu erhöhen.]\\
+https://ieeexplore.ieee.org/document/8328917/ [Mittel gut: eigentlich geht es auch um Item-Vorschläge, aber es gibt ein Modell um aus anderen Vorlieben implizite Verbindungen zu anderen Nutzern zu schließen, und die Vorhersagekraft zu erhöhen.] \cite{hsu2018general}\\
 
 https://ieeexplore.ieee.org/document/7904698/  [Empfehlungen, welche Leute zu Konferenzen fahren und welche Leute kennen lernen sollten nicht nur aufgrund ihrer Inhalte, sondern auch unter Berücksichtigung der Persönlichkeit.] \cite{asabere2017improving}\\
 
@@ -297,9 +317,9 @@ https://ieeexplore.ieee.org/document/7403545/  [Recommendation im Dating-Kontext
 
 Persönlichkeit:\\
 
-Persons, Places and Personality: NEO-PI-R wird benutzt um Leute Jobs zuzuordnen \cite{costa1995persons}\\
+\textit{Persons, Places and Personality: NEO-PI-R wird benutzt um Leute Jobs zuzuordnen \cite{costa1995persons}}\\
 
-Personality-Aware Recommendations to groups: Hier werden Empfehlungen für homo- und heterogene Gruppen aufgrund der insgesamter Persönlichkeit gemacht. \cite{recio2009personality}\\
+\textit{Personality-Aware Recommendations to groups: Hier werden Empfehlungen für homo- und heterogene Gruppen aufgrund der insgesamter Persönlichkeit gemacht. \cite{recio2009personality}}\\
 
 
 
