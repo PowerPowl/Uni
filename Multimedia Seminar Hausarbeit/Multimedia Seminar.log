@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  5 JUN 2018 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  5 JUN 2018 23:52
 entering extended mode
 **"./Multimedia Seminar.tex"
 ("Multimedia Seminar.tex"
@@ -855,49 +855,42 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count120
 \@thisrulewidth=\dimen140
 )
-("D:\Programme\MiKTeX 2.9\tex\latex\germbib\bibgerm.sty"
-Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
-
-** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
-** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
-** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
-** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
 \longtablewidth=\skip116
 
 ("Multimedia Seminar.aux")
 \openout1 = `"Multimedia Seminar.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 29.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 29.
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 31.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 29.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 29.
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Try loading font information for T1+5ch on input line 31.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Try loading font information for T1+5ch on input line 29.
 
 ("C:\Program Files\tuddesign\tex\latex\tex-tudfonts\softmake\charter\t15ch.fd"
 File: t15ch.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5ch.
@@ -963,7 +956,7 @@ G,.JBIG2,.JB2,.eps]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \TUD@part@topskip=\skip117
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 29.
 ("D:\Programme\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -972,22 +965,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 ("Multimedia Seminar.out") ("Multimedia Seminar.out")
 \@outlinefile=\write3
 \openout3 = `"Multimedia Seminar.out"'.
-
-
-("D:\Programme\MiKTeX 2.9\tex\generic\german\german.sty" v2.5e 1998-07-08
-Package: german 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen143
-german -- \language number for Austrian undefined, default 24 used.
-)
-
-bibgerm.sty: (n)german.sty 2.5b detected
 
 \@TUD@tmp@baselineskip=\skip118
 \@TUD@tmp@parwidth=\skip119
@@ -1012,12 +996,13 @@ bibgerm.sty: (n)german.sty 2.5b detected
 \TUD@sponsorbox=\box42
 \TUD@tmp@height=\skip134
 \TUD@tmp@depth=\skip135
-LaTeX Font Info:    Try loading font information for T1+5fp on input line 33.
+LaTeX Font Info:    Try loading font information for T1+5fp on input line 31.
+
 ("C:\Program Files\tuddesign\tex\latex\tex-tudfonts\softmake\frontpage\t15fp.fd
 "
 File: t15fp.fd 2009/08/06 Fontinst v1.927 font definitions for T1/5fp.
 )
-LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 33
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdbch.f
@@ -1025,12 +1010,12 @@ d
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 33.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 33
+(Font)              scaled to size 5.66403pt on input line 31.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdbch.f
@@ -1038,12 +1023,12 @@ d
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.66403pt on input line 33.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 33
+(Font)              scaled to size 5.66403pt on input line 31.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdbch.f
@@ -1051,12 +1036,12 @@ d
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 33.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 33
+(Font)              scaled to size 5.66403pt on input line 31.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.f
@@ -1064,18 +1049,18 @@ d
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 33.
+(Font)              scaled to size 5.66403pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 33.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 33
+(Font)              scaled to size 5.66403pt on input line 31.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.f
@@ -1083,12 +1068,12 @@ d
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 33.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 33
+(Font)              scaled to size 5.66403pt on input line 31.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdbch.f
@@ -1096,12 +1081,12 @@ d
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 33.
+(Font)              scaled to size 9.50406pt on input line 31.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 33.
+(Font)              scaled to size 6.62404pt on input line 31.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 33.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 33
+(Font)              scaled to size 5.66403pt on input line 31.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 31
 .
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdput\omlmdput.f
@@ -1109,20 +1094,20 @@ d
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.30602pt on input line 33.
+(Font)              scaled to size 9.30602pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.48601pt on input line 33.
+(Font)              scaled to size 6.48601pt on input line 31.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.546pt on input line 33.
+(Font)              scaled to size 5.546pt on input line 31.
 \@TUD@titlelines=\count128
-<tud_logo.pdf, id=103, 157.58875pt x 63.23625pt>
+<tud_logo.pdf, id=67, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
-Package pdftex.def Info: tud_logo.pdf  used on input line 33.
+Package pdftex.def Info: tud_logo.pdf  used on input line 31.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
-Package pdftex.def Info: tud_logo.pdf  used on input line 33.
+Package pdftex.def Info: tud_logo.pdf  used on input line 31.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
  [0
 Non-PDF special ignored!
@@ -1133,385 +1118,20 @@ Non-PDF special ignored!
 {C:/Users/USER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Program F
 iles/tuddesign/tex/latex/tuddesign/logo/tud_logo.pdf>]
 chapter 1.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Wang et\nobreakspace {}al.}{2015}
-l.39 ...udy by Wang et al. \cite{wang2015thinking}
-                                                   looked at the enjoyment o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Sternberg}{1999}
-l.39 ...f Sternberg's \cite{sternberg1999thinking}
-                                                   problem-solving styles in...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Riegelsberger et\nobreakspace {}al.}{2007}
-l.39 ...g them \cite{riegelsberger2007personality}
-                                                   or other players \cite{pa...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Patrick et\nobreakspace {}al.}{2011}
-l.39 ... or other players \cite{patrick2011system}
-                                                  , Wang et al. automated th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command "g is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.39 .... Choosing the data used to calculate a "g
-                                                  ood" experience is highly ...
-
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Delalleau et\nobreakspace {}al.}{2012}
-l.39 ...game statistics.\cite{delalleau2012beyond}
-                                                   Match enjoyment for LoL w...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command ", is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.40 ...echnique called "Collaborative Filtering",
-                                                   showed better results tha...
-
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Brozovsky and Petricek}{2007}
-l.40 ...tchmaking. \cite{brozovsky2007recommender}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Nguyen et\nobreakspace {}al.}{2014}
-l.41 ...ocial use case. \cite{nguyen2014exploring}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
-
- []
-
 [1
 
 
 
 ]
 chapter 2.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Bossert et\nobreakspace {}al.}{1982}
-l.48 ...1982instructional, blumenfeld1996learning}
-                                                   Successful group learning...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Blumenfeld et\nobreakspace {}al.}{1996}
-l.48 ...1982instructional, blumenfeld1996learning}
-                                                   Successful group learning...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Zhao and Kuh}{2004}
-l.48 ...\cite{zhao2004adding, maxwell2008learning}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Maxwell}{2008}
-l.48 ...\cite{zhao2004adding, maxwell2008learning}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Drachsler et\nobreakspace {}al.}{2015}
-l.49 ...drachsler2015panorama, erdt2015evaluating}
-                                                   In social contexts, oppor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Erdt et\nobreakspace {}al.}{2015}
-l.49 ...drachsler2015panorama, erdt2015evaluating}
-                                                   In social contexts, oppor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Greer et\nobreakspace {}al.}{1998}
-l.49 ...been explored, \cite{greer1998intelligent}
-                                                   or students tasked to dis...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Reidsema et\nobreakspace {}al.}{2016}
-l.49 ... performance. \cite{reidsema2016exploring}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
+Underfull \hbox (badness 10000) in paragraph at lines 40--46
 
  []
 
 chapter 3.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Ricci et\nobreakspace {}al.}{2011}
-l.60 ...nd situation. \cite{ricci2011introduction}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Feng and Qian}{2013}
-l.62 ...d to friends \cite{feng2013recommendation}
-                                                   or just other users with ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `hsu2018general' on page 2 undefined on input line 62.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Ramaswamy et\nobreakspace {}al.}{2009}
-l.62 ...ecommendations. \cite{ramaswamy2009caesar}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Riegelsberger et\nobreakspace {}al.}{2007}
-l.63 ...rences \cite{riegelsberger2007personality}
-                                                  , ratings by other players...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Patrick et\nobreakspace {}al.}{2011}
-l.63 ... by other players \cite{patrick2011system}
-                                                  , implicit gameplay-derive...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Suznjevic et\nobreakspace {}al.}{2015}
-l.63 ...jevic2015application, delalleau2012beyond}
-                                                   or a combination of techn...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Delalleau et\nobreakspace {}al.}{2012}
-l.63 ...jevic2015application, delalleau2012beyond}
-                                                   or a combination of techn...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Farnham et\nobreakspace {}al.}{2009}
-l.63 ...aming experience. \cite{farnham2009method}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Wang et\nobreakspace {}al.}{2015}
-l.64 ...udy by Wang et al. \cite{wang2015thinking}
-                                                   for example looked at the...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Sternberg}{1999}
-l.64 ...f Sternberg's \cite{sternberg1999thinking}
-                                                   problem-solving styles in...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Riegelsberger et\nobreakspace {}al.}{2007}
-l.64 ...g them \cite{riegelsberger2007personality}
-                                                   or other players \cite{pa...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Patrick et\nobreakspace {}al.}{2011}
-l.64 ... or other players \cite{patrick2011system}
-                                                  , Wang et al. automated th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.65 ...ng almost random. \cite{olakanmi2017group}
-                                                   Unfortunately, personaliz...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Nunes and Hu}{2012}
-l.66 ...he user model. \cite{nunes2012personality}
-                                                   This personality data cou...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Costa\nobreakspace {}Jr et\nobreakspace {}al.}{1995}
-l.66 ...te{costa1995persons, recio2009personality}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Recio-Garcia et\nobreakspace {}al.}{2009}
-l.66 ...te{costa1995persons, recio2009personality}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--69
+Underfull \hbox (badness 10000) in paragraph at lines 55--64
 
  []
 
@@ -1519,2080 +1139,225 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--69
 
 
 ]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Zhang et\nobreakspace {}al.}{2016}
-l.73 ...pic expertise. \cite{zhang2016personality}
-                                                   Or one could try to help ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Asabere et\nobreakspace {}al.}{2017}
-l.73 ...d personality. \cite{asabere2017improving}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Maxwell}{2008}
-l.74 ...uild knowledge. \cite{maxwell2008learning}
-                                                   When engaging in higher e...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Manske et\nobreakspace {}al.}{2015}
-l.74 ...e{manske2015using, blumenfeld1996learning}
-                                                  , finding an actually help...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Blumenfeld et\nobreakspace {}al.}{1996}
-l.74 ...e{manske2015using, blumenfeld1996learning}
-                                                  , finding an actually help...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.74 ...te{potts2018reciprocal, olakanmi2017group}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.74 ...te{potts2018reciprocal, olakanmi2017group}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--76
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.79 ...lease reference \cite{potts2018reciprocal}
-                                                   or section \ref{paper:rec...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2015}
-l.81 ...t of the network. \cite{xia2015reciprocal}
-                                                   To determine recommendati...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
 
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for TS1+5ch on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+5ch on input line 78.
 
 ("C:\Program Files\tuddesign\tex\latex\tex-tudfonts\softmake\charter\ts15ch.fd"
 File: ts15ch.fd 2008/06/23 Fontinst v1.927 font definitions for TS1/5ch.
 )
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2014}
-l.87 ...g partners. \cite{xia2014characterization}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 chapter 4.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.93 ...g environments. \cite{potts2018reciprocal}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
-! german: The command "] is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.98 ... Personalised Peer Learning Environments"]
-                                                   was designed and develope...
-
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Blumenfeld et\nobreakspace {}al.}{1996}
-l.110 ... Blumenfeld \cite{blumenfeld1996learning}
-                                                  , peer learning sessions w...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [4]
-<g/SeekingPartnerCompatibility.PNG, id=221, 356.83313pt x 290.58563pt>
+<g/SeekingPartnerCompatibility.PNG, id=111, 356.83313pt x 290.58563pt>
 File: g/SeekingPartnerCompatibility.PNG Graphic file (type png)
 <use g/SeekingPartnerCompatibility.PNG>
 Package pdftex.def Info: g/SeekingPartnerCompatibility.PNG  used on input line 
-115.
+110.
 (pdftex.def)             Requested size: 248.96162pt x 202.73901pt.
-<g/SeekingSupportCompatibility.PNG, id=223, 350.81062pt x 285.31593pt>
+<g/SeekingSupportCompatibility.PNG, id=113, 350.81062pt x 285.31593pt>
 File: g/SeekingSupportCompatibility.PNG Graphic file (type png)
 <use g/SeekingSupportCompatibility.PNG>
 Package pdftex.def Info: g/SeekingSupportCompatibility.PNG  used on input line 
-116.
+111.
 (pdftex.def)             Requested size: 248.96162pt x 202.48865pt.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 115--117
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 110--112
 [][] [] 
  []
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.117 ...n u1. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Info:    Font shape `T1/5fp/m/it' in size <9.5> not available
+(Font)              Font shape `T1/5fp/m/sl' tried instead on input line 112.
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.117 ...n u1. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.121 ...ease reference \cite{potts2018reciprocal}
-                                                  .\\	
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--123
-
- []
-
-! german: The command "w is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.127 ... preference for each user. Every "user" w
-                                                  as made available during r...
-
-Use `` for a simple double quote character.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 107--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 120--125
 
  []
 
 [5 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>]
-<g/Runtime.PNG, id=237, 557.83406pt x 424.58624pt>
+<g/Runtime.PNG, id=126, 557.83406pt x 424.58624pt>
 File: g/Runtime.PNG Graphic file (type png)
 <use g/Runtime.PNG>
-Package pdftex.def Info: g/Runtime.PNG  used on input line 139.
+Package pdftex.def Info: g/Runtime.PNG  used on input line 132.
 (pdftex.def)             Requested size: 248.96162pt x 189.4942pt.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.140 ...ng U. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.140 ...ng U. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<g/PrecisionByK.PNG, id=241, 399.74344pt x 394.47375pt>
+<g/PrecisionByK.PNG, id=129, 399.74344pt x 394.47375pt>
 File: g/PrecisionByK.PNG Graphic file (type png)
 <use g/PrecisionByK.PNG>
-Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 151.
+Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 143.
 (pdftex.def)             Requested size: 248.96162pt x 245.67871pt.
-<g/PrecisionByU.PNG, id=242, 377.15906pt x 387.69844pt>
+<g/PrecisionByU.PNG, id=130, 377.15906pt x 387.69844pt>
 File: g/PrecisionByU.PNG Graphic file (type png)
 <use g/PrecisionByU.PNG>
-Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 152.
+Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 144.
 (pdftex.def)             Requested size: 248.96162pt x 255.91724pt.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 151--153
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 143--145
 [][] [] 
  []
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.153 ...tter. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.153 ...tter. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-[6] [7 <./g/Runtime.PNG> <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
-<g/CoverageUk.PNG, id=263, 383.93437pt x 306.39468pt>
+<g/CoverageUk.PNG, id=133, 383.93437pt x 306.39468pt>
 File: g/CoverageUk.PNG Graphic file (type png)
 <use g/CoverageUk.PNG>
-Package pdftex.def Info: g/CoverageUk.PNG  used on input line 162.
+Package pdftex.def Info: g/CoverageUk.PNG  used on input line 154.
 (pdftex.def)             Requested size: 248.96162pt x 198.68666pt.
-<g/CoverageUT.PNG, id=264, 389.20406pt x 290.58563pt>
+<g/CoverageUT.PNG, id=134, 389.20406pt x 290.58563pt>
 File: g/CoverageUT.PNG Graphic file (type png)
 <use g/CoverageUT.PNG>
-Package pdftex.def Info: g/CoverageUT.PNG  used on input line 163.
+Package pdftex.def Info: g/CoverageUT.PNG  used on input line 155.
 (pdftex.def)             Requested size: 248.96162pt x 185.88548pt.
 
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 162--164
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 154--156
 [][] [] 
  []
 
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.164 ...toff. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.164 ...toff. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Blumenfeld et\nobreakspace {}al.}{1996}
-l.169 ...ctor alpha. \cite{blumenfeld1996learning}
-                                                   Quality is thus defined a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<g/QualityByU.PNG, id=270, 420.06938pt x 322.20375pt>
+<g/QualityByU.PNG, id=137, 420.06938pt x 322.20375pt>
 File: g/QualityByU.PNG Graphic file (type png)
 <use g/QualityByU.PNG>
-Package pdftex.def Info: g/QualityByU.PNG  used on input line 173.
+Package pdftex.def Info: g/QualityByU.PNG  used on input line 165.
 (pdftex.def)             Requested size: 248.96162pt x 190.95894pt.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.174 ...ases. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.174 ...ases. Source: \cite{potts2018reciprocal}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.179 ...mi and Vassileva \cite{olakanmi2017group}
-                                                  . While the experimental r...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command "g is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.180 ...ly no way to know of these results are "g
-                                                  ood". \textit{Many of the ...
-
-Use `` for a simple double quote character.
-
-! german: The command ". is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.180 ... way to know of these results are "good".
-                                                   \textit{Many of the used ...
-
-Use `` for a simple double quote character.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Lee et\nobreakspace {}al.}{2002}
-l.187 ... of other factors. \cite{lee2002cultural}
-                                                   \cite{sorensen2008measuri...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Sorensen}{2008}
-l.187 ...002cultural} \cite{sorensen2008measuring}
-                                                   Other variables, like a u...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Gonyea}{2005}
-l.187 ...appropriate manner. \cite{gonyea2005self}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--188
-
- []
-
+[6] [7 <./g/Runtime.PNG> <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
 [8] [9 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.189 ... their findings. \cite{olakanmi2017group}
-                                                   Unfortunately, some major...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 chapter 5.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Potts et\nobreakspace {}al.}{2018}
-l.201 ...e{potts2018reciprocal, olakanmi2017group}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.201 ...e{potts2018reciprocal, olakanmi2017group}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Ostendorf and Angleitner}{2004}
-l.204 ...e is the NEO-PI-R \cite{ostendorf2004neo}
-                                                  , arguably one of the most...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.87204pt on input line 204.
+(Font)              scaled to size 7.87204pt on input line 193.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.56804pt on input line 204.
+(Font)              scaled to size 5.56804pt on input line 193.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 4.70403pt on input line 204.
+(Font)              scaled to size 4.70403pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.70801pt on input line 204.
+(Font)              scaled to size 7.70801pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.45201pt on input line 204.
+(Font)              scaled to size 5.45201pt on input line 193.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.606pt on input line 204.
-! german: The command ") is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.204 ...ensis Likert. \cite{likert1932technique}}
-                                                   items on five axis repres...
+(Font)              scaled to size 4.606pt on input line 193.
 
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Likert}{1932}
-l.204 ...ensis Likert. \cite{likert1932technique}}
-                                                   items on five axis repres...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {McCrae and Costa}{1987}
-l.204 ...e1987validation, goldberg1990alternative}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Goldberg}{1990}
-l.204 ...e1987validation, goldberg1990alternative}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command ", is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.205 ...ail due to it's relevance: "Faking Good",
-                                                   the tendency to answer it...
-
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Griffin et\nobreakspace {}al.}{2004}
-l.205 ...the NEO-PI-R.\cite{griffin2004applicants}
-                                                   A similar effect can be o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Leising et\nobreakspace {}al.}{2010}
-l.205 ...y peer sympathy. \cite{leising2010letter}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Maxwell and Lopus}{1994}
-l.206 ...cesses in surveys. \cite{maxwell1994lake}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `sec:disc' on page 10 undefined on input line 199.
 
 
-LaTeX Warning: Reference `sec:disc' on page 10 undefined on input line 208.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Gonyea}{2005}
-l.209 ..., lee2002cultural, sorensen2008measuring}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Lee et\nobreakspace {}al.}{2002}
-l.209 ..., lee2002cultural, sorensen2008measuring}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Sorensen}{2008}
-l.209 ..., lee2002cultural, sorensen2008measuring}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command "\cite is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.210 ...kert in 1932 as an "attitude scale" \cite
-                                                  {likert1932technique} can ...
-
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Likert}{1932}
-l.210 ...ttitude scale" \cite{likert1932technique}
-                                                   can safely be assumed to ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Chang}{1994}
-l.210 ...e{chang1994psychometric, lee2002cultural}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Lee et\nobreakspace {}al.}{2002}
-l.210 ...e{chang1994psychometric, lee2002cultural}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `int:rec' on page 10 undefined on input line 211.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2014}
-l.211 ...mendation. \cite{xia2014characterization}
-                                                   Instead of focusing on us...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2015}
-l.211 ... to communicate. \cite{xia2015reciprocal}
-                                                   Wang et al. wanted to imp...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Manske et\nobreakspace {}al.}{2015}
-l.212 ...group composition. \cite{manske2015using}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.213 ...d start problem. \cite{olakanmi2017group}
-                                                   Relying on live data will...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 190--203
 
  []
 
 [10]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.215 ... blumenfeld1996learning, manske2015using}
-                                                   A system called DIANA, us...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Blumenfeld et\nobreakspace {}al.}{1996}
-l.215 ... blumenfeld1996learning, manske2015using}
-                                                   A system called DIANA, us...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Manske et\nobreakspace {}al.}{2015}
-l.215 ... blumenfeld1996learning, manske2015using}
-                                                   A system called DIANA, us...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Delalleau et\nobreakspace {}al.}{2012}
-l.216 ...ng2015thinking, suznjevic2015application}
-                                                   Unfortunately, this field...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Wang et\nobreakspace {}al.}{2015}
-l.216 ...ng2015thinking, suznjevic2015application}
-                                                   Unfortunately, this field...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Suznjevic et\nobreakspace {}al.}{2015}
-l.216 ...ng2015thinking, suznjevic2015application}
-                                                   Unfortunately, this field...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Riegelsberger et\nobreakspace {}al.}{2007}
-l.216 ...gies. \cite{riegelsberger2007personality}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
-
- []
-
-chapter 6.
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Bossert et\nobreakspace {}al.}{1982}
-l.222 ...enarbeit \cite{bossert1982instructional}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Zhao and Kuh}{2004}
-l.224 ...eit mit der Lehre. \cite{zhao2004adding}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Dawson}{2006}
-l.226 ...n mit Gruppen etc. \cite{dawson2006study}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Maxwell}{2008}
-l.228 ...on, kognitive und intellektuelle Skills.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Nunes and Hu}{2012}
-l.231 ...: an overview \cite{nunes2012personality}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
-
- []
-
-[11]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Drachsler et\nobreakspace {}al.}{2015}
-l.234 ...tems for E-Learning Item Recommendation.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Erdt et\nobreakspace {}al.}{2015}
-l.236 ...on Recommendation Systems für Learning.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Ricci et\nobreakspace {}al.}{2011}
-l.238 ...em Handbook: \cite{ricci2011introduction}
-                                                   Oft zitiert, Überblick �...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Greer et\nobreakspace {}al.}{1998}
-l.240 ...m zu lösen. \cite{greer1998intelligent}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Reidsema et\nobreakspace {}al.}{2016}
-l.242 ... entstehen. \cite{reidsema2016exploring}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Moreno et\nobreakspace {}al.}{2012}
-l.244 ...den Algorithmus. \cite{moreno2012genetic}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2015}
-l.249 ...ion stattfindet. \cite{xia2015reciprocal}
-                                                   \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2014}
-l.250 ...nalisiert! \cite{xia2014characterization}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--252
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Blumenfeld et\nobreakspace {}al.}{1996}
-l.254 ...Blumenfeld: \cite{blumenfeld1996learning}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command "K is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.255 ...a matter of putting students together." K
-                                                  ein genauer Fund zu "Man b...
-
-Use `` for a simple double quote character.
-
-! german: The command ", is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.255 ... Fund zu "Man braucht minimum-Kompetenz",
-                                                   aber man soll mindestens ...
-
-Use `` for a simple double quote character.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Manske et\nobreakspace {}al.}{2015}
-l.257 ...of Learning Groups \cite{manske2015using}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--260
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Olakanmi and Vassileva}{2017}
-l.261 ...kanmi, Vassileva \cite{olakanmi2017group}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[12]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Sorensen}{2008}
-l.278 ...e sind, gezeigt am Messen von Emotionen.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Lee et\nobreakspace {}al.}{2002}
-l.281 ...ungen in Bezug auf das Antwortverhalten.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Chang}{1994}
-l.284 ...ie am meisten verwendete Art von Skalen.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Gonyea}{2005}
-l.287 ...besser als einzelne Literatur zu nennen.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Maxwell and Lopus}{1994}
-l.289 ...rreported werden. \cite{maxwell1994lake}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Griffin et\nobreakspace {}al.}{2004}
-l.292 ...nz zum NEO-PI-R: \cite{ostendorf2004neo}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command "G is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.292 ...nz zum NEO-PI-R: \cite{ostendorf2004neo}}
-                                                  \\
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Ostendorf and Angleitner}{2004}
-l.292 ...nz zum NEO-PI-R: \cite{ostendorf2004neo}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {McCrae and Costa}{1987}
-l.293 ...oldberg1990alternative} aus Wortgruppen.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Goldberg}{1990}
-l.293 ...oldberg1990alternative} aus Wortgruppen.}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-
- []
-
-[13]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Wang et\nobreakspace {}al.}{2015}
-l.309 ...tilen zu testen.] \cite{wang2015thinking}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Delalleau et\nobreakspace {}al.}{2012}
-l.313 ...bnisse damit.] \cite{delalleau2012beyond}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (6.03197pt too wide) in paragraph at lines 313--314
-\T1/5ch/m/n/9.5 Matchma-king. Merk-w�r-di-ge Ope-ra-tio-na-li-sie-rung von Ba-l
-an-ce und Fun, aber gu-te Er-geb-nis-se da-mit.] [[]] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Riegelsberger et\nobreakspace {}al.}{2007}
-l.315 ...ten.] \cite{riegelsberger2007personality}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Suznjevic et\nobreakspace {}al.}{2015}
-l.317 ...r MOBAs.] \cite{suznjevic2015application}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Leising et\nobreakspace {}al.}{2010}
-l.325 ...roup zu messen] \cite{leising2010letter}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Feng and Qian}{2013}
-l.331 .... nutzen? ] \cite{feng2013recommendation}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Ramaswamy et\nobreakspace {}al.}{2009}
-l.333 ...Fehlerquellen. \cite{ramaswamy2009caesar}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
- []
-
-
-LaTeX Warning: Citation `hsu2018general' on page 14 undefined on input line 335
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Asabere et\nobreakspace {}al.}{2017}
-l.337 ...önlichkeit.] \cite{asabere2017improving}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Zhang et\nobreakspace {}al.}{2016}
-l.339 ... Reciprocal.]\cite{zhang2016personality}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Xia et\nobreakspace {}al.}{2015}
-l.341 ...ness-similarity) \cite{xia2015reciprocal}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-[14]
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Costa\nobreakspace {}Jr et\nobreakspace {}al.}{1995}
-l.345 ... Jobs zuzuordnen \cite{costa1995persons}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-! Undefined control sequence.
-<argument> \astroncite 
-                       {Recio-Garcia et\nobreakspace {}al.}{2009}
-l.347 ...eit gemacht. \cite{recio2009personality}}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 ("Multimedia Seminar.bbl"
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Asabere et~al.}{2017}
-l.3 ...sabere et~al.}{2017}]{asabere2017improving}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Blumenfeld et~al.}{1996}
-l.8 ...feld et~al.}{1996}]{blumenfeld1996learning}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Bossert et~al.}{1982}
-l.14 ...t et~al.}{1982}]{bossert1982instructional}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Brozovsky and Petricek}{2007}
-l.20   Petricek}{2007}]{brozovsky2007recommender}
-                                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Chang}{1994}
-l.25 ...ncite{Chang}{1994}]{chang1994psychometric}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Costa~Jr et~al.}{1995}
-l.31 ...{Costa~Jr et~al.}{1995}]{costa1995persons}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Dawson}{2006}
-l.37 ...astroncite{Dawson}{2006}]{dawson2006study}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Delalleau et~al.}{2012}
-l.43 ...alleau et~al.}{2012}]{delalleau2012beyond}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Drachsler et~al.}{2015}
-l.50 ...sler et~al.}{2015}]{drachsler2015panorama}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Erdt et~al.}{2015}
-l.55 ...te{Erdt et~al.}{2015}]{erdt2015evaluating}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Farnham et~al.}{2009}
-l.61 ...{Farnham et~al.}{2009}]{farnham2009method}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Feng and Qian}{2013}
-l.67 ...g and Qian}{2013}]{feng2013recommendation}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Goldberg}{1990}
-l.73 ...{Goldberg}{1990}]{goldberg1990alternative}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! german: The command "d is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.75 \newblock An alternative" d
-                                escription of personality": the big-five factor
-
-Use `` for a simple double quote character.
-
-! german: The command ": is undefined.
-\grmn@dq@error ...and \dq \string #1 is undefined}
-                                                  
-l.75 ... alternative" description of personality":
-                                                   the big-five factor
-Use `` for a simple double quote character.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Gonyea}{2005}
-l.79 ...\astroncite{Gonyea}{2005}]{gonyea2005self}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Greer et~al.}{1998}
-l.85 ...Greer et~al.}{1998}]{greer1998intelligent}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Griffin et~al.}{2004}
-l.93 ...ffin et~al.}{2004}]{griffin2004applicants}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Lee et~al.}{2002}
-l.98 ...oncite{Lee et~al.}{2002}]{lee2002cultural}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Leising et~al.}{2010}
-l.103 ...Leising et~al.}{2010}]{leising2010letter}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[15]
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Likert}{1932}
-l.109 ...ncite{Likert}{1932}]{likert1932technique}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Manske et~al.}{2015}
-l.114 ...te{Manske et~al.}{2015}]{manske2015using}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Maxwell}{2008}
-l.121 ...cite{Maxwell}{2008}]{maxwell2008learning}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Maxwell and Lopus}{1994}
-l.126 ...axwell and Lopus}{1994}]{maxwell1994lake}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {McCrae and Costa}{1987}
-l.131 ...e and Costa}{1987}]{mccrae1987validation}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Moreno et~al.}{2012}
-l.137 ...{Moreno et~al.}{2012}]{moreno2012genetic}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Nguyen et~al.}{2014}
-l.143 ...guyen et~al.}{2014}]{nguyen2014exploring}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Nunes and Hu}{2012}
-l.151 ...unes and Hu}{2012}]{nunes2012personality}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Olakanmi and Vassileva}{2017}
-l.157 ... and Vassileva}{2017}]{olakanmi2017group}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Ostendorf and Angleitner}{2004}
-l.163 ... and Angleitner}{2004}]{ostendorf2004neo}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Patrick et~al.}{2011}
-l.169 ...Patrick et~al.}{2011}]{patrick2011system}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Potts et~al.}{2018}
-l.175 ...Potts et~al.}{2018}]{potts2018reciprocal}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Ramaswamy et~al.}{2009}
-l.182 ...swamy et~al.}{2009}]{ramaswamy2009caesar}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Recio-Garcia et~al.}{2009}
-l.190 ...rcia et~al.}{2009}]{recio2009personality}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Reidsema et~al.}{2016}
-l.197 ...ema et~al.}{2016}]{reidsema2016exploring}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Ricci et~al.}{2011}
-l.205 ...cci et~al.}{2011}]{ricci2011introduction}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Riegelsberger et~al.}{2007}
-l.211 ...al.}{2007}]{riegelsberger2007personality}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Sorensen}{2008}
-l.218 ...e{Sorensen}{2008}]{sorensen2008measuring}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Sternberg}{1999}
-l.224 ...{Sternberg}{1999}]{sternberg1999thinking}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[16]
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Suznjevic et~al.}{2015}
-l.229 ... et~al.}{2015}]{suznjevic2015application}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Wang et~al.}{2015}
-l.236 ...ite{Wang et~al.}{2015}]{wang2015thinking}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Xia et~al.}{2015}
-l.242 ...ite{Xia et~al.}{2015}]{xia2015reciprocal}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Xia et~al.}{2014}
-l.248 ...a et~al.}{2014}]{xia2014characterization}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Zhang et~al.}{2016}
-l.256 ...hang et~al.}{2016}]{zhang2016personality}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \astroncite 
-                                {Zhao and Kuh}{2004}
-l.263 ...cite{Zhao and Kuh}{2004}]{zhao2004adding}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  ("Multimedia Seminar.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `"Multimedia Seminar".out' has not changed.
-(rerunfilecheck)             Checksum: 1619559042D042D795BCEC3D0347D2E1;1637.
+(rerunfilecheck)             Checksum: 245326959A2F7256BB7CE2B8FC81C025;999.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 12256 strings out of 492976
- 195561 string characters out of 3137754
- 390675 words of memory out of 3000000
- 15756 multiletter control sequences out of 15000+200000
- 103451 words of font info for 102 fonts, out of 3000000 for 9000
+ 11874 strings out of 492976
+ 189931 string characters out of 3137754
+ 384542 words of memory out of 3000000
+ 15439 multiletter control sequences out of 15000+200000
+ 121452 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,13n,100p,8834b,451s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{cite.sorensen2008measuring} has been referenced b
-ut does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.xia2014characterization} has been referenced b
-ut does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.xia2015reciprocal} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.zhang2016personality} has been referenced but 
-does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.suznjevic2015application} has been referenced 
-but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.zhao2004adding} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.sternberg1999thinking} has been referenced but
- does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.wang2015thinking} has been referenced but does
- not exist, replaced by a fixed one
-
-{D:/Programme/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}{D:/Programme/MiKTeX 
-2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/tuddesign/fonts/type1/softmak
-e/charter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter/5
-chr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chri8a.pfb>
-<C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:/Progr
-am Files/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><D:/Programme/MiKT
-eX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programme/MiKTeX 2.9/fonts/t
-ype1/bitstrea/charter/bchri8a.pfb><C:/Users/USER/AppData/Roaming/MiKTeX/2.9/fon
-ts/type1/mathdesign/mdbch/md-chr7t.pfb>
-Output written on "Multimedia Seminar.pdf" (17 pages, 1149764 bytes).
+ 59i,12n,100p,8834b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Programme/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{D:/Programme/MiKTeX 2.9
+/fonts/enc/dvips/ly1/texnansi.enc}<C:/Program Files/tuddesign/fonts/type1/softm
+ake/charter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter
+/5chr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chri8a.pf
+b><C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:/Pro
+gram Files/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/Program File
+s/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><D:/Programme/MiKTeX 2.9/
+fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/bi
+tstrea/charter/bchri8a.pfb><C:/Users/USER/AppData/Roaming/MiKTeX/2.9/fonts/type
+1/mathdesign/mdbch/md-chr7t.pfb>
+Output written on "Multimedia Seminar.pdf" (11 pages, 1087593 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
