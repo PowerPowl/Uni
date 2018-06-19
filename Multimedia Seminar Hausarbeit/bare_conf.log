@@ -1,23 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.4.29)  19 JUN 2018 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  20 JUN 2018 01:25
 entering extended mode
 **./bare_conf.tex
 (bare_conf.tex
-LaTeX2e <2018-04-01> patch level 3
-Babel <3.19> and hyphenation patterns for 75 language(s) loaded.
-("D:\Programme\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+(C:\Users\pauls\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
 \@IEEEtrantmpdimenC=\dimen104
-\@IEEEtrantmpcountA=\count80
-\@IEEEtrantmpcountB=\count81
-\@IEEEtrantmpcountC=\count82
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-("D:\Programme\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -89,57 +89,58 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen118
 \IEEEiedmathlabelsep=\dimen119
 \IEEEiedtopsep=\skip41
-\c@section=\count83
-\c@subsection=\count84
-\c@subsubsection=\count85
-\c@paragraph=\count86
-\c@IEEEsubequation=\count87
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-\c@figure=\count88
-\c@table=\count89
-\@IEEEeqnnumcols=\count90
-\@IEEEeqncolcnt=\count91
-\@IEEEsubeqnnumrollback=\count92
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
 \@IEEEquantizeheightA=\dimen120
 \@IEEEquantizeheightB=\dimen121
 \@IEEEquantizeheightC=\dimen122
 \@IEEEquantizeprevdepth=\dimen123
-\@IEEEquantizemultiple=\count93
+\@IEEEquantizemultiple=\count92
 \@IEEEquantizeboxA=\box26
 \@IEEEtmpitemindent=\dimen124
 \IEEEPARstartletwidth=\dimen125
-\c@IEEEbiography=\count94
+\c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) ("D:\Programme\MiKTeX 2.9\tex\latex\cite\cite.sty"
+) (C:\Users\pauls\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("D:\Programme\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Programme\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("D:\Programme\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Programme\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("D:\Programme\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("D:\Programme\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
-) (bare_conf.aux)
+)
+(bare_conf.aux)
 \openout1 = `bare_conf.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
@@ -154,45 +155,46 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 315.
 LaTeX Font Info:    ... okay on input line 315.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
 LaTeX Font Info:    ... okay on input line 315.
+
 -- Lines per column: 56 (exact).
-(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\pauls\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count94
 \scratchdimen=\dimen128
 \scratchbox=\box28
-\nofMPsegments=\count96
-\nofMParguments=\count97
+\nofMPsegments=\count95
+\nofMParguments=\count96
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count98
+\MPscratchCnt=\count97
 \MPscratchDim=\dimen129
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
 \everyMPtoPDFconversion=\toks17
-) ("D:\Programme\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("D:\Programme\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("D:\Programme\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -201,11 +203,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("D:\Programme\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -219,138 +221,148 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.jpeg,.png,.PNG,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Underfull \hbox (badness 1796) in paragraph at lines 382--387
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 1796) in paragraph at lines 383--388
 \OT1/ptm/m/n/10 tasks such as user mod-el-ing or so-cial rec-om-men-da-tion
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 382--387
+Underfull \hbox (badness 2005) in paragraph at lines 383--388
 \OT1/ptm/m/n/10 be-come preva-lent. Em-ploy-ing Rec-om-mender Sys-tems in
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 382--387
+Underfull \hbox (badness 1418) in paragraph at lines 383--388
 \OT1/ptm/m/n/10 in-flu-ence their over-all sat-is-fac-tion. [3], [4] Thus, so-c
 ial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--387
+Underfull \hbox (badness 10000) in paragraph at lines 383--388
 \OT1/ptm/m/n/10 learn-ing, fo-cussing on im-prov-ing in-di-vid-ual learn-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--387
+Underfull \hbox (badness 10000) in paragraph at lines 383--388
 
  []
 
 
-LaTeX Warning: Citation `hsu2018general' on page 1 undefined on input line 395.
+LaTeX Warning: Citation `hsu2018general' on page 1 undefined on input line 396.
 
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 394--401
+Underfull \hbox (badness 1721) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 re-quire dif-fer-ent user mod-els. For ex-am-ple, in-for-ma-tio
 n
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 394--401
+Underfull \hbox (badness 5696) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 with com-pa-ra-ble in-ter-ests. [\OT1/ptm/b/n/10 ?\OT1/ptm/m/n/
 10 ] An-other ap-proach that
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 394--401
+Underfull \hbox (badness 2173) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 was used to en-able rec-om-men-da-tions with scarce data
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 394--401
+Underfull \hbox (badness 2237) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 and re-duced com-put-ing power was to ac-cess a user's
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 394--401
+Underfull \hbox (badness 2150) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 Even within a sin-gle do-main, for ex-am-ple mul-ti-player
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 394--401
+Underfull \hbox (badness 1735) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 to cat-e-go-rize the playstyle of dif-fer-ent users. Wang et
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 394--401
+Underfull \hbox (badness 4036) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 In the-ory, user mod-els want to en-com-pass as much
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 394--401
+Underfull \hbox (badness 4608) in paragraph at lines 395--402
 \OT1/ptm/m/n/10 in-for-ma-tion, pref-er-ences or even per-son-al-ity could be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--401
+Underfull \hbox (badness 10000) in paragraph at lines 395--402
 
  []
 
-[1{C:/Users/USER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/pauls/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 403--408
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--409
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 415.
+(Font)              <7> on input line 416.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 415.
+(Font)              <5> on input line 416.
 
-Underfull \hbox (badness 4181) in paragraph at lines 410--415
+Underfull \hbox (badness 4181) in paragraph at lines 411--416
 []\OT1/ptm/m/n/10 In ex-treme cases, Rec-om-mender Sys-tems will have
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 410--415
+Underfull \hbox (badness 2573) in paragraph at lines 411--416
 \OT1/ptm/m/n/10 to rec-om-mend users to each other, form-ing re-cip-ro-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--415
+Underfull \hbox (badness 10000) in paragraph at lines 411--416
 \OT1/ptm/m/n/10 rec-om-men-da-tions: A user re-ceives other users as
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 410--415
+Underfull \hbox (badness 2119) in paragraph at lines 411--416
 \OT1/ptm/m/n/10 rec-om-men-da-tions and is him-self an item rec-om-mended
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 410--415
+Underfull \hbox (badness 1490) in paragraph at lines 411--416
 \OT1/ptm/m/n/10 for ac-tual re-cip-ro-cal rec-om-men-da-tions could use sim-ple
 
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 410--415
+Underfull \hbox (badness 1874) in paragraph at lines 411--416
 \OT1/ptm/m/n/10 re-cip-ro-cal rec-om-men-da-tions be-come a ne-ces-sity. Spe-ci
 al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--415
+Underfull \hbox (badness 10000) in paragraph at lines 411--416
 
  []
 
 [2]
-Underfull \hbox (badness 5077) in paragraph at lines 423--426
+Underfull \hbox (badness 5077) in paragraph at lines 424--427
 \OT1/ptm/m/n/10 rec-om-men-da-tion plat-form and eval-u-a-tional find-ings on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--426
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
 
  []
 
@@ -358,257 +370,273 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--426
 File: g/SeekingPartnerCompatibility.PNG Graphic file (type png)
 <use g/SeekingPartnerCompatibility.PNG>
 Package pdftex.def Info: g/SeekingPartnerCompatibility.PNG  used on input line 
-445.
-(pdftex.def)             Requested size: 258.0pt x 210.11272pt.
+446. on input line 446.
+Package pdftex.def Info: Requested size: 258.0pt x 210.11272pt on input line 44
+6.
 <g/SeekingSupportCompatibility.PNG, id=14, 350.81062pt x 285.31593pt>
 File: g/SeekingSupportCompatibility.PNG Graphic file (type png)
 <use g/SeekingSupportCompatibility.PNG>
 Package pdftex.def Info: g/SeekingSupportCompatibility.PNG  used on input line 
-446.
-(pdftex.def)             Requested size: 258.0pt x 209.84618pt.
+447. on input line 447.
+Package pdftex.def Info: Requested size: 258.0pt x 209.84618pt on input line 44
+7.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 445--447
+Overfull \hbox (6.0pt too wide) in paragraph at lines 446--448
 [][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 445--447
+Overfull \hbox (6.0pt too wide) in paragraph at lines 446--448
 [] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 447.
+(Font)              <8> on input line 448.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 447.
+(Font)              <6> on input line 448.
 
-Underfull \hbox (badness 2150) in paragraph at lines 442--452
+Underfull \hbox (badness 2150) in paragraph at lines 443--453
 \OT1/ptm/m/n/10 har-monic mean, con-trary to the arith-metic mean, pays
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--452
+Underfull \hbox (badness 10000) in paragraph at lines 443--453
 
  []
 
-
-Underfull \hbox (badness 3333) in paragraph at lines 454--459
+[3]
+Underfull \hbox (badness 3333) in paragraph at lines 455--460
 \OT1/ptm/m/n/10 suc-cess-ful matches for as many users as pos-si-ble in
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 454--459
+Underfull \hbox (badness 1354) in paragraph at lines 455--460
 \OT1/ptm/m/n/10 gen-eral Qual-ity Mea-sures for re-cip-ro-cal rec-om-men-da-tio
 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--459
+Underfull \hbox (badness 10000) in paragraph at lines 455--460
 
  []
 
-[3]
 <g/Runtime.PNG, id=21, 557.83406pt x 424.58624pt>
 File: g/Runtime.PNG Graphic file (type png)
 <use g/Runtime.PNG>
-Package pdftex.def Info: g/Runtime.PNG  used on input line 466.
-(pdftex.def)             Requested size: 258.0pt x 196.37454pt.
+Package pdftex.def Info: g/Runtime.PNG  used on input line 467. on input line 4
+67.
+Package pdftex.def Info: Requested size: 258.0pt x 196.37454pt on input line 46
+7.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 466--467
+Overfull \hbox (6.0pt too wide) in paragraph at lines 467--468
  [][] 
  []
 
 <g/PrecisionByK.PNG, id=22, 399.74344pt x 394.47375pt>
 File: g/PrecisionByK.PNG Graphic file (type png)
 <use g/PrecisionByK.PNG>
-Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 477.
-(pdftex.def)             Requested size: 258.0pt x 254.61118pt.
+Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 478. on input l
+ine 478.
+Package pdftex.def Info: Requested size: 258.0pt x 254.61118pt on input line 47
+8.
 <g/PrecisionByU.PNG, id=23, 377.15906pt x 387.69844pt>
 File: g/PrecisionByU.PNG Graphic file (type png)
 <use g/PrecisionByU.PNG>
-Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 478.
-(pdftex.def)             Requested size: 258.0pt x 265.20503pt.
+Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 479. on input l
+ine 479.
+Package pdftex.def Info: Requested size: 258.0pt x 265.20503pt on input line 47
+9.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 477--479
+Overfull \hbox (6.0pt too wide) in paragraph at lines 478--480
 [][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 477--479
+Overfull \hbox (6.0pt too wide) in paragraph at lines 478--480
 [] 
  []
 
-[4 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG> 
-<./g/Runtime.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 484--486
+[4 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
-<g/CoverageUk.PNG, id=33, 383.93437pt x 306.39468pt>
+<g/CoverageUk.PNG, id=32, 383.93437pt x 306.39468pt>
 File: g/CoverageUk.PNG Graphic file (type png)
 <use g/CoverageUk.PNG>
-Package pdftex.def Info: g/CoverageUk.PNG  used on input line 488.
-(pdftex.def)             Requested size: 258.0pt x 205.90517pt.
-<g/CoverageUT.PNG, id=34, 389.20406pt x 290.58563pt>
+Package pdftex.def Info: g/CoverageUk.PNG  used on input line 489. on input lin
+e 489.
+Package pdftex.def Info: Requested size: 258.0pt x 205.90517pt on input line 48
+9.
+<g/CoverageUT.PNG, id=33, 389.20406pt x 290.58563pt>
 File: g/CoverageUT.PNG Graphic file (type png)
 <use g/CoverageUT.PNG>
-Package pdftex.def Info: g/CoverageUT.PNG  used on input line 489.
-(pdftex.def)             Requested size: 258.0pt x 192.63399pt.
+Package pdftex.def Info: g/CoverageUT.PNG  used on input line 490. on input lin
+e 490.
+Package pdftex.def Info: Requested size: 258.0pt x 192.63399pt on input line 49
+0.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 488--490
+Overfull \hbox (6.0pt too wide) in paragraph at lines 489--491
 [][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 488--490
+Overfull \hbox (6.0pt too wide) in paragraph at lines 489--491
 [] 
  []
 
-<g/QualityByU.PNG, id=35, 420.06938pt x 322.20375pt>
+<g/QualityByU.PNG, id=34, 420.06938pt x 322.20375pt>
 File: g/QualityByU.PNG Graphic file (type png)
 <use g/QualityByU.PNG>
-Package pdftex.def Info: g/QualityByU.PNG  used on input line 499.
-(pdftex.def)             Requested size: 258.0pt x 197.8911pt.
+Package pdftex.def Info: g/QualityByU.PNG  used on input line 500. on input lin
+e 500.
+Package pdftex.def Info: Requested size: 258.0pt x 197.8911pt on input line 500
+.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 499--500
+Overfull \hbox (6.0pt too wide) in paragraph at lines 500--501
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [5 <./g/Runtime.PNG> <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+[6 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
+Underfull \hbox (badness 1681) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 all rec-om-men-da-tions to and of that stu-dent would not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 them-selves, rather than of the plat-form pro-vid-ing
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 rec-om-men-da-tions, the other hu-man fac-tor needs to be
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 As hu-mans are un-re-li-able, self-reported met-rics al-ways
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 be col-lected. In-ter-nal in-for-ma-tion, like pref-er-ences, d
+ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 Psychological re-search was founded to en-able the
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 mea-sure-ment and quan-tifi-ca-tion of these de-tails. From
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 In learn-ing en-vi-ron-ments, a phe-nomenon known as the
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 learn-ing suc-cess: stu-dents tend to over-state their good
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 Self-reported data stay a largely con-tro-ver-sial topic in
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 re-searchers to ac-cess in-ter-nal in-for-ma-tion, while these
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 mea-sure-ments can fluc-tu-ate fol-low-ing lots of dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 Other re-cip-ro-cal rec-om-men-da-tion ap-proaches have to
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 526--554
+[][]\OT1/ptm/m/n/10 , Xia et al. have shown that a behavior-emergent
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 online-dating rec-om-men-da-tion. [28] In-stead of fo-cus-ing
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 on user-reported data alone, they in-cluded im-plicit and
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 high-level cog-ni-tive problem-solving skills from sim-ply
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 526--554
+\OT1/ptm/b/n/10 Hier noch ein biss-chen ins De-tail zu gehen zu
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 Taking all of this into con-sid-er-a-tion, the peer learner
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--554
+
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 The ap-pli-ca-tions of re-cip-ro-cal peer rec-om-men-da-tion ar
+e
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 yields many ad-van-tages and teaches mean-ing-ful skills.
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 526--554
+\OT1/ptm/m/n/10 rec-om-mended items and re-cip-i-ents of rec-om-men-da-tions.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--554
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
-
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 all rec-om-men-da-tions to and of that stu-dent would not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 them-selves, rather than of the plat-form pro-vid-ing
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 rec-om-men-da-tions, the other hu-man fac-tor needs to be
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 As hu-mans are un-re-li-able, self-reported met-rics al-ways
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 be col-lected. In-ter-nal in-for-ma-tion, like pref-er-ences, d
-ate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 Psychological re-search was founded to en-able the
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 mea-sure-ment and quan-tifi-ca-tion of these de-tails. From
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 In learn-ing en-vi-ron-ments, a phe-nomenon known as the
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 learn-ing suc-cess: stu-dents tend to over-state their good
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 Self-reported data stay a largely con-tro-ver-sial topic in
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 re-searchers to ac-cess in-ter-nal in-for-ma-tion, while these
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 mea-sure-ments can fluc-tu-ate fol-low-ing lots of dif-fer-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 Other re-cip-ro-cal rec-om-men-da-tion ap-proaches have to
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 525--553
-[][]\OT1/ptm/m/n/10 , Xia et al. have shown that a behavior-emergent
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 online-dating rec-om-men-da-tion. [28] In-stead of fo-cus-ing
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 on user-reported data alone, they in-cluded im-plicit and
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 high-level cog-ni-tive problem-solving skills from sim-ply
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 525--553
-\OT1/ptm/b/n/10 Hier noch ein biss-chen ins De-tail zu gehen zu
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 Taking all of this into con-sid-er-a-tion, the peer learner
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--553
-
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 The ap-pli-ca-tions of re-cip-ro-cal peer rec-om-men-da-tion ar
-e
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 yields many ad-van-tages and teaches mean-ing-ful skills.
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 525--553
-\OT1/ptm/m/n/10 rec-om-mended items and re-cip-i-ents of rec-om-men-da-tions.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--553
-
- []
-
-[6 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>] [7]
+ [7]
 (bare_conf.bbl [8])
 
 ** Conference Paper **
@@ -627,23 +655,24 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2464 strings out of 492976
- 40654 string characters out of 3137754
- 132888 words of memory out of 3000000
- 6313 multiletter control sequences out of 15000+200000
+ 2468 strings out of 493312
+ 41020 string characters out of 3138899
+ 122243 words of memory out of 3000000
+ 5997 multiletter control sequences out of 15000+200000
  39736 words of font info for 73 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,8n,25p,1093b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programme/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<D:/Programme/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programme/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><D:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program
-me/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Programme/MiKTeX 2.9
-/fonts/type1/urw/times/utmb8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/time
-s/utmbi8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Pro
-gramme/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (9 pages, 1096591 bytes).
+ 41i,8n,25p,1093b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on bare_conf.pdf (9 pages, 1098475 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
