@@ -243,21 +243,7 @@
 
 
 % *** FLOAT PACKAGES ***
-%
-%\usepackage{fixltx2e}
-% fixltx2e, the successor to the earlier fix2col.sty, was written by
-% Frank Mittelbach and David Carlisle. This package corrects a few problems
-% in the LaTeX2e kernel, the most notable of which is that in current
-% LaTeX2e releases, the ordering of single and double column floats is not
-% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
-% single column figure to be placed prior to an earlier double column
-% figure.
-% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
-% corrections already built into the system in which case a warning will
-% be issued if an attempt is made to load fixltx2e.sty as it is no longer
-% needed.
-% The latest version and documentation can be found at:
-% http://www.ctan.org/pkg/fixltx2e
+
 
 
 %\usepackage{stfloats}
@@ -426,6 +412,12 @@ The scope of their report is to demonstrate the capabilities and explore the lim
 This chapter will cover the basics of \textit{RiPPLE} as a peer recommendation platform and evaluational findings on artificial data. We will then discuss some shortcomings of the paper at hand and delve deeper into learnings from other studies and topics that might benefit the overall performance of meaningful peer recommendation in the final section \ref{extensions}.\\
 
 \subsection{RiPPLE} \label{paper:RiPPLE}
+\begin{figure*}[!t]
+	\includegraphics[width=0.5\textwidth]{g/SeekingPartnerCompatibility.PNG}
+	\includegraphics[width=0.5\textwidth]{g/SeekingSupportCompatibility.PNG}
+	\caption{The images show the areas of compatibility of a user \(u_2\) as a function of \(u_1\)'s competency. Lighter areas mean high compatibility scores in accordance to \(u_1\)'s preferences. On the left \(u_1\) is looking for a study partner, leading to the best fit along the \(u_1\) = \(u_2\) axis. The cutoff beneath a competency of 40 is due to the minimum joint competency threshold T. On the right, we can see \(u_1\) looking for peer	 support, i.e. a person with considerably higher knowledge, here about 60 points higher than \(u_1\). Source: \cite{potts2018reciprocal}}
+	\label{f:Seeking}
+\end{figure*}
 \textit{RiPPLE} ["Recommendation in Personalised Peer Learning Environments"] was designed and developed as a web-based online learning recommendation system. \textit{RiPPLE} is an adaptive, student-facing, open-source platform with the aim to enable students to engage with others in meaningful learning experiences. To enhance the learning experience, \textit{RiPPLE} functions as a learning platform, helping students to co-create and find meaningful learning-content and to find peers to learn with. This analysis will focus on \textit{RiPPLE} as a peer recommendation platform.\\
 Based on user input, \textit{RiPPLE} will calculate potential matchups for its users. Depending on
 \begin{itemize}
@@ -442,12 +434,6 @@ An important aspect of the recommendation algorithm is it's compatibility functi
 \end{enumerate}
 For every pair of users satisfying these constraints, \textit{RiPPLE} will calculate their respective one-directional scores. These represent how fitting \(u_2\) is as a study partner for \(u_1\) and vice-versa. (Since the users could have defined different preferences for their competency differences, scores don't need to be symmetric.) The scores take into account how good a matchup will be in terms of overall competency level, and how the other user matches the current users preferences. These values will be calculated across all topics relevant for \(u_1\) and \(u_2\). A visual representation of the resulting score can be seen in figure \ref{f:Seeking}.\\
 These two one-directional scores could now be used to find the the best partner for a specific user. To further recommend a matchup that is beneficial for both \(u_1\) and \(u_2\), the harmonic mean of both scores is considered as the "reciprocal score" of \(u_1\) and \(u_2\), a value that is now symmetric. \cite{prabhakar2017reciprocal} The harmonic mean, contrary to the arithmetic mean, pays respect to differences between it's values, making a larger gap between values less desirable. Peer-combinations with approximately similar scores will receive better final values, making matchups that are beneficial to both participants more relevant.\\
-\begin{figure}[!t]
-	\includegraphics[width=0.5\textwidth]{g/SeekingPartnerCompatibility.PNG}
-	\includegraphics[width=0.5\textwidth]{g/SeekingSupportCompatibility.PNG}
-	\caption{The images show the areas of compatibility of a user \(u_2\) as a function of \(u_1\)'s competency. Lighter areas mean high compatibility scores in accordance to \(u_1\)'s preferences. On the left \(u_1\) is looking for a study partner, leading to the best fit along the \(u_1\) = \(u_2\) axis. The cutoff beneath a competency of 40 is due to the minimum joint competency threshold T. On the right, we can see \(u_1\) looking for peer support, i.e. a person with considerably higher knowledge, here about 60 points higher than \(u_1\). Source: \cite{potts2018reciprocal}}
-	\label{f:Seeking}
-\end{figure}
 In the last step, \textit{RiPPLE} returns a predefined amount of matchups \(k\) with the best reciprocal values for each user. Although these reciprocal values are now symmetrical, the recommendations don't have to be: While from u1s standpoint the matchup with \(u_2\) and an (arbitrary) reciprocal score of 30 could be the very best opportunity, \(u_2\) could still have true reciprocal a matchup with \(u_3\) and a value of 50.\\
 For more information on \textit{RiPPLE}, the algorithm and further clarification of different variables, please reference \cite{potts2018reciprocal}.\\	
 
@@ -459,48 +445,47 @@ To fully satisfy as a tool recommending students to one another, \textit{RiPPLE}
 As evaluation metrics for their experimental evaluation Potts et al. decided on four values that can further be used as general Quality Measures for reciprocal recommendation algorithms:\\
 
 \subsubsection{Scalability} \label{paper:scalability}
-With increasing enrollment numbers in higher education, \textit{RiPPLE} will have to be suitable for large sets of learners. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment.\\
-As can be seen in figure \ref{f:scalability}, the runtime of the algorithm increased in a quadratic fashion, as U, the total amount of users, increased: \(O(n^2)\). The number of recommendations per user, however, does not significantly impact the runtime. (Although the paper states that it \textit{did} in fact affect runtime, looking at the plots data suggests that this might be a formatting error.)\\
-Currently, \textit{RiPPLE} calculates recommendations at the end of each week for the upcoming week, making the algorithm's runtime rather unimportant. In a 1000 user experiment, \textit{RiPPLE} was able to provide recommendations for a single user in 0.045 seconds. However, further improvements are planned.\\
 \begin{figure}[!t]
 	\centering
 	\includegraphics[width=0.5\textwidth]{g/Runtime.PNG}
 	\caption{Scalability: The algorithm's runtime depending on the number of users \(U\) and the amount of recommendations per user \(k\). Note how k has almost no influence on the runtime, while it grows exponentially with increasing U. Source: \cite{potts2018reciprocal}}
 	\label{f:scalability}
 \end{figure}
+With increasing enrollment numbers in higher education, \textit{RiPPLE} will have to be suitable for large sets of learners. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment.\\
+As can be seen in figure \ref{f:scalability}, the runtime of the algorithm increased in a quadratic fashion, as U, the total amount of users, increased: \(O(n^2)\). The number of recommendations per user, however, does not significantly impact the runtime. (Although the paper states that it \textit{did} in fact affect runtime, looking at the plots data suggests that this might be a formatting error.)\\
+Currently, \textit{RiPPLE} calculates recommendations at the end of each week for the upcoming week, making the algorithm's runtime rather unimportant. In a 1000 user experiment, \textit{RiPPLE} was able to provide recommendations for a single user in 0.045 seconds. However, further improvements are planned.\\
 
 
 \subsubsection{Reciprocality} \label{paper:reciprocality}
-The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. \cite{prabhakar2017reciprocal} Reciprocality was tested for both, the baseline non-reciprocal and the joint reciprocal harmonic mean scores. Whenever a user appears in the recommendations of a user on their own recommendation list that was built according to the respective score, the recommendation was considered to be reciprocal.\\
-The precision for every user given the used score is calculated by dividing his reciprocal recommendations through \(k\), the total amount of recommendations that user received. The system's total precision is defined as the average precision across all users. \cite{prabhakar2017reciprocal}\\ 
-In all tested cases shown in figure \ref{f:reciprocality}, the reciprocal score had a higher precision than the baseline score. This is not surprising, since using the harmonic mean of both one-directional scores chooses reciprocal scores with medium values compared to non-reciprocal scores with a single high value. (As explained in section \ref{paper:RiPPLE}) Increasing \(k\) also increases the precision, since more recommendations per user lead to a higher chance of reciprocal recommendations. On the other hand, increasing \(U\) with a fixed \(k\) reduces reciprocal precision, since there are more possible users to recommend.\\
-\begin{figure}[!t]
+\begin{figure*}[!t]
 	\includegraphics[width=0.5\textwidth]{g/PrecisionByK.PNG}
 	\includegraphics[width=0.5\textwidth]{g/PrecisionByU.PNG}
 	\caption{Reciprocality: The precision (= the fraction of reciprocal recommendations out of the total recommendations averaged over all users) of the baseline non-reciprocal recommendations (orange) vs. of the reciprocal, averaged scores. Note how the reciprocal scores are always better. Source: \cite{potts2018reciprocal}}
 	\label{f:reciprocality}
-\end{figure}
+\end{figure*}
+The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. \cite{prabhakar2017reciprocal} Reciprocality was tested for both, the baseline non-reciprocal and the joint reciprocal harmonic mean scores. Whenever a user appears in the recommendations of a user on their own recommendation list that was built according to the respective score, the recommendation was considered to be reciprocal.\\
+The precision for every user given the used score is calculated by dividing his reciprocal recommendations through \(k\), the total amount of recommendations that user received. The system's total precision is defined as the average precision across all users. \cite{prabhakar2017reciprocal}\\ 
+In all tested cases shown in figure \ref{f:reciprocality}, the reciprocal score had a higher precision than the baseline score. This is not surprising, since using the harmonic mean of both one-directional scores chooses reciprocal scores with medium values compared to non-reciprocal scores with a single high value. (As explained in section \ref{paper:RiPPLE}) Increasing \(k\) also increases the precision, since more recommendations per user lead to a higher chance of reciprocal recommendations. On the other hand, increasing \(U\) with a fixed \(k\) reduces reciprocal precision, since there are more possible users to recommend.\\
 
 \subsubsection{Coverage} \label{paper:coverage}
-Recommending potential learning partners to one another should not abandone anyone. As such, coverage is a very important metric to consider. Since (almost) every user will receive recommendations, most users will be covered in one way or another. (The exception to this are users with completely incompatible timeslots, role preferences (i.e. being the only person looking for an equally skilled study partner) or users who can't meet the minimum competency when coupled with their available potential partners.) A very good fit can only be ensured when each user is recommended to others, ideally forming a reciprocal recommendation, which is represented in \ref{paper:reciprocality}. Coverage however is defined as the percentage of users that appear in other's recommendations at least once.\\
-For a low amount of users and lots of recommendations per user, coverage is close to 0.9, meaning most users are recommended to others. As U increases or k decreases, the coverage sinks. However, more than 40\% of users appear in other's recommendations under all tested circumstances. Reference figure \ref{f:coverage} for a graphical overview.\\
-
-\begin{figure}[!t]
+\begin{figure*}[!t]
 	\includegraphics[width=0.5\textwidth]{g/CoverageUk.PNG}
 	\includegraphics[width=0.5\textwidth]{g/CoverageUT.PNG}
 	\caption{Coverage: The percentage of users who appear in other's recommendations. With more users, coverage sinks (likelihood of hard to match users increases). Increasing received recommendations or lowering the minimum joint competency of matches increases coverage. Mind the y-axis cutoff. Source: \cite{potts2018reciprocal}}
 	\label{f:coverage}
-\end{figure}
+\end{figure*}
+Recommending potential learning partners to one another should not abandone anyone. As such, coverage is a very important metric to consider. Since (almost) every user will receive recommendations, most users will be covered in one way or another. (The exception to this are users with completely incompatible timeslots, role preferences (i.e. being the only person looking for an equally skilled study partner) or users who can't meet the minimum competency when coupled with their available potential partners.) A very good fit can only be ensured when each user is recommended to others, ideally forming a reciprocal recommendation, which is represented in \ref{paper:reciprocality}. Coverage however is defined as the percentage of users that appear in other's recommendations at least once.\\
+For a low amount of users and lots of recommendations per user, coverage is close to 0.9, meaning most users are recommended to others. As U increases or k decreases, the coverage sinks. However, more than 40\% of users appear in other's recommendations under all tested circumstances. Reference figure \ref{f:coverage} for a graphical overview.\\
 
 \subsubsection{Quality} \label{paper:quality}
-The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. According to Blumenfeld, learners should meet a minimum competency level in order to be an effective group, as specified by the employed minimum matchup threshold \(\tau\). \cite{blumenfeld1996learning} Quality is thus defined as the user's average joint competencies across their matched topics. The goal is to generate matches that are as capable as possible in their respective fields of study.\\
-As figure \ref{f:quality} shows, it is apparent that the total amount of users does not affect the quality of matches. The minimum threshold for joint competency of a matchup however leads to a better quality. Comparing this finding to figure \ref{f:coverage} however, suggests that higher quality comes at the cost of less coverage. Especially when considering the slight improvements in quality score for larger increments in \(\tau\).\\
 \begin{figure}[!t]
 	\centering
 	\includegraphics[width=0.5\textwidth]{g/QualityByU.PNG}
 	\caption{Quality: The quality of matchups over different values for U and T. Note how changing U won't affect matchup quality. Choosing a higher minimum joint competency threshold \(\tau\) for successful matchups increases overall quality. Note the different scaling of the axes, overemphasizing the quality increases. Source: \cite{potts2018reciprocal}}
 	\label{f:quality}
 \end{figure}
+The quality of a recommendation is not only based on its fit, but also on how good the resulting team could perform. According to Blumenfeld, learners should meet a minimum competency level in order to be an effective group, as specified by the employed minimum matchup threshold \(\tau\). \cite{blumenfeld1996learning} Quality is thus defined as the user's average joint competencies across their matched topics. The goal is to generate matches that are as capable as possible in their respective fields of study.\\
+As figure \ref{f:quality} shows, it is apparent that the total amount of users does not affect the quality of matches. The minimum threshold for joint competency of a matchup however leads to a better quality. Comparing this finding to figure \ref{f:coverage} however, suggests that higher quality comes at the cost of less coverage. Especially when considering the slight improvements in quality score for larger increments in \(\tau\).\\
 
 \section{Discussion} \label{extensions}\label{paper:discussion}
 Reciprocal peer recommendation is a highly promising topic with lots of applications, but is hard to handle, as a closer examination of "Reciprocal peer recommendation for Learning Purposes" and the implemented platform \textit{RiPPLE} have shown. The system introduced by Potts et al. presents an approach to build a scalable, interactive and user-facing, multi-purpose platform to enhance learning both in on- and offline circumstances. While the experimental results look promising, further research on actual data has to be conducted, which is planned over the course of 2018.\\
