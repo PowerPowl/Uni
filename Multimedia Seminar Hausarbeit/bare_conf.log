@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  20 JUN 2018 02:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  20 JUN 2018 02:12
 entering extended mode
 **./bare_conf.tex
 (bare_conf.tex
@@ -425,8 +425,27 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 450--451
  [][] 
  []
 
+<g/PrecisionByK.PNG, id=22, 399.74344pt x 394.47375pt>
+File: g/PrecisionByK.PNG Graphic file (type png)
+<use g/PrecisionByK.PNG>
+Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 455. on input l
+ine 455.
+Package pdftex.def Info: Requested size: 258.0pt x 254.61118pt on input line 45
+5.
+<g/PrecisionByU.PNG, id=23, 377.15906pt x 387.69844pt>
+File: g/PrecisionByU.PNG Graphic file (type png)
+<use g/PrecisionByU.PNG>
+Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 456. on input l
+ine 456.
+Package pdftex.def Info: Requested size: 258.0pt x 265.20503pt on input line 45
+6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--457
+Overfull \hbox (2.29996pt too wide) in paragraph at lines 455--457
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--463
 
  []
 
@@ -435,216 +454,199 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./g/SeekingPartnerCompatibility.PNG> <./g/SeekingSupportCompatibility.PNG>
  <./g/Runtime.PNG>]
-<g/PrecisionByK.PNG, id=30, 399.74344pt x 394.47375pt>
-File: g/PrecisionByK.PNG Graphic file (type png)
-<use g/PrecisionByK.PNG>
-Package pdftex.def Info: g/PrecisionByK.PNG  used on input line 461. on input l
-ine 461.
-Package pdftex.def Info: Requested size: 258.0pt x 254.61118pt on input line 46
-1.
-<g/PrecisionByU.PNG, id=31, 377.15906pt x 387.69844pt>
-File: g/PrecisionByU.PNG Graphic file (type png)
-<use g/PrecisionByU.PNG>
-Package pdftex.def Info: g/PrecisionByU.PNG  used on input line 462. on input l
-ine 462.
-Package pdftex.def Info: Requested size: 258.0pt x 265.20503pt on input line 46
-2.
-
-Overfull \hbox (2.29996pt too wide) in paragraph at lines 461--463
-[][] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--469
+Underfull \hbox (badness 10000) in paragraph at lines 468--471
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <g/CoverageUk.PNG, id=32, 383.93437pt x 306.39468pt>
 File: g/CoverageUk.PNG Graphic file (type png)
 <use g/CoverageUk.PNG>
-Package pdftex.def Info: g/CoverageUk.PNG  used on input line 472. on input lin
-e 472.
+Package pdftex.def Info: g/CoverageUk.PNG  used on input line 474. on input lin
+e 474.
 Package pdftex.def Info: Requested size: 258.0pt x 205.90517pt on input line 47
-2.
+4.
 <g/CoverageUT.PNG, id=33, 389.20406pt x 290.58563pt>
 File: g/CoverageUT.PNG Graphic file (type png)
 <use g/CoverageUT.PNG>
-Package pdftex.def Info: g/CoverageUT.PNG  used on input line 473. on input lin
-e 473.
+Package pdftex.def Info: g/CoverageUT.PNG  used on input line 475. on input lin
+e 475.
 Package pdftex.def Info: Requested size: 258.0pt x 192.63399pt on input line 47
-3.
+5.
 
-Overfull \hbox (2.29996pt too wide) in paragraph at lines 472--474
+Overfull \hbox (2.29996pt too wide) in paragraph at lines 474--476
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--479
+Underfull \hbox (badness 10000) in paragraph at lines 479--481
 
  []
 
-<g/QualityByU.PNG, id=34, 420.06938pt x 322.20375pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG>]
+<g/QualityByU.PNG, id=40, 420.06938pt x 322.20375pt>
 File: g/QualityByU.PNG Graphic file (type png)
 <use g/QualityByU.PNG>
-Package pdftex.def Info: g/QualityByU.PNG  used on input line 483. on input lin
-e 483.
-Package pdftex.def Info: Requested size: 258.0pt x 197.8911pt on input line 483
+Package pdftex.def Info: g/QualityByU.PNG  used on input line 485. on input lin
+e 485.
+Package pdftex.def Info: Requested size: 258.0pt x 197.8911pt on input line 485
 .
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 483--484
+Overfull \hbox (6.0pt too wide) in paragraph at lines 485--486
  [][] 
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 487--489
+Underfull \hbox (badness 2600) in paragraph at lines 489--491
 \OT1/ptm/m/n/10 thresh-old for joint com-pe-tency of a matchup how-ever
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--489
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
-
- []
+Underfull \vbox (badness 2401) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
  []
 
-[5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./g/PrecisionByK.PNG> <./g/PrecisionByU.PNG> <./g/CoverageUk.PNG> <./g/Cov
-erageUT.PNG>]
-Underfull \hbox (badness 1681) in paragraph at lines 511--539
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+[6 <./g/CoverageUk.PNG> <./g/CoverageUT.PNG> <./g/QualityByU.PNG>]
+Underfull \hbox (badness 1681) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 all rec-om-men-da-tions to and of that stu-dent would not
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--539
+Underfull \hbox (badness 10000) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 them-selves, rather than of the plat-form pro-vid-ing
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 511--539
+Underfull \hbox (badness 2495) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 rec-om-men-da-tions, the other hu-man fac-tor needs to be
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 511--539
+Underfull \hbox (badness 2401) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 As hu-mans are un-re-li-able, self-reported met-rics al-ways
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 511--539
+Underfull \hbox (badness 1460) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 be col-lected. In-ter-nal in-for-ma-tion, like pref-er-ences, d
 ate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--539
+Underfull \hbox (badness 10000) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 Psychological re-search was founded to en-able the
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 511--539
+Underfull \hbox (badness 3364) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 mea-sure-ment and quan-tifi-ca-tion of these de-tails. From
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 511--539
+Underfull \hbox (badness 1558) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 In learn-ing en-vi-ron-ments, a phe-nomenon known as the
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 511--539
+Underfull \hbox (badness 2343) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 learn-ing suc-cess: stu-dents tend to over-state their good
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 511--539
+Underfull \hbox (badness 2384) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 Self-reported data stay a largely con-tro-ver-sial topic in
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 511--539
+Underfull \hbox (badness 3579) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 re-searchers to ac-cess in-ter-nal in-for-ma-tion, while these
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 511--539
+Underfull \hbox (badness 3646) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 mea-sure-ments can fluc-tu-ate fol-low-ing lots of dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--539
+Underfull \hbox (badness 10000) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 Other re-cip-ro-cal rec-om-men-da-tion ap-proaches have to
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 511--539
+Underfull \hbox (badness 2409) in paragraph at lines 513--541
 [][]\OT1/ptm/m/n/10 , Xia et al. have shown that a behavior-emergent
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 511--539
+Underfull \hbox (badness 2932) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 online-dating rec-om-men-da-tion. [28] In-stead of fo-cus-ing
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 511--539
+Underfull \hbox (badness 1603) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 on user-reported data alone, they in-cluded im-plicit and
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 511--539
+Underfull \hbox (badness 3118) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 high-level cog-ni-tive problem-solving skills from sim-ply
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 511--539
+Underfull \hbox (badness 4634) in paragraph at lines 513--541
 \OT1/ptm/b/n/10 Hier noch ein biss-chen ins De-tail zu gehen zu
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 511--539
+Underfull \hbox (badness 2384) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 Taking all of this into con-sid-er-a-tion, the peer learner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--539
+Underfull \hbox (badness 10000) in paragraph at lines 513--541
 
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 511--539
+Underfull \hbox (badness 1496) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 The ap-pli-ca-tions of re-cip-ro-cal peer rec-om-men-da-tion ar
 e
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 511--539
+Underfull \hbox (badness 2951) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 yields many ad-van-tages and teaches mean-ing-ful skills.
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 511--539
+Underfull \hbox (badness 2165) in paragraph at lines 513--541
 \OT1/ptm/m/n/10 rec-om-mended items and re-cip-i-ents of rec-om-men-da-tions.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--539
+Underfull \hbox (badness 10000) in paragraph at lines 513--541
 
  []
 
-
-Underfull \vbox (badness 1320) has occurred while \output is active []
-
- [7 <./g/QualityByU.PNG>] [8] (bare_conf.bbl [9])
+[7] [8] (bare_conf.bbl [9])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -666,7 +668,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2468 strings out of 493312
  41020 string characters out of 3138899
- 120829 words of memory out of 3000000
+ 124245 words of memory out of 3000000
  5997 multiletter control sequences out of 15000+200000
  39736 words of font info for 73 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -681,7 +683,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on bare_conf.pdf (10 pages, 1098515 bytes).
+Output written on bare_conf.pdf (10 pages, 1098503 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

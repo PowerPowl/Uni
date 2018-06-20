@@ -451,18 +451,21 @@ As evaluation metrics for their experimental evaluation Potts et al. decided on 
 	\caption{Scalability: The algorithm's runtime depending on the number of users \(U\) and the amount of recommendations per user \(k\). Note how k has almost no influence on the runtime, while it grows exponentially with increasing U. Source: \cite{potts2018reciprocal}}
 	\label{f:scalability}
 \end{figure}
-With increasing enrollment numbers in higher education, \textit{RiPPLE} will have to be suitable for large sets of learners. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment.\\
-As can be seen in figure \ref{f:scalability}, the runtime of the algorithm increased in a quadratic fashion, as U, the total amount of users, increased: \(O(n^2)\). The number of recommendations per user, however, does not significantly impact the runtime. (Although the paper states that it \textit{did} in fact affect runtime, looking at the plots data suggests that this might be a formatting error.)\\
-Currently, \textit{RiPPLE} calculates recommendations at the end of each week for the upcoming week, making the algorithm's runtime rather unimportant. In a 1000 user experiment, \textit{RiPPLE} was able to provide recommendations for a single user in 0.045 seconds. However, further improvements are planned.\\
-
-
-\subsubsection{Reciprocality} \label{paper:reciprocality}
+%Diese Figure ist absichtlich nicht bei der richtigen Überschrift, damit die Bilder an der richtigen Stelle im Text auftauchen. Das muss vll noch Mal gefixt werden.
 \begin{figure*}[!t]
 	\includegraphics[width=0.5\textwidth]{g/PrecisionByK.PNG}
 	\includegraphics[width=0.5\textwidth]{g/PrecisionByU.PNG}
 	\caption{Reciprocality: The precision (= the fraction of reciprocal recommendations out of the total recommendations averaged over all users) of the baseline non-reciprocal recommendations (orange) vs. of the reciprocal, averaged scores. Note how the reciprocal scores are always better. Source: \cite{potts2018reciprocal}}
 	\label{f:reciprocality}
 \end{figure*}
+With increasing enrollment numbers in higher education, \textit{RiPPLE} will have to be suitable for large sets of learners. High runtime and costs for evaluating datasets with reasonable amounts of students means slower responses and a worse user experience. An optimal solution could provide immediate recommendations to any user, at any moment.\\
+As can be seen in figure \ref{f:scalability}, the runtime of the algorithm increased in a quadratic fashion, as U, the total amount of users, increased: \(O(n^2)\). The number of recommendations per user, however, does not significantly impact the runtime. (Although the paper states that it \textit{did} in fact affect runtime, looking at the plots data suggests that this might be a formatting error.)\\
+Currently, \textit{RiPPLE} calculates recommendations at the end of each week for the upcoming week, making the algorithm's runtime rather unimportant. In a 1000 user experiment, \textit{RiPPLE} was able to provide recommendations for a single user in 0.045 seconds. However, further improvements are planned.\\
+
+
+
+
+\subsubsection{Reciprocality} \label{paper:reciprocality}
 The best possible recommendations are reciprocal: Users contacting a recommended user would also appear on this user's list of potential study partners. \cite{prabhakar2017reciprocal} Reciprocality was tested for both, the baseline non-reciprocal and the joint reciprocal harmonic mean scores. Whenever a user appears in the recommendations of a user on their own recommendation list that was built according to the respective score, the recommendation was considered to be reciprocal.\\
 The precision for every user given the used score is calculated by dividing his reciprocal recommendations through \(k\), the total amount of recommendations that user received. The system's total precision is defined as the average precision across all users. \cite{prabhakar2017reciprocal}\\ 
 In all tested cases shown in figure \ref{f:reciprocality}, the reciprocal score had a higher precision than the baseline score. This is not surprising, since using the harmonic mean of both one-directional scores chooses reciprocal scores with medium values compared to non-reciprocal scores with a single high value. (As explained in section \ref{paper:RiPPLE}) Increasing \(k\) also increases the precision, since more recommendations per user lead to a higher chance of reciprocal recommendations. On the other hand, increasing \(U\) with a fixed \(k\) reduces reciprocal precision, since there are more possible users to recommend.\\
