@@ -127,3 +127,27 @@ Persönlichkeit:\\
 \textit{Persons, Places and Personality: NEO-PI-R wird benutzt um Leute Jobs zuzuordnen \textit{costa1995persons}}\\
 
 \textit{Personality-Aware Recommendations to groups: Hier werden Empfehlungen für homo- und heterogene Gruppen aufgrund der insgesamter Persönlichkeit gemacht. \textit{recio2009personality}}\\
+
+
+USER CENTRIC DESIGN OF REC SYS 
+7994718
+Forschung wird besser, wenn man User satisfaction mit beachtet, im Vergleich zu nur Systemdaten.
+
+IMPLICIT AND EXPLICIT Data
+Key: 8328917
+In Sozialen Netzwerken kann man mit expliziten Nutzerverbindungen oder mit implizit angenommenen Nutzerverbindungen arbeiten. 
+Letzteres ist langsamer, lässt aber mehr Infos zu. Hier wurde das System verbessert, und beides kombiniert performt richtig gut.
+
+Explicit or Implicit Feedback? 
+zhao2018explicit
+Mit mehreren Algorithmen Zielmetriken untersucht. Wenn Algos auf Aktions-Vorhersage optimiert waren (was implizite Daten sind) anstatt auf explizite
+Ratings, interagieren Nutzer mehr mit den Ergebnissen, dabei gibt es mehr positives UND NEGATIVES Feedback. Ein kombinierter Ansatz ist, wie oben, besser.
+Da Forschung in letzter Zeit auf Systemdaten geguckt hat (siehe oben) und möglichst wenig auf Nutzerinteraktion, wurden auch implizite Daten
+prominenter: Sie pushen Engagement-Raten (implizites Feedback der Nutzer!), machen sie aber nicht glücklicher.
+WIchtig: Algos hierbei waren wahrscheinlich online-learner.
+
+
+BUDER2012207
+Man muss Recommender Systeme fürs Lernen anpassen, und da viel machen.
+Auch spannend: Explizites Feedback wird als wichtig erachtet, um Vorhersagegenauigkeit zu prüfen und die Algorithmen weiter zu verbessern.
+Implizites Feedback gibt wenig Auskunft über Nutzerpräferenzen und Zufriedenheit, die muss aktiv eingesammelt werden.
