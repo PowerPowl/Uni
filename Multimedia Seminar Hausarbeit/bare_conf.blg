@@ -5,22 +5,22 @@ You're missing a field part---line 332 of file bib.bib
  :   month=
  :         # nov "~10",
 I'm skipping whatever remains of this entry
-Repeated entry---line 388 of file bib.bib
+Repeated entry---line 433 of file bib.bib
  : @article{wang2015thinking
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 404 of file bib.bib
+Repeated entry---line 449 of file bib.bib
  : @article{delalleau2012beyond
  :                             ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 424 of file bib.bib
+You're missing a field part---line 469 of file bib.bib
  :   month=
  :         #nov "~29",
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "hsu2018general"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in zhao2018explicit
 
 Done.
 (There were 4 error messages)
